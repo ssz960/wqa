@@ -1,0 +1,6 @@
+"dataset_id","dataset_name","dataset_category","field_id","field_name","description","field_type","region","universe","delay","coverage","user_permission","permission_level","last_seen","notes"
+"pv53","Index Market Data","Price Volume","pv53_beta_vix_normalized","pv53_beta_vix_normalized","Beta VIX normalized","MATRIX","USA","TOP3000","1","0.5","","","2026-07-16T15:20:39","possible_direction=volume"
+"pv53","Index Market Data","Price Volume","pv53_logreturns5_normalized","pv53_logreturns5_normalized","Normalized log returns for 5 days","MATRIX","USA","TOP3000","1","0.5","","","2026-07-16T15:20:39","possible_direction=volume"
+"pv53","Index Market Data","Price Volume","pv53_usa_uber_beta_ung_125_normalized","pv53_usa_uber_beta_ung_125_normalized","Beta information","MATRIX","USA","TOP3000","1","0.5","","","2026-07-16T15:20:39","possible_direction=volume"
+"pv53","Index Market Data","Price Volume","pv53_usa_uber_beta_uso_125_normalized","pv53_usa_uber_beta_uso_125_normalized","Beta information","MATRIX","USA","TOP3000","1","0.5","","","2026-07-16T15:20:39","possible_direction=volume"
+"pv53","Index Market Data","Price Volume","pv53_weights","pv53_weights","Weight information","MATRIX","USA","TOP3000","1","0.5","","","2026-07-16T15:20:39","possible_direction=volume"

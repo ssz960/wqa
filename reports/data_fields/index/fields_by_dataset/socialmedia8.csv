@@ -1,0 +1,5 @@
+"dataset_id","dataset_name","dataset_category","field_id","field_name","description","field_type","region","universe","delay","coverage","user_permission","permission_level","last_seen","notes"
+"socialmedia8","Social Media Data for Equity","Social Media","snt_social_value","snt_social_value","Z-score of sentiment","MATRIX","USA","TOP3000","1","1.0","","","2026-07-16T15:20:39","possible_direction=sentiment"
+"socialmedia8","Social Media Data for Equity","Social Media","snt_social_value_fast_d1","snt_social_value_fast_d1","Z-score of sentiment","MATRIX","USA","TOP3000","1","0.9998","","","2026-07-16T15:20:39","possible_direction=sentiment"
+"socialmedia8","Social Media Data for Equity","Social Media","snt_social_volume","snt_social_volume","Normalized tweet volume","MATRIX","USA","TOP3000","1","1.0","","","2026-07-16T15:20:39","possible_direction=volume"
+"socialmedia8","Social Media Data for Equity","Social Media","snt_social_volume_fast_d1","snt_social_volume_fast_d1","Normalized tweet volume","MATRIX","USA","TOP3000","1","0.9998","","","2026-07-16T15:20:39","possible_direction=volume"

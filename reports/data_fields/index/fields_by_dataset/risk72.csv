@@ -1,0 +1,4 @@
+"dataset_id","dataset_name","dataset_category","field_id","field_name","description","field_type","region","universe","delay","coverage","user_permission","permission_level","last_seen","notes"
+"risk72","Specific return of extended factors","Risk","rsk72_top1000_dsrt","rsk72_top1000_dsrt","Daily reproducible specific returns in % units","MATRIX","USA","TOP3000","1","0.3674","","","2026-07-16T15:20:39","possible_direction=unknown"
+"risk72","Specific return of extended factors","Risk","rsk72_top2000_dsrt","rsk72_top2000_dsrt","Daily reproducible specific returns in % units","MATRIX","USA","TOP3000","1","0.7194","","","2026-07-16T15:20:39","possible_direction=unknown"
+"risk72","Specific return of extended factors","Risk","rsk72_top3000_dsrt","rsk72_top3000_dsrt","Daily reproducible specific returns in % units","MATRIX","USA","TOP3000","1","1.0","","","2026-07-16T15:20:39","possible_direction=unknown"

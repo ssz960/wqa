@@ -1,0 +1,7 @@
+"dataset_id","dataset_name","dataset_category","field_id","field_name","description","field_type","region","universe","delay","coverage","user_permission","permission_level","last_seen","notes"
+"pv149","Holidays and Trading Hours Calendar","Price Volume","pv149_dld_1a","pv149_dld_1a","Number of ratings that were initiated.","MATRIX","USA","TOP3000","1","0.9836","","","2026-07-16T15:20:39","possible_direction=volume"
+"pv149","Holidays and Trading Hours Calendar","Price Volume","pv149_dld_2a","pv149_dld_2a","Number of upgrades.","MATRIX","USA","TOP3000","1","0.9799","","","2026-07-16T15:20:39","possible_direction=volume"
+"pv149","Holidays and Trading Hours Calendar","Price Volume","pv149_dld_3a","pv149_dld_3a","Number of downgrades.","MATRIX","USA","TOP3000","1","0.9801","","","2026-07-16T15:20:39","possible_direction=volume"
+"pv149","Holidays and Trading Hours Calendar","Price Volume","pv149_dld_volume","pv149_dld_volume","Total volume.","MATRIX","USA","TOP3000","1","1.0","","","2026-07-16T15:20:39","possible_direction=volume"
+"pv149","Holidays and Trading Hours Calendar","Price Volume","pv149_dld_week","pv149_dld_week","Number of the week.","MATRIX","USA","TOP3000","1","1.0","","","2026-07-16T15:20:39","possible_direction=volume"
+"pv149","Holidays and Trading Hours Calendar","Price Volume","pv149_status_5","pv149_status_5","Status code representing current state of data/record, e.g., valid, missing, suspended","MATRIX","USA","TOP3000","1","1.0","","","2026-07-16T15:20:39","possible_direction=volume"

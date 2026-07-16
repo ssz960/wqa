@@ -1,0 +1,30 @@
+{
+    "schema_version":  "1.0",
+    "generated_at":  "2026-07-16T13:25:58.4800365Z",
+    "source_file":  "reports/data_fields/available_data_fields_current.csv",
+    "source_sha256":  "F5CD01F3F4820E1753A6BF99029BA7A2FF30772813158BC12A1F5CF5DC99A102",
+    "source_bytes":  23667762,
+    "field_count":  85612,
+    "dataset_count":  299,
+    "category_count":  16,
+    "scope":  {
+                  "region":  "USA",
+                  "universe":  "TOP3000",
+                  "delay":  "1"
+              },
+    "dataset_index_dir":  "reports/data_fields/index/fields_by_dataset",
+    "dataset_file_count":  299,
+    "keyword_index":  "reports/data_fields/index/field_keyword_index.csv",
+    "keyword_index_columns":  [
+                                  "field_id",
+                                  "dataset_id",
+                                  "field_type",
+                                  "description",
+                                  "keywords",
+                                  "coverage",
+                                  "region",
+                                  "delay"
+                              ],
+    "keyword_index_rows":  85612,
+    "retrieval_rule":  "Use indexes for recall; use the authoritative full CSV for final validation."
+}
