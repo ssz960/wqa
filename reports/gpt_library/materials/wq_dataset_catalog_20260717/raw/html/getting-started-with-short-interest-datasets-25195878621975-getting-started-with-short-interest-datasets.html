@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8"/><title>Getting started with Short Interest Datasets – WorldQuant BRAIN</title></head><body><p>Source: https://support.worldquantbrain.com/hc/en-us/community/posts/25195878621975-Getting-started-with-Short-Interest-Datasets</p><h1 title="Getting started with Short Interest Datasets">
+              Getting started with Short Interest Datasets
+              
+            </h1><div class="post-body"><p><strong>Tips for getting started with <a href="https://platform.worldquantbrain.com/data/data-sets?category=shortinterest" rel="nofollow noreferrer" target="_blank">Short Interest</a> Datasets:</strong></p>
+<ul>
+<li>
+<p><strong>Short Interest</strong>: Refers to the aggregate number of a specific stock's shares that have been sold short by investors but haven't yet been covered or closed out. This quantity can be denoted as either a number or a percentage.</p>
+</li>
+<li>
+<p><strong>Assessing Price Movement</strong>: Information on short selling and short interest of stocks can help assess price movement. You can use <code>ts_co_skewness</code> or <code>ts_corr</code> to check how fields from short interest datasets move together with close or returns.</p>
+</li>
+<li>
+<p><strong>Normalization for Large Cap Stocks</strong>: Many large-cap stocks have large values for fields like short sale volume. Without normalization, the result of regular time series operations on such stocks will have a lot of spikes. Hence, it is advisable to use <code>group_rank</code> on the input field or after some further processing.</p>
+</li>
+</ul>
+<p style="display: inline !important;"><strong>Example Alpha Ideas</strong>:</p>
+<ul>
+<li>A high short interest coupled with positive news or strong earnings could induce a short squeeze, presenting an opportunity to buy and potentially profit as short sellers try to cover their positions.</li>
+<li>If a stock's short interest is high and it appears to be oversold, it may be an undervalued asset worthy of investment.</li>
+<li>An increase in short interest alongside a consistent decline in share price may suggest a downward trend, presenting a potential opportunity for short selling.</li>
+</ul>
+<p><strong>Recommended Datasets:</strong></p>
+<ul>
+<li><a href="https://platform.worldquantbrain.com/data/data-sets/shortinterest2" rel="nofollow noreferrer" target="_blank">Short Interest Model</a></li>
+<li><a href="https://platform.worldquantbrain.com/data/data-sets/shortinterest3" rel="nofollow noreferrer" target="_blank">Securities Lending Files Data</a></li>
+<li><a href="https://platform.worldquantbrain.com/data/data-sets/shortinterest5" rel="nofollow noreferrer" target="_blank">Daily Price Limit Data</a></li>
+<li><a href="https://platform.worldquantbrain.com/data/data-sets/shortinterest10" rel="nofollow noreferrer" target="_blank">Fund Flow Data</a></li>
+</ul></div></body></html>
