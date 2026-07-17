@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8"/><title>Creating D0 Alphas with Social Media Data – WorldQuant BRAIN</title></head><body><p>Source: https://support.worldquantbrain.com/hc/en-us/community/posts/18426096096407-Creating-D0-Alphas-with-Social-Media-Data</p><h1 title="Creating D0 Alphas with Social Media Data">
+              Creating D0 Alphas with Social Media Data
+              
+            </h1><div class="post-body"><p><strong>Introduction</strong></p>
+<p>In the rapidly evolving financial landscape, data from social media platforms has emerged as a unique and powerful resource for participants. Social media platforms provide real-time sentiment data, enabling participants seeking to track market trends, anticipate price movements, and make informed decisions. This document delves into the application of social media data in Late-Informed News Participation, a Delay-0<a href="#_ftn1" name="_ftnref1" rel="nofollow noreferrer">[1]</a> Alpha<a href="#_ftn2" name="_ftnref2" rel="nofollow noreferrer">[2]</a> tactic.</p>
+<p> </p>
+<p><a href="#_ftnref1" name="_ftn1" rel="nofollow noreferrer">[1]</a> Delay-0 Alphas are also referred to as D0 Alphas throughout this document.</p>
+<p><a href="#_ftnref2" name="_ftn2" rel="nofollow noreferrer">[2]</a> WorldQuant defines “Alphas” as mathematical models that seek to predict the future price movements of various financial instruments.</p>
+<p><strong>Late-Informed News Participation</strong></p>
+<p>Late-Informed News Participation is a tactic that seeks to capitalize on the price movements of financial instruments (stocks, commodities, currencies, etc.) based on the late arrival of significant news or information near the market close. The tactic is based on the intraday momentum model, positing that price movements tend to continue in the same direction within a single trading day. Key characteristics of this tactic include timing (identifying and exploiting late-arriving news close to the market close), news sentiment (incorporating both the content and sentiment of the news), and notably, social media sentiment.</p>
+<p>An effective way to earn from Late-Informed News Participation involves developing a tactic idea that incorporates news sentiment data, social media sentiment data, and analyst ratings to identify potential opportunities. For example, a tactic idea could be generated based on the historical negativity scores from research reports. The underlying assumption in this example would be that the lower the negativity score, the more positive the sentiment in the research reports, indicating a bullish outlook for the asset.</p>
+<p><strong>Recommended/Relevant Datasets</strong></p>
+<ol>
+<li>
+<a href="https://platform.worldquantbrain.com/data/data-sets/news104" rel="nofollow noreferrer">Archive News Data (news104):</a> News streaming and archive data for various sources and an aggregated feed of global press releases and exchange disclosure wires.</li>
+<li>
+<a href="https://platform.worldquantbrain.com/data/data-sets/sentiment33" rel="nofollow noreferrer">Sentiment Data by NLP (sentiment33):</a> Financial texts processed internally with sentiment produced for each document. Multiple sentiment models used. Positivity, negativity and neutrality/objectivity scores are provided along with other methods.</li>
+<li>
+<a href="https://platform.worldquantbrain.com/data/data-sets/socialmedia12" rel="nofollow noreferrer">Sentiment Data for Equity (socialmedia12):</a> This dataset provides sentiment data with different sentiment and volume. It analyses social media, news and opinions for financial markets to determine market mood and provides potential signals. It monitors thousands of sources in real time to output reliable trading signals.</li>
+<li>
+<a href="https://platform.worldquantbrain.com/data/data-sets/news18" rel="nofollow noreferrer">Ravenpack News Data (news18):</a> This dataset provides news sentiment and other financial indicators. It has a number of different indicators derived from news events relating to different categories and specific companies. Each news event is classified to reflect its sentiment, uniqueness, relevance to the underlying company and a few other parameters.</li>
+<li>
+<a href="https://platform.worldquantbrain.com/data/data-sets/sentiment7" rel="nofollow noreferrer">Webpage Views Data (sentiment7):</a> This dataset provides the daily volumes of views for the Wikipedia pages of the companies globally. The asset prices are a result of participation decisions of many individuals in the market. To make such decisions, people gather information; the wiki pages of companies provide a lot of information which people can refer to. The idea here is to see the relationship between the traffic views  on the wiki pages for companies and their asset prices.</li>
+<li>
+<a href="https://platform.worldquantbrain.com/data/data-sets/news7" rel="nofollow noreferrer">Real Time News Feed Data (news7):</a> Combines various text news feeds from multiple sources to provide useful data points to capture stock selection signals.</li>
+<li>
+<a href="https://platform.worldquantbrain.com/data/data-sets/news3" rel="nofollow noreferrer">Dow Jones News Analytics Data (news3):</a> The Sentiment Analysis Engine (SAE) is a software for producing sentiment indices that gauge different emotions of the public towards financial assets traded in exchange markets worldwide. Specific emotions about an asset are detected in texts by matching words of text with keywords from an emotional dictionary.</li>
+<li>
+<a href="https://platform.worldquantbrain.com/data/data-sets/news20" rel="nofollow noreferrer">Web Sources News Sentiment Data (news20): </a> This dataset provides real-time structured sentiment, relevance and novelty data for companies based on aggregated news from various sources.</li>
+<li>
+<a href="https://platform.worldquantbrain.com/data/data-sets/sentiment32" rel="nofollow noreferrer">sentiment32 - China Social Media Sentiment Data:</a> This dataset captures Chinese social media sentiment data, providing total counts of posts, positive/negative posts, etc. This could be particularly useful for participating in Chinese equities.</li>
+<li>
+<a href="https://platform.worldquantbrain.com/data/data-sets/other547" rel="nofollow noreferrer">other547 - Alternative Analytics Data:</a> This dataset provides analytics data for potential signals from a broad coverage of social media, news sites, and blogs. It could be useful for gauging wider market sentiment.</li>
+<li>
+<a href="https://platform.worldquantbrain.com/data/data-sets/socialmedia12" rel="nofollow noreferrer">socialmedia12 - Sentiment Data for Equity:</a>  This dataset provides sentiment data by analyzing social media, news, and opinions for financial markets to determine the market mood and provide related potential signals.</li>
+<li>
+<a href="https://platform.worldquantbrain.com/data/data-sets/other74" rel="nofollow noreferrer">other74 - AI/ML Web Based Mention Data:</a> This dataset contains the daily number of web-based mentions ("citations") of brand names owned by over 1,500 US listed corporations, providing another layer of market sentiment.</li>
+<li>
+<a href="https://platform.worldquantbrain.com/data/data-sets/news46" rel="nofollow noreferrer">news46 - Relevant News Analytics Data: </a> Though not strictly social media, this dataset includes rich structured information and potential signals on both scheduled and unscheduled news events. It continuously analyzes relevant information from major real-time newswires, online media, and trustworthy sources to produce real-time news analytics.</li>
+<li>
+<a href="https://platform.worldquantbrain.com/data/data-sets/model261" rel="nofollow noreferrer">model261 - Factors Dislocations Data:</a> This dataset provides risk factors data impacted during COVID-19, which could be used to gauge market sentiment during this period.</li>
+<li>
+<a href="https://platform.worldquantbrain.com/data/data-sets/socialmedia4" rel="nofollow noreferrer">socialmedia4 - Brands and Social Media Data:</a> This dataset looks into the presence of an asset on different social media platforms. It digs deeper to map assets to its different brands and their corresponding handles/pages on social media.</li>
+<li>
+<a href="https://platform.worldquantbrain.com/data/data-sets/model130" rel="nofollow noreferrer">model130 - Retail Investor Data: </a> This dataset quantifies retail participation using retail trading activity and information from social media forums.</li>
+<li>
+<a href="https://platform.worldquantbrain.com/data/data-sets/news50" rel="nofollow noreferrer">news50 - Web News Analytics Data: </a> This dataset allows for analysis of articles/news from leading publishers and web aggregators.</li>
+<li>
+<a href="http://news36/" rel="nofollow noreferrer">news36 - News Analytics Data: </a> This dataset analyzes and quantifies news with sentiment labels, event/topic categories, and classification confidence scores.</li>
+</ol>
+<p><strong>Alpha Example</strong></p>
+<p><u>Alpha Idea: </u></p>
+<p>We generate a tactic idea based on the historical negativity scores from research reports. The underlying assumption is that the lower the negativity score, the more positive the sentiment in the research reports, which may be indicative of a bullish outlook for the asset.</p>
+<p><u>Data Used: </u></p>
+<p>oth429_research_reports_fundamental_keywords_4_method_3_filtered_neg. It records the sentiment score (with extra NLP filtering) and negativity score. Weighted average score for the entire document.</p>
+<p><u>Implementation:</u></p>
+<p>vec_avg(...): This function computes the average negativity score for each day.</p>
+<p>ts_arg_min(..., 120): This function returns the relative index of the minimum value in the time series for the past 120 days. If the current day has the minimum value for the past 120 days, it returns 0. If the previous day has the minimum value for the past 120 days, it returns 1, and so on.</p>
+<p>log(...): The formula takes the natural logarithm of the result from ts_arg_min. Applying the logarithm can help normalize the resulting value by reducing the effect of large outliers, making it easier to compare with other data.</p>
+<p>The formula helps identify the relative index of the day with the lowest average negativity score over the past 120 days. This day might represent a turning point or a period when the market sentiment is at its most positive.</p>
+<p><u>Alpha Expression:</u></p>
+<p>log(ts_arg_min(vec_avg(oth429_research_reports_fundamental_keywords_4_method_3_filtered_neg), 120))</p>
+<p><u>Performance: </u></p>
+<p>Fitness_1.91_Sharpe_1.44, with settings on 'region': 'EUR', 'universe': 'TOP1200', 'delay': 0, 'decay': 3, 'neutralization': 'SUBINDUSTRY', 'truncation': 0.1, 'pasteurization': 'ON', 'unitHandling': 'VERIFY', 'nanHandling': 'ON'</p>
+<p><u>Improvement Hint: </u></p>
+<p>It's important to note that using this formula alone may not be sufficient to generate profitable tactic ideas. Additional factors should be considered, such as technical indicators, fundamental analysis, and risk management, in order to develop a more comprehensive and robust tactic.</p></div></body></html>

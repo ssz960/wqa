@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8"/><title>Getting started with Risk Datasets – WorldQuant BRAIN</title></head><body><p>Source: https://support.worldquantbrain.com/hc/en-us/community/posts/27157459347991-Getting-started-with-Risk-Datasets</p><h1 title="Getting started with Risk Datasets">
+              Getting started with Risk Datasets
+              
+            </h1><div class="post-body"><p data-line="0" dir="auto"><strong>Tips for getting started with <a href="https://platform.worldquantbrain.com/data/data-sets?category=risk" rel="nofollow noreferrer" target="_blank">Risk</a> Datasets:</strong></p>
+<ul data-line="2" dir="auto">
+<li>Risk factors are variables that influence the returns of assets. Common examples include market returns, interest rates, inflation rates, or industry-specific influences. These factors can be:
+<ol>
+<li>
+<strong>Systematic</strong>: Affecting the entire market (e.g., market returns, interest rates).</li>
+<li>
+<strong>Idiosyncratic</strong>: Specific to individual assets (e.g., company-specific news).</li>
+</ol>
+</li>
+<li>
+<strong>Factor Models</strong>, such as the Capital Asset Pricing Model (CAPM) and the Fama-French Three-Factor Model, explain asset returns based on exposure to various risk factors. These models help in understanding the sources of risk and return.</li>
+<li>
+<strong>Factor Loadings</strong> (also known as factor betas) measure how sensitive an asset's returns are to these risk factors. They provide valuable information for controlling risk exposure in your Alphas.</li>
+</ul>
+<p data-line="9" dir="auto"><strong>Example Alpha ideas:</strong></p>
+<ol data-line="11" dir="auto">
+<li data-line="11" dir="auto">Use <code>vector_neut(Alpha, factor)</code> to neutralize your Alpha's exposure to a chosen risk factor. Iterate over different factors to determine whether your Alpha's returns are influenced by any of them. This approach helps you maintain diversity in your Alpha pool and avoid over-reliance on a few specific factors.</li>
+<li data-line="13" dir="auto">
+<p data-line="13" dir="auto">To leverage factor loadings and enhance returns, consider the following strategy: During periods of healthy earnings growth, go long on stocks with high loadings on the earnings quality factor. This approach may potentially lead to higher returns by focusing on stocks that benefit from strong earnings quality.</p>
+</li>
+</ol>
+<p><strong>Recommended Datasets:</strong></p>
+<ul>
+<li data-line="0" dir="auto"><a data-href="https://platform.worldquantbrain.com/data/data-sets/risk62" href="https://platform.worldquantbrain.com/data/data-sets/risk62" rel="nofollow noreferrer" title="https://platform.worldquantbrain.com/data/data-sets/risk62">Beta Risk Factors</a></li>
+<li data-line="1" dir="auto"><a data-href="https://platform.worldquantbrain.com/data/data-sets/risk70" href="https://platform.worldquantbrain.com/data/data-sets/risk70" rel="nofollow noreferrer" title="https://platform.worldquantbrain.com/data/data-sets/risk70">Multi-Factor Model</a></li>
+<li data-line="2" dir="auto"><a data-href="https://platform.worldquantbrain.com/data/data-sets/risk73" href="https://platform.worldquantbrain.com/data/data-sets/risk73" rel="nofollow noreferrer" title="https://platform.worldquantbrain.com/data/data-sets/risk73">Universal Multi-Factor Risk Models</a></li>
+<li data-line="3" dir="auto"><a data-href="https://platform.worldquantbrain.com/data/data-sets/other450" href="https://platform.worldquantbrain.com/data/data-sets/risk88" rel="nofollow noreferrer" title="https://platform.worldquantbrain.com/data/data-sets/other450">Other Multi-Factor Risk Models</a></li>
+</ul></div></body></html>

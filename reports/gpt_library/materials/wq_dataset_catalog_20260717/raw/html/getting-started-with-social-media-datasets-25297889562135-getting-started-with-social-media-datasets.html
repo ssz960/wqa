@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8"/><title>Getting started with Social Media Datasets – WorldQuant BRAIN</title></head><body><p>Source: https://support.worldquantbrain.com/hc/en-us/community/posts/25297889562135-Getting-started-with-Social-Media-Datasets</p><h1 title="Getting started with Social Media Datasets">
+              Getting started with Social Media Datasets
+              
+            </h1><div class="post-body"><p><strong>Tips for getting started with <a href="https://platform.worldquantbrain.com/data/data-sets?category=socialmedia" rel="nofollow noreferrer" target="_blank">Social Media</a> Datasets:</strong></p>
+<ul>
+<li>Social media data are based on information from newspapers, news websites, Facebook, Twitter, blog posts, discussion groups, and forums.</li>
+<li>The data provide social sentiment as well as sentiment volume for different stocks.</li>
+<li>Social sentiment indicators help investors identify information in social media that could cause a stock's price to increase or decrease in the near future.</li>
+<li>Unlike fundamental data, these data naturally have high frequencies, which can lead to high turnovers in an alpha**.**</li>
+<li>To achieve reasonable margin rates, consider using the following operations: <code>hump_decay</code>, <code>ts_decay_linear</code>, and <code>ts_decay_exp_window</code>. However, be careful when using lookback periods greater than 63 days (i.e., one quarter) as older events may have no impact.</li>
+</ul>
+<p><strong>Example Alpha Ideas:</strong></p>
+<ul>
+<li>Long / short stocks with positive / negative sentiment, filtering out days and stocks with low sentiment volume.</li>
+<li>Use sentiment volume as a proxy for market's attention to a stock. This could be used directly as a stock returns predictor or a condition in <code>trade_when</code>.</li>
+<li>For vector data fields, experiment with other vector operators like <code>vec_max</code>, <code>vec_min</code>, or <code>vec_range</code> to retrieve different information from the vector data rather than simply using <code>vec_avg</code>.</li>
+</ul>
+<p><strong>Recommended Datasets:</strong></p>
+<ul>
+<li><a href="https://platform.worldquantbrain.com/data/data-sets/socialmedia3" rel="nofollow noreferrer" target="_blank">Twitter based sentiment data</a></li>
+<li><a href="https://platform.worldquantbrain.com/data/data-sets/socialmedia4" rel="nofollow noreferrer" target="_blank">Brands and Social Media Data</a></li>
+<li><a href="https://platform.worldquantbrain.com/data/data-sets/socialmedia5" rel="nofollow noreferrer" target="_blank">Lexical Breakdown Data</a></li>
+<li><a href="https://platform.worldquantbrain.com/data/data-sets/socialmedia8" rel="nofollow noreferrer" target="_blank">Social Media Data for Equity</a></li>
+<li><a href="https://platform.worldquantbrain.com/data/data-sets/socialmedia9" rel="nofollow noreferrer" target="_blank">Social Media Activity Data</a></li>
+<li><a href="https://platform.worldquantbrain.com/data/data-sets/socialmedia12" rel="nofollow noreferrer" target="_blank">Sentiment Data for Equity</a></li>
+<li><a href="https://platform.worldquantbrain.com/data/data-sets/socialmedia15" rel="nofollow noreferrer" target="_blank">Sentiment Indicators</a></li>
+</ul></div></body></html>

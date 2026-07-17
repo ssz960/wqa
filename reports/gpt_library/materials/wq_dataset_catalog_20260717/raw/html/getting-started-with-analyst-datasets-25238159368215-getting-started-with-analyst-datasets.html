@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8"/><title>Getting started with Analyst Datasets – WorldQuant BRAIN</title></head><body><p>Source: https://support.worldquantbrain.com/hc/en-us/community/posts/25238159368215-Getting-started-with-Analyst-Datasets</p><h1 title="Getting started with Analyst Datasets">
+              Getting started with Analyst Datasets
+              
+            </h1><div class="post-body"><p><strong>Tips for getting started with <a href="https://platform.worldquantbrain.com/data/data-sets?category=analyst" rel="nofollow noreferrer" target="_blank">Analyst</a> Datasets:</strong></p>
+<ul dir="auto">
+<li>Analyst datasets have well-structured data fields that can be considered as analysts’ sentiment scores for various fundamental ratios. Common time series and cross-sectional operations such as ts_rank, zscore, or rank can be applied to these fields.</li>
+<li>Comparing analyst scores on the same fundamental ratio from two different time periods can provide useful signals. For this purpose, you can use the ts_delta operator.</li>
+<li>General guidance for using the group operators on model data fields includes trying the following: group_rank, group_neutralize, group_normalize, and group_zscore.</li>
+<li>Since some analyst datasets indirectly seeks to predict returns, you can assess their potential predictive power by taking the correlation of data fields with returns/close prices.</li>
+<li>Analyst datasets can be large and serve as signals that seeks to predict potential returns. Therefore, ts_delta can be useful for this dataset. For instance, changes in EPS can detect earning surprises.
+<ul>
+<li>When calculating differences, be cautious of stock-split events when dealing with this kind of dataset.</li>
+</ul>
+</li>
+<li>To reduce exposure to groups, group_neutralize can be helpful.
+<ul>
+<li>Country and sector neutralizations generally work well, though we recommend trying other groups as well.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Example Alpha Ideas:</strong></p>
+<ul>
+<li>Check differences between estimates of long-term versus short-term horizons, and set reversal or momentum signals based on which time horizon is higher. The same idea can apply to comparisons between estimates and actuals.</li>
+<li>Assign Alphas based directly on the estimates, or delta(estimates), or correlation(estimates, returns on the same horizon).</li>
+<li>Assign Alphas in the event of high dispersion among estimates or estimates of different time horizons.</li>
+</ul>
+<p><strong>Recommended Datasets:</strong></p>
+<ul>
+<li><a href="https://platform.worldquantbrain.com/data/data-sets/analyst69" rel="nofollow noreferrer">Fundamental Analyst Estimates</a></li>
+<li><a href="https://platform.worldquantbrain.com/data/data-sets/analyst9" rel="nofollow noreferrer">Analyst Estimate Daily Data</a></li>
+<li><a href="https://platform.worldquantbrain.com/data/data-sets/analyst11" rel="nofollow noreferrer">ESG scores</a></li>
+<li><a href="https://platform.worldquantbrain.com/data/data-sets/analyst27" rel="nofollow noreferrer">Analyst Estimate Daily Data</a></li>
+<li><a href="https://platform.worldquantbrain.com/data/data-sets/analyst39" rel="nofollow noreferrer">Analyst estimates &amp; financial ratios</a></li>
+<li><a href="https://platform.worldquantbrain.com/data/data-sets/analyst44" rel="nofollow noreferrer">Broker Estimates</a></li>
+<li><a href="https://platform.worldquantbrain.com/data/data-sets/analyst47" rel="nofollow noreferrer">Alternative Analyst Investment Insight Data</a></li>
+</ul></div></body></html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8"/><title>Getting started with Insiders Datasets – WorldQuant BRAIN</title></head><body><p>Source: https://support.worldquantbrain.com/hc/en-us/community/posts/27493900685335-Getting-started-with-Insiders-Datasets</p><h1 title="Getting started with Insiders Datasets">
+              Getting started with Insiders Datasets
+              
+            </h1><div class="post-body"><p><strong>Tips for getting started with <a href="https://platform.worldquantbrain.com/data/data-sets?category=insiders" rel="nofollow noreferrer" target="_blank">Insiders</a> Datasets:</strong></p>
+<ul dir="auto">
+<li>
+<p>This data category provides information on companies' insider trading activities. Although insider trading is strictly regulated in most markets, resulting in lower data coverage, it can still offer valuable insights.</p>
+</li>
+<li>
+<p>Corporate insiders usually have an information advantage over the general public. Therefore, when insiders increase their holdings in their own companies, it can be a positive signal, and vice versa.</p>
+</li>
+<li>
+<p>Don't be overly concerned about low data coverage. Since insiders are required to disclose trades related to company stocks, there typically aren't many activities. However, when there is activity, it can offer high-quality information. Some backfilling techniques like ts_backfill() can be helpful, but avoid setting the backfill period too long.</p>
+</li>
+<li>
+<p>Most of the data fields are vector-type and need preprocessing before simulation. Instead of just using vec_avg(), consider using operators like vec_stddev() or vec_skewness(). These may be advantageous in extracting signals from the distribution/skewness within a day, especially for transaction and filing information.</p>
+</li>
+</ul>
+<p><strong>Example Alpha ideas:</strong></p>
+<ul>
+<li>
+<p>Insiders buying shares in their own company often indicates confidence in the company's future performance. Consider going long on stocks where insiders have recently made significant purchases, and short-selling stocks where insiders have recently sold a large number of shares.</p>
+</li>
+<li>
+<p>Insider activity in medium to small-cap stocks can have a more pronounced impact on the stock price due to lower liquidity and market attention. Consider working on larger/less liquid universes like USA_TOP3000, ILLIQUID_MINVOL1M, or GLB_MINVOL1M.</p>
+</li>
+</ul>
+<p><strong>Recommended Datasets:</strong></p>
+<ul>
+<li data-line="0" dir="auto"><a data-href="https://platform.worldquantbrain.com/data/data-sets/insiders1" href="https://platform.worldquantbrain.com/data/data-sets/insiders1" rel="nofollow noreferrer">Global Insider Trading Data</a></li>
+<li data-line="1" dir="auto"><a data-href="https://platform.worldquantbrain.com/data/data-sets/insiders4" href="https://platform.worldquantbrain.com/data/data-sets/insiders4" rel="nofollow noreferrer">Edgar forms data</a></li>
+</ul></div></body></html>
