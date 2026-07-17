@@ -1,0 +1,48 @@
+{
+  "schema_version": "wq-all-scope-field-catalog.v1",
+  "generated_at_utc": "2026-07-17T04:57:18+00:00",
+  "source": {
+    "options": "OPTIONS /simulations",
+    "datasets": "GET /data-sets",
+    "fields": "GET /data-fields",
+    "account_authenticated": true,
+    "read_only": true
+  },
+  "normalization": {
+    "field_variant_key": "dataset_id + official dataset fieldCount",
+    "scope_mapping": "every official dataset scope maps to one full representative field variant",
+    "evidence_limit": "equal fieldCount is used as the field-set equivalence key; scope-specific coverage remains in dataset_scope_matrix_current.csv"
+  },
+  "counts": {
+    "scopes": 43,
+    "available_scopes": 43,
+    "dataset_scope_rows": 6509,
+    "field_variants_expected": 1116,
+    "field_variants_exported": 0,
+    "normalized_field_rows": 0
+  },
+  "regions": {
+    "ASI": 4,
+    "CHN": 2,
+    "EUR": 12,
+    "GLB": 4,
+    "IND": 1,
+    "JPN": 4,
+    "MEA": 2,
+    "USA": 14
+  },
+  "failures": [],
+  "complete": false,
+  "artifacts": {
+    "simulation_scope_matrix": "simulation_scope_matrix_current.csv",
+    "dataset_scope_matrix": "dataset_scope_matrix_current.csv",
+    "available_fields": "available_data_fields_all_scopes_current.csv",
+    "field_variant_scope_map": "field_variant_scope_map_current.csv",
+    "simulation_options": "simulation_options_current.json"
+  },
+  "sha256": {
+    "simulation_scope_matrix_current.csv": "5AFE90BD53E3277B1AC3D30FD3F0FBC822718358CEF0DAF26BD9E6BE2E3E5ADE",
+    "dataset_scope_matrix_current.csv": "DA23A1EA03C1CFB14EF122AB4AF61B2B6A8DE2F0788F4044F0A6FB9E693E3C4F",
+    "simulation_options_current.json": "6EDAE25637101BF06303A44BCD2068FD3CDB562AD250988D6FA30BC012EAE415"
+  }
+}

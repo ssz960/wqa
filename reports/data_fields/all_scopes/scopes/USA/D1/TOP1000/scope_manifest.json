@@ -1,0 +1,18 @@
+{
+  "schema_version": "wq-gpt-scope-index.v1",
+  "scope_key": "USA_D1_TOP1000",
+  "region": "USA",
+  "delay": 1,
+  "universe": "TOP1000",
+  "status": "AVAILABLE",
+  "dataset_count": 299,
+  "dataset_field_count_sum": 85612,
+  "datasets": "datasets.csv",
+  "field_storage": "deduplicated variant CSV files referenced by variant_path",
+  "gpt_read_order": [
+    "scope_manifest.json",
+    "datasets.csv",
+    "referenced variant_path files only"
+  ],
+  "evidence_limit": "A variant maps equal official dataset fieldCount; scope coverage is recorded in datasets.csv."
+}

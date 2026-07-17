@@ -1,0 +1,18 @@
+{
+  "schema_version": "wq-gpt-scope-index.v1",
+  "scope_key": "EUR_D1_ILLIQUID_MINVOL1M",
+  "region": "EUR",
+  "delay": 1,
+  "universe": "ILLIQUID_MINVOL1M",
+  "status": "AVAILABLE",
+  "dataset_count": 177,
+  "dataset_field_count_sum": 34396,
+  "datasets": "datasets.csv",
+  "field_storage": "deduplicated variant CSV files referenced by variant_path",
+  "gpt_read_order": [
+    "scope_manifest.json",
+    "datasets.csv",
+    "referenced variant_path files only"
+  ],
+  "evidence_limit": "A variant maps equal official dataset fieldCount; scope coverage is recorded in datasets.csv."
+}
