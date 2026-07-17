@@ -1,0 +1,3152 @@
+{
+  "schema_version": "wq-field-catalog.v1",
+  "generated_at_utc": "2026-07-17T04:21:32+00:00",
+  "source": {
+    "path": "reports/data_fields/available_data_fields_current.csv",
+    "bytes": 23667762,
+    "sha256": "F5CD01F3F4820E1753A6BF99029BA7A2FF30772813158BC12A1F5CF5DC99A102",
+    "columns": [
+      "dataset_id",
+      "dataset_name",
+      "dataset_category",
+      "field_id",
+      "field_name",
+      "description",
+      "field_type",
+      "region",
+      "universe",
+      "delay",
+      "coverage",
+      "user_permission",
+      "permission_level",
+      "last_seen",
+      "notes"
+    ]
+  },
+  "scope": {
+    "regions": [
+      "USA"
+    ],
+    "universes": [
+      "TOP3000"
+    ],
+    "delays": [
+      "1"
+    ]
+  },
+  "counts": {
+    "fields": 85612,
+    "datasets": 299,
+    "categories": 16
+  },
+  "distributions": {
+    "categories": {
+      "Analyst": 16981,
+      "Earnings": 610,
+      "Fundamental": 10921,
+      "Imbalance": 2,
+      "Insiders": 185,
+      "Institutions": 86,
+      "Macro": 36,
+      "Model": 27788,
+      "News": 2664,
+      "Option": 619,
+      "Other": 10330,
+      "Price Volume": 12913,
+      "Risk": 941,
+      "Sentiment": 1207,
+      "Short Interest": 110,
+      "Social Media": 219
+    },
+    "field_types": {
+      "GROUP": 2041,
+      "MATRIX": 67205,
+      "SYMBOL": 8,
+      "UNIVERSE": 7,
+      "VECTOR": 16351
+    },
+    "regions": {
+      "USA": 85612
+    },
+    "universes": {
+      "TOP3000": 85612
+    },
+    "delays": {
+      "1": 85612
+    }
+  },
+  "artifacts": {
+    "keyword_index": "index/field_keyword_index.csv",
+    "dataset_directory": "index/fields_by_dataset",
+    "dataset_file_count": 299,
+    "keyword_index_columns": [
+      "dataset_id",
+      "dataset_name",
+      "dataset_category",
+      "field_id",
+      "field_name",
+      "description",
+      "field_type",
+      "region",
+      "universe",
+      "delay",
+      "coverage",
+      "user_permission",
+      "permission_level",
+      "last_seen",
+      "notes",
+      "keywords"
+    ]
+  },
+  "datasets": [
+    {
+      "dataset_id": "acquisition_model",
+      "dataset_name": "Corporate Acquisition Likelihood Model",
+      "dataset_category": "Other",
+      "field_count": 15,
+      "field_types": {
+        "VECTOR": 15
+      },
+      "path": "index/fields_by_dataset/acquisition_model.csv"
+    },
+    {
+      "dataset_id": "ai_equity_alpha",
+      "dataset_name": "AI Equity Alpha Forecasts",
+      "dataset_category": "Model",
+      "field_count": 1108,
+      "field_types": {
+        "MATRIX": 293,
+        "VECTOR": 815
+      },
+      "path": "index/fields_by_dataset/ai_equity_alpha.csv"
+    },
+    {
+      "dataset_id": "ai_factor_transfer",
+      "dataset_name": "AI Enhanced Equity Factor Transfer",
+      "dataset_category": "Model",
+      "field_count": 20,
+      "field_types": {
+        "MATRIX": 20
+      },
+      "path": "index/fields_by_dataset/ai_factor_transfer.csv"
+    },
+    {
+      "dataset_id": "ai_news_scores",
+      "dataset_name": "AI News Sentiment Scores",
+      "dataset_category": "Other",
+      "field_count": 105,
+      "field_types": {
+        "MATRIX": 105
+      },
+      "path": "index/fields_by_dataset/ai_news_scores.csv"
+    },
+    {
+      "dataset_id": "analyst10",
+      "dataset_name": "Performance-Weighted Analyst Estimates",
+      "dataset_category": "Analyst",
+      "field_count": 2258,
+      "field_types": {
+        "MATRIX": 1943,
+        "VECTOR": 315
+      },
+      "path": "index/fields_by_dataset/analyst10.csv"
+    },
+    {
+      "dataset_id": "analyst11",
+      "dataset_name": "ESG scores",
+      "dataset_category": "Analyst",
+      "field_count": 445,
+      "field_types": {
+        "MATRIX": 445
+      },
+      "path": "index/fields_by_dataset/analyst11.csv"
+    },
+    {
+      "dataset_id": "analyst14",
+      "dataset_name": "Estimations of Key Fundamentals",
+      "dataset_category": "Analyst",
+      "field_count": 868,
+      "field_types": {
+        "MATRIX": 857,
+        "VECTOR": 11
+      },
+      "path": "index/fields_by_dataset/analyst14.csv"
+    },
+    {
+      "dataset_id": "analyst15",
+      "dataset_name": "Earnings forecasts",
+      "dataset_category": "Analyst",
+      "field_count": 2567,
+      "field_types": {
+        "MATRIX": 2567
+      },
+      "path": "index/fields_by_dataset/analyst15.csv"
+    },
+    {
+      "dataset_id": "analyst16",
+      "dataset_name": "Real Time Estimates",
+      "dataset_category": "Analyst",
+      "field_count": 162,
+      "field_types": {
+        "MATRIX": 6,
+        "VECTOR": 156
+      },
+      "path": "index/fields_by_dataset/analyst16.csv"
+    },
+    {
+      "dataset_id": "analyst2",
+      "dataset_name": "Analysts Estimates of Key Fundamentals",
+      "dataset_category": "Analyst",
+      "field_count": 29,
+      "field_types": {
+        "MATRIX": 7,
+        "VECTOR": 22
+      },
+      "path": "index/fields_by_dataset/analyst2.csv"
+    },
+    {
+      "dataset_id": "analyst21",
+      "dataset_name": "Indicators of Interest Data",
+      "dataset_category": "Analyst",
+      "field_count": 16,
+      "field_types": {
+        "VECTOR": 16
+      },
+      "path": "index/fields_by_dataset/analyst21.csv"
+    },
+    {
+      "dataset_id": "analyst34",
+      "dataset_name": "Dividend forecasts model",
+      "dataset_category": "Analyst",
+      "field_count": 6,
+      "field_types": {
+        "VECTOR": 6
+      },
+      "path": "index/fields_by_dataset/analyst34.csv"
+    },
+    {
+      "dataset_id": "analyst4",
+      "dataset_name": "Analyst Estimate Data for Equity",
+      "dataset_category": "Analyst",
+      "field_count": 1324,
+      "field_types": {
+        "MATRIX": 1105,
+        "VECTOR": 219
+      },
+      "path": "index/fields_by_dataset/analyst4.csv"
+    },
+    {
+      "dataset_id": "analyst44",
+      "dataset_name": "Integrated Broker Estimates",
+      "dataset_category": "Analyst",
+      "field_count": 797,
+      "field_types": {
+        "MATRIX": 148,
+        "VECTOR": 649
+      },
+      "path": "index/fields_by_dataset/analyst44.csv"
+    },
+    {
+      "dataset_id": "analyst45",
+      "dataset_name": "Analyst Trade Ideas",
+      "dataset_category": "Analyst",
+      "field_count": 181,
+      "field_types": {
+        "VECTOR": 181
+      },
+      "path": "index/fields_by_dataset/analyst45.csv"
+    },
+    {
+      "dataset_id": "analyst46",
+      "dataset_name": "Analyst Investment insight Data",
+      "dataset_category": "Analyst",
+      "field_count": 6,
+      "field_types": {
+        "MATRIX": 6
+      },
+      "path": "index/fields_by_dataset/analyst46.csv"
+    },
+    {
+      "dataset_id": "analyst49",
+      "dataset_name": "Analyst Estimation Data",
+      "dataset_category": "Analyst",
+      "field_count": 324,
+      "field_types": {
+        "MATRIX": 254,
+        "VECTOR": 70
+      },
+      "path": "index/fields_by_dataset/analyst49.csv"
+    },
+    {
+      "dataset_id": "analyst69",
+      "dataset_name": "Fundamental Analyst Estimates",
+      "dataset_category": "Analyst",
+      "field_count": 646,
+      "field_types": {
+        "MATRIX": 310,
+        "VECTOR": 336
+      },
+      "path": "index/fields_by_dataset/analyst69.csv"
+    },
+    {
+      "dataset_id": "analyst7",
+      "dataset_name": "Broker Estimates",
+      "dataset_category": "Analyst",
+      "field_count": 1317,
+      "field_types": {
+        "MATRIX": 1317
+      },
+      "path": "index/fields_by_dataset/analyst7.csv"
+    },
+    {
+      "dataset_id": "analyst82",
+      "dataset_name": "Analyst estimate prediction data",
+      "dataset_category": "Analyst",
+      "field_count": 488,
+      "field_types": {
+        "MATRIX": 488
+      },
+      "path": "index/fields_by_dataset/analyst82.csv"
+    },
+    {
+      "dataset_id": "analyst83",
+      "dataset_name": "Smart Conference call transcript data",
+      "dataset_category": "Analyst",
+      "field_count": 383,
+      "field_types": {
+        "VECTOR": 383
+      },
+      "path": "index/fields_by_dataset/analyst83.csv"
+    },
+    {
+      "dataset_id": "analyst92",
+      "dataset_name": "Linear, nonlinear, and region-specific models",
+      "dataset_category": "Analyst",
+      "field_count": 17,
+      "field_types": {
+        "VECTOR": 17
+      },
+      "path": "index/fields_by_dataset/analyst92.csv"
+    },
+    {
+      "dataset_id": "analyst_base_ref",
+      "dataset_name": "Analyst Estimates Base Reference",
+      "dataset_category": "Analyst",
+      "field_count": 28,
+      "field_types": {
+        "MATRIX": 6,
+        "VECTOR": 22
+      },
+      "path": "index/fields_by_dataset/analyst_base_ref.csv"
+    },
+    {
+      "dataset_id": "analyst_chart_cnn",
+      "dataset_name": "Deep Learning Analyst Chart Signals",
+      "dataset_category": "Model",
+      "field_count": 367,
+      "field_types": {
+        "MATRIX": 367
+      },
+      "path": "index/fields_by_dataset/analyst_chart_cnn.csv"
+    },
+    {
+      "dataset_id": "analyst_consensus",
+      "dataset_name": "Standardized Analyst Consensus Forecasts",
+      "dataset_category": "Analyst",
+      "field_count": 3424,
+      "field_types": {
+        "MATRIX": 30,
+        "VECTOR": 3394
+      },
+      "path": "index/fields_by_dataset/analyst_consensus.csv"
+    },
+    {
+      "dataset_id": "analyst_earnings_ibes",
+      "dataset_name": "Global Analyst Earnings Forecasts",
+      "dataset_category": "Model",
+      "field_count": 42,
+      "field_types": {
+        "MATRIX": 42
+      },
+      "path": "index/fields_by_dataset/analyst_earnings_ibes.csv"
+    },
+    {
+      "dataset_id": "analyst_factor_signals",
+      "dataset_name": "Global Analyst Factor Signals",
+      "dataset_category": "Analyst",
+      "field_count": 922,
+      "field_types": {
+        "MATRIX": 922
+      },
+      "path": "index/fields_by_dataset/analyst_factor_signals.csv"
+    },
+    {
+      "dataset_id": "analyst_revision_horizons",
+      "dataset_name": "Multi Horizon Analyst Revision Signals",
+      "dataset_category": "Model",
+      "field_count": 1095,
+      "field_types": {
+        "MATRIX": 1095
+      },
+      "path": "index/fields_by_dataset/analyst_revision_horizons.csv"
+    },
+    {
+      "dataset_id": "behavioral_signals",
+      "dataset_name": "Behavioral Finance Signal Factors",
+      "dataset_category": "Model",
+      "field_count": 7,
+      "field_types": {
+        "VECTOR": 7
+      },
+      "path": "index/fields_by_dataset/behavioral_signals.csv"
+    },
+    {
+      "dataset_id": "biasfree_analyst",
+      "dataset_name": "Bias Adjusted Analyst Forecasts",
+      "dataset_category": "Analyst",
+      "field_count": 54,
+      "field_types": {
+        "MATRIX": 45,
+        "VECTOR": 9
+      },
+      "path": "index/fields_by_dataset/biasfree_analyst.csv"
+    },
+    {
+      "dataset_id": "board_gov_stats",
+      "dataset_name": "US Board Governance and Leadership Metrics",
+      "dataset_category": "Insiders",
+      "field_count": 46,
+      "field_types": {
+        "MATRIX": 46
+      },
+      "path": "index/fields_by_dataset/board_gov_stats.csv"
+    },
+    {
+      "dataset_id": "board_network",
+      "dataset_name": "Board Member Network Analysis",
+      "dataset_category": "Model",
+      "field_count": 17,
+      "field_types": {
+        "MATRIX": 17
+      },
+      "path": "index/fields_by_dataset/board_network.csv"
+    },
+    {
+      "dataset_id": "chart_cnn_alpha",
+      "dataset_name": "Deep Learning Chart-Based Alpha",
+      "dataset_category": "Model",
+      "field_count": 403,
+      "field_types": {
+        "MATRIX": 403
+      },
+      "path": "index/fields_by_dataset/chart_cnn_alpha.csv"
+    },
+    {
+      "dataset_id": "chart_model_alpha",
+      "dataset_name": "Deep Learning Chart Returns Predictor",
+      "dataset_category": "Price Volume",
+      "field_count": 281,
+      "field_types": {
+        "MATRIX": 281
+      },
+      "path": "index/fields_by_dataset/chart_model_alpha.csv"
+    },
+    {
+      "dataset_id": "chart_return_model",
+      "dataset_name": "Deep Learning Chart Return Prediction",
+      "dataset_category": "Price Volume",
+      "field_count": 248,
+      "field_types": {
+        "MATRIX": 248
+      },
+      "path": "index/fields_by_dataset/chart_return_model.csv"
+    },
+    {
+      "dataset_id": "continuation_score",
+      "dataset_name": "Price Chart Continuation Pattern Similarity",
+      "dataset_category": "Price Volume",
+      "field_count": 560,
+      "field_types": {
+        "MATRIX": 560
+      },
+      "path": "index/fields_by_dataset/continuation_score.csv"
+    },
+    {
+      "dataset_id": "cre_exposure_model",
+      "dataset_name": "Commercial Real Estate Exposure Model",
+      "dataset_category": "Other",
+      "field_count": 2,
+      "field_types": {
+        "VECTOR": 2
+      },
+      "path": "index/fields_by_dataset/cre_exposure_model.csv"
+    },
+    {
+      "dataset_id": "creator_signal_perf",
+      "dataset_name": "Finance Creator Prediction Performance",
+      "dataset_category": "Social Media",
+      "field_count": 102,
+      "field_types": {
+        "VECTOR": 102
+      },
+      "path": "index/fields_by_dataset/creator_signal_perf.csv"
+    },
+    {
+      "dataset_id": "dl_riskfree_returns",
+      "dataset_name": "Deep Learning Risk Free Returns",
+      "dataset_category": "Other",
+      "field_count": 285,
+      "field_types": {
+        "MATRIX": 285
+      },
+      "path": "index/fields_by_dataset/dl_riskfree_returns.csv"
+    },
+    {
+      "dataset_id": "dl_volume_pred",
+      "dataset_name": "Deep Learning Volume Prediction",
+      "dataset_category": "Price Volume",
+      "field_count": 8,
+      "field_types": {
+        "MATRIX": 8
+      },
+      "path": "index/fields_by_dataset/dl_volume_pred.csv"
+    },
+    {
+      "dataset_id": "earnings2",
+      "dataset_name": "Financial Event Calendar Data",
+      "dataset_category": "Earnings",
+      "field_count": 12,
+      "field_types": {
+        "MATRIX": 12
+      },
+      "path": "index/fields_by_dataset/earnings2.csv"
+    },
+    {
+      "dataset_id": "earnings27",
+      "dataset_name": "Earnings Update Emails Data",
+      "dataset_category": "Earnings",
+      "field_count": 14,
+      "field_types": {
+        "VECTOR": 14
+      },
+      "path": "index/fields_by_dataset/earnings27.csv"
+    },
+    {
+      "dataset_id": "earnings3",
+      "dataset_name": "Earnings Date Data",
+      "dataset_category": "Earnings",
+      "field_count": 5,
+      "field_types": {
+        "MATRIX": 4,
+        "VECTOR": 1
+      },
+      "path": "index/fields_by_dataset/earnings3.csv"
+    },
+    {
+      "dataset_id": "earnings4",
+      "dataset_name": "Effect of earnings announcement model",
+      "dataset_category": "Earnings",
+      "field_count": 375,
+      "field_types": {
+        "MATRIX": 250,
+        "VECTOR": 125
+      },
+      "path": "index/fields_by_dataset/earnings4.csv"
+    },
+    {
+      "dataset_id": "earnings5",
+      "dataset_name": "Earnings Date Breaks",
+      "dataset_category": "Earnings",
+      "field_count": 5,
+      "field_types": {
+        "VECTOR": 5
+      },
+      "path": "index/fields_by_dataset/earnings5.csv"
+    },
+    {
+      "dataset_id": "earnings6",
+      "dataset_name": "International Findings Data",
+      "dataset_category": "Earnings",
+      "field_count": 52,
+      "field_types": {
+        "VECTOR": 52
+      },
+      "path": "index/fields_by_dataset/earnings6.csv"
+    },
+    {
+      "dataset_id": "earnings7",
+      "dataset_name": "Horizon Earnings and Calendar North America",
+      "dataset_category": "Earnings",
+      "field_count": 40,
+      "field_types": {
+        "VECTOR": 40
+      },
+      "path": "index/fields_by_dataset/earnings7.csv"
+    },
+    {
+      "dataset_id": "earnings_chart_dl",
+      "dataset_name": "Deep Learning Earnings Chart Predictions",
+      "dataset_category": "Earnings",
+      "field_count": 100,
+      "field_types": {
+        "MATRIX": 100
+      },
+      "path": "index/fields_by_dataset/earnings_chart_dl.csv"
+    },
+    {
+      "dataset_id": "earnings_risk",
+      "dataset_name": "Earnings Event Risk Model",
+      "dataset_category": "Other",
+      "field_count": 9,
+      "field_types": {
+        "VECTOR": 9
+      },
+      "path": "index/fields_by_dataset/earnings_risk.csv"
+    },
+    {
+      "dataset_id": "earnings_sent_matrix",
+      "dataset_name": "Global Earnings Call Sentiment Matrix",
+      "dataset_category": "Earnings",
+      "field_count": 7,
+      "field_types": {
+        "MATRIX": 7
+      },
+      "path": "index/fields_by_dataset/earnings_sent_matrix.csv"
+    },
+    {
+      "dataset_id": "earningscall_embed",
+      "dataset_name": "Earnings Call Text Embedding Analytics",
+      "dataset_category": "Other",
+      "field_count": 515,
+      "field_types": {
+        "MATRIX": 515
+      },
+      "path": "index/fields_by_dataset/earningscall_embed.csv"
+    },
+    {
+      "dataset_id": "earningscall_sentiment",
+      "dataset_name": "Multi Aspect Earnings Call Sentiment",
+      "dataset_category": "Other",
+      "field_count": 226,
+      "field_types": {
+        "MATRIX": 180,
+        "VECTOR": 46
+      },
+      "path": "index/fields_by_dataset/earningscall_sentiment.csv"
+    },
+    {
+      "dataset_id": "equity_forum_data",
+      "dataset_name": "International Equity Forum Activity",
+      "dataset_category": "Other",
+      "field_count": 8,
+      "field_types": {
+        "VECTOR": 8
+      },
+      "path": "index/fields_by_dataset/equity_forum_data.csv"
+    },
+    {
+      "dataset_id": "equity_kpi_forecast",
+      "dataset_name": "US Equity KPI Forecasts",
+      "dataset_category": "Other",
+      "field_count": 22,
+      "field_types": {
+        "VECTOR": 22
+      },
+      "path": "index/fields_by_dataset/equity_kpi_forecast.csv"
+    },
+    {
+      "dataset_id": "event_relation",
+      "dataset_name": "Text-Based Event Relationship Analysis",
+      "dataset_category": "Other",
+      "field_count": 9,
+      "field_types": {
+        "VECTOR": 9
+      },
+      "path": "index/fields_by_dataset/event_relation.csv"
+    },
+    {
+      "dataset_id": "event_return_model",
+      "dataset_name": "Deep Learning Event Return Prediction",
+      "dataset_category": "News",
+      "field_count": 59,
+      "field_types": {
+        "MATRIX": 59
+      },
+      "path": "index/fields_by_dataset/event_return_model.csv"
+    },
+    {
+      "dataset_id": "event_sentiment_signals",
+      "dataset_name": "Corporate Event Sentiment Signals",
+      "dataset_category": "Other",
+      "field_count": 26,
+      "field_types": {
+        "VECTOR": 26
+      },
+      "path": "index/fields_by_dataset/event_sentiment_signals.csv"
+    },
+    {
+      "dataset_id": "event_stock_model",
+      "dataset_name": "Corporate Event Driven Stock Model",
+      "dataset_category": "Model",
+      "field_count": 6,
+      "field_types": {
+        "VECTOR": 6
+      },
+      "path": "index/fields_by_dataset/event_stock_model.csv"
+    },
+    {
+      "dataset_id": "expected_move",
+      "dataset_name": "Equity Expected Move Metrics",
+      "dataset_category": "Model",
+      "field_count": 110,
+      "field_types": {
+        "MATRIX": 110
+      },
+      "path": "index/fields_by_dataset/expected_move.csv"
+    },
+    {
+      "dataset_id": "filing_sentiment",
+      "dataset_name": "Regulatory Filing Sentiment Analytics",
+      "dataset_category": "Other",
+      "field_count": 21,
+      "field_types": {
+        "VECTOR": 21
+      },
+      "path": "index/fields_by_dataset/filing_sentiment.csv"
+    },
+    {
+      "dataset_id": "finnews_nlp_scores",
+      "dataset_name": "Transformer Based Financial News Scores",
+      "dataset_category": "Other",
+      "field_count": 105,
+      "field_types": {
+        "MATRIX": 105
+      },
+      "path": "index/fields_by_dataset/finnews_nlp_scores.csv"
+    },
+    {
+      "dataset_id": "forum_sentiment",
+      "dataset_name": "Global Stock Forum Sentiment Signals",
+      "dataset_category": "Other",
+      "field_count": 13,
+      "field_types": {
+        "VECTOR": 13
+      },
+      "path": "index/fields_by_dataset/forum_sentiment.csv"
+    },
+    {
+      "dataset_id": "forward_beta_risk",
+      "dataset_name": "Forward Beta Risk Prediction Model",
+      "dataset_category": "Model",
+      "field_count": 42,
+      "field_types": {
+        "MATRIX": 28,
+        "VECTOR": 14
+      },
+      "path": "index/fields_by_dataset/forward_beta_risk.csv"
+    },
+    {
+      "dataset_id": "fund_holdings_panel",
+      "dataset_name": "Global Institutional Fund Holdings",
+      "dataset_category": "Institutions",
+      "field_count": 30,
+      "field_types": {
+        "VECTOR": 30
+      },
+      "path": "index/fields_by_dataset/fund_holdings_panel.csv"
+    },
+    {
+      "dataset_id": "fundamental1",
+      "dataset_name": "Management and Executive Data",
+      "dataset_category": "Fundamental",
+      "field_count": 205,
+      "field_types": {
+        "VECTOR": 205
+      },
+      "path": "index/fields_by_dataset/fundamental1.csv"
+    },
+    {
+      "dataset_id": "fundamental110",
+      "dataset_name": "Press Release Data",
+      "dataset_category": "Fundamental",
+      "field_count": 26,
+      "field_types": {
+        "VECTOR": 26
+      },
+      "path": "index/fields_by_dataset/fundamental110.csv"
+    },
+    {
+      "dataset_id": "fundamental13",
+      "dataset_name": "Comprehensive Fundamentals Dataset",
+      "dataset_category": "Fundamental",
+      "field_count": 87,
+      "field_types": {
+        "MATRIX": 87
+      },
+      "path": "index/fields_by_dataset/fundamental13.csv"
+    },
+    {
+      "dataset_id": "fundamental14",
+      "dataset_name": "Audit Analytics Directors Data",
+      "dataset_category": "Fundamental",
+      "field_count": 248,
+      "field_types": {
+        "VECTOR": 248
+      },
+      "path": "index/fields_by_dataset/fundamental14.csv"
+    },
+    {
+      "dataset_id": "fundamental17",
+      "dataset_name": "Direct Fundamental Data",
+      "dataset_category": "Fundamental",
+      "field_count": 402,
+      "field_types": {
+        "MATRIX": 402
+      },
+      "path": "index/fields_by_dataset/fundamental17.csv"
+    },
+    {
+      "dataset_id": "fundamental2",
+      "dataset_name": "Report Footnotes",
+      "dataset_category": "Fundamental",
+      "field_count": 766,
+      "field_types": {
+        "MATRIX": 766
+      },
+      "path": "index/fields_by_dataset/fundamental2.csv"
+    },
+    {
+      "dataset_id": "fundamental22",
+      "dataset_name": "Environmental and Social Governance Data",
+      "dataset_category": "Fundamental",
+      "field_count": 14,
+      "field_types": {
+        "VECTOR": 14
+      },
+      "path": "index/fields_by_dataset/fundamental22.csv"
+    },
+    {
+      "dataset_id": "fundamental23",
+      "dataset_name": "Fundamental Point in Time Data",
+      "dataset_category": "Fundamental",
+      "field_count": 1637,
+      "field_types": {
+        "MATRIX": 1610,
+        "VECTOR": 27
+      },
+      "path": "index/fields_by_dataset/fundamental23.csv"
+    },
+    {
+      "dataset_id": "fundamental25",
+      "dataset_name": "Company Operating Metrics",
+      "dataset_category": "Fundamental",
+      "field_count": 8,
+      "field_types": {
+        "VECTOR": 8
+      },
+      "path": "index/fields_by_dataset/fundamental25.csv"
+    },
+    {
+      "dataset_id": "fundamental28",
+      "dataset_name": "Global Fundamental Data",
+      "dataset_category": "Fundamental",
+      "field_count": 2209,
+      "field_types": {
+        "MATRIX": 2209
+      },
+      "path": "index/fields_by_dataset/fundamental28.csv"
+    },
+    {
+      "dataset_id": "fundamental3",
+      "dataset_name": "Fundamentals Data for US Equities",
+      "dataset_category": "Fundamental",
+      "field_count": 788,
+      "field_types": {
+        "MATRIX": 784,
+        "VECTOR": 4
+      },
+      "path": "index/fields_by_dataset/fundamental3.csv"
+    },
+    {
+      "dataset_id": "fundamental31",
+      "dataset_name": "Additional Factor Model",
+      "dataset_category": "Fundamental",
+      "field_count": 189,
+      "field_types": {
+        "MATRIX": 189
+      },
+      "path": "index/fields_by_dataset/fundamental31.csv"
+    },
+    {
+      "dataset_id": "fundamental44",
+      "dataset_name": "Accounting Quality Models",
+      "dataset_category": "Fundamental",
+      "field_count": 11,
+      "field_types": {
+        "MATRIX": 11
+      },
+      "path": "index/fields_by_dataset/fundamental44.csv"
+    },
+    {
+      "dataset_id": "fundamental6",
+      "dataset_name": "Company Fundamental Data for Equity",
+      "dataset_category": "Fundamental",
+      "field_count": 886,
+      "field_types": {
+        "MATRIX": 574,
+        "VECTOR": 312
+      },
+      "path": "index/fields_by_dataset/fundamental6.csv"
+    },
+    {
+      "dataset_id": "fundamental65",
+      "dataset_name": "Factor Ratios and its Rank Model",
+      "dataset_category": "Model",
+      "field_count": 1155,
+      "field_types": {
+        "MATRIX": 1155
+      },
+      "path": "index/fields_by_dataset/fundamental65.csv"
+    },
+    {
+      "dataset_id": "fundamental69",
+      "dataset_name": "Quarterly Fundamental Data",
+      "dataset_category": "Fundamental",
+      "field_count": 12,
+      "field_types": {
+        "MATRIX": 12
+      },
+      "path": "index/fields_by_dataset/fundamental69.csv"
+    },
+    {
+      "dataset_id": "fundamental7",
+      "dataset_name": "Comprehensive Fundamentals Data",
+      "dataset_category": "Fundamental",
+      "field_count": 311,
+      "field_types": {
+        "MATRIX": 149,
+        "VECTOR": 162
+      },
+      "path": "index/fields_by_dataset/fundamental7.csv"
+    },
+    {
+      "dataset_id": "fundamental72",
+      "dataset_name": "Comprehensive Fundamental Data",
+      "dataset_category": "Fundamental",
+      "field_count": 1852,
+      "field_types": {
+        "MATRIX": 730,
+        "VECTOR": 1122
+      },
+      "path": "index/fields_by_dataset/fundamental72.csv"
+    },
+    {
+      "dataset_id": "fundamental76",
+      "dataset_name": "Standardized Fundamental SEC Data",
+      "dataset_category": "Fundamental",
+      "field_count": 128,
+      "field_types": {
+        "VECTOR": 128
+      },
+      "path": "index/fields_by_dataset/fundamental76.csv"
+    },
+    {
+      "dataset_id": "fundamental92",
+      "dataset_name": "Quantify text part in financial reports data",
+      "dataset_category": "Fundamental",
+      "field_count": 3,
+      "field_types": {
+        "VECTOR": 3
+      },
+      "path": "index/fields_by_dataset/fundamental92.csv"
+    },
+    {
+      "dataset_id": "fundamental94",
+      "dataset_name": "Aggregated Fundamental Data",
+      "dataset_category": "Fundamental",
+      "field_count": 571,
+      "field_types": {
+        "MATRIX": 571
+      },
+      "path": "index/fields_by_dataset/fundamental94.csv"
+    },
+    {
+      "dataset_id": "global_seasonal_model",
+      "dataset_name": "Global Seasonal Regime Return Signals",
+      "dataset_category": "Model",
+      "field_count": 366,
+      "field_types": {
+        "MATRIX": 366
+      },
+      "path": "index/fields_by_dataset/global_seasonal_model.csv"
+    },
+    {
+      "dataset_id": "hiring_trends",
+      "dataset_name": "Global Corporate Hiring Trends",
+      "dataset_category": "Other",
+      "field_count": 3,
+      "field_types": {
+        "VECTOR": 3
+      },
+      "path": "index/fields_by_dataset/hiring_trends.csv"
+    },
+    {
+      "dataset_id": "imbalance5",
+      "dataset_name": "Oil Price Resilience Scores",
+      "dataset_category": "Imbalance",
+      "field_count": 2,
+      "field_types": {
+        "MATRIX": 2
+      },
+      "path": "index/fields_by_dataset/imbalance5.csv"
+    },
+    {
+      "dataset_id": "insider_agg_matrix",
+      "dataset_name": "Smart Insider Transaction Aggregates",
+      "dataset_category": "Insiders",
+      "field_count": 17,
+      "field_types": {
+        "MATRIX": 17
+      },
+      "path": "index/fields_by_dataset/insider_agg_matrix.csv"
+    },
+    {
+      "dataset_id": "insider_feats",
+      "dataset_name": "Global Insider Transaction Features",
+      "dataset_category": "Other",
+      "field_count": 118,
+      "field_types": {
+        "VECTOR": 118
+      },
+      "path": "index/fields_by_dataset/insider_feats.csv"
+    },
+    {
+      "dataset_id": "insider_matrix",
+      "dataset_name": "Aggregated Insider Transaction Matrix",
+      "dataset_category": "Other",
+      "field_count": 33,
+      "field_types": {
+        "MATRIX": 33
+      },
+      "path": "index/fields_by_dataset/insider_matrix.csv"
+    },
+    {
+      "dataset_id": "insider_trx_matrix",
+      "dataset_name": "Global Insider Transaction Aggregates",
+      "dataset_category": "Other",
+      "field_count": 29,
+      "field_types": {
+        "MATRIX": 29
+      },
+      "path": "index/fields_by_dataset/insider_trx_matrix.csv"
+    },
+    {
+      "dataset_id": "insiders1",
+      "dataset_name": "Global Insider Trading Data",
+      "dataset_category": "Insiders",
+      "field_count": 45,
+      "field_types": {
+        "MATRIX": 26,
+        "VECTOR": 19
+      },
+      "path": "index/fields_by_dataset/insiders1.csv"
+    },
+    {
+      "dataset_id": "insiders3",
+      "dataset_name": "SEC Report Data",
+      "dataset_category": "Insiders",
+      "field_count": 61,
+      "field_types": {
+        "MATRIX": 28,
+        "VECTOR": 33
+      },
+      "path": "index/fields_by_dataset/insiders3.csv"
+    },
+    {
+      "dataset_id": "insiders4",
+      "dataset_name": "Edgar forms data",
+      "dataset_category": "Insiders",
+      "field_count": 16,
+      "field_types": {
+        "MATRIX": 1,
+        "VECTOR": 15
+      },
+      "path": "index/fields_by_dataset/insiders4.csv"
+    },
+    {
+      "dataset_id": "institutions18",
+      "dataset_name": "Ownership Model Data",
+      "dataset_category": "Institutions",
+      "field_count": 17,
+      "field_types": {
+        "MATRIX": 15,
+        "VECTOR": 2
+      },
+      "path": "index/fields_by_dataset/institutions18.csv"
+    },
+    {
+      "dataset_id": "institutions20",
+      "dataset_name": "Short Sale Volume Data",
+      "dataset_category": "Institutions",
+      "field_count": 17,
+      "field_types": {
+        "MATRIX": 17
+      },
+      "path": "index/fields_by_dataset/institutions20.csv"
+    },
+    {
+      "dataset_id": "institutions6",
+      "dataset_name": "Institutions and Beneficial Stake Ownership",
+      "dataset_category": "Institutions",
+      "field_count": 22,
+      "field_types": {
+        "MATRIX": 22
+      },
+      "path": "index/fields_by_dataset/institutions6.csv"
+    },
+    {
+      "dataset_id": "intraday_pv_feats",
+      "dataset_name": "Daily Intraday Price Volume Features",
+      "dataset_category": "Price Volume",
+      "field_count": 582,
+      "field_types": {
+        "MATRIX": 582
+      },
+      "path": "index/fields_by_dataset/intraday_pv_feats.csv"
+    },
+    {
+      "dataset_id": "macro63",
+      "dataset_name": "Index Reconstitution Data",
+      "dataset_category": "Macro",
+      "field_count": 3,
+      "field_types": {
+        "MATRIX": 3
+      },
+      "path": "index/fields_by_dataset/macro63.csv"
+    },
+    {
+      "dataset_id": "mfm_model_output",
+      "dataset_name": "Multi Factor Model Universal Output",
+      "dataset_category": "Risk",
+      "field_count": 117,
+      "field_types": {
+        "MATRIX": 117
+      },
+      "path": "index/fields_by_dataset/mfm_model_output.csv"
+    },
+    {
+      "dataset_id": "ml_factor_proj",
+      "dataset_name": "Machine Learning Factor Projections",
+      "dataset_category": "Other",
+      "field_count": 1070,
+      "field_types": {
+        "MATRIX": 1070
+      },
+      "path": "index/fields_by_dataset/ml_factor_proj.csv"
+    },
+    {
+      "dataset_id": "mmp_nlp_sentiment",
+      "dataset_name": "Multilingual NLP News Sentiment Signals",
+      "dataset_category": "Other",
+      "field_count": 1650,
+      "field_types": {
+        "MATRIX": 1629,
+        "VECTOR": 21
+      },
+      "path": "index/fields_by_dataset/mmp_nlp_sentiment.csv"
+    },
+    {
+      "dataset_id": "model10",
+      "dataset_name": "Research Indicators",
+      "dataset_category": "Model",
+      "field_count": 1224,
+      "field_types": {
+        "GROUP": 1,
+        "MATRIX": 1223
+      },
+      "path": "index/fields_by_dataset/model10.csv"
+    },
+    {
+      "dataset_id": "model109",
+      "dataset_name": "Fundamentals and Technical Indicators Model",
+      "dataset_category": "Model",
+      "field_count": 544,
+      "field_types": {
+        "MATRIX": 271,
+        "VECTOR": 273
+      },
+      "path": "index/fields_by_dataset/model109.csv"
+    },
+    {
+      "dataset_id": "model113",
+      "dataset_name": "ML/AI-Estimates for Research Indicators",
+      "dataset_category": "Model",
+      "field_count": 48,
+      "field_types": {
+        "MATRIX": 48
+      },
+      "path": "index/fields_by_dataset/model113.csv"
+    },
+    {
+      "dataset_id": "model12",
+      "dataset_name": "Stock Selection Model",
+      "dataset_category": "Model",
+      "field_count": 5,
+      "field_types": {
+        "MATRIX": 5
+      },
+      "path": "index/fields_by_dataset/model12.csv"
+    },
+    {
+      "dataset_id": "model127",
+      "dataset_name": "Corporate Patent Innovation Activity Dataset",
+      "dataset_category": "Model",
+      "field_count": 14,
+      "field_types": {
+        "VECTOR": 14
+      },
+      "path": "index/fields_by_dataset/model127.csv"
+    },
+    {
+      "dataset_id": "model135",
+      "dataset_name": "Alternative technical factor models",
+      "dataset_category": "Model",
+      "field_count": 273,
+      "field_types": {
+        "VECTOR": 273
+      },
+      "path": "index/fields_by_dataset/model135.csv"
+    },
+    {
+      "dataset_id": "model138",
+      "dataset_name": "Stock Selection from Accounting-based Factors",
+      "dataset_category": "Model",
+      "field_count": 120,
+      "field_types": {
+        "VECTOR": 120
+      },
+      "path": "index/fields_by_dataset/model138.csv"
+    },
+    {
+      "dataset_id": "model139",
+      "dataset_name": "Inflation based stock selection model",
+      "dataset_category": "Model",
+      "field_count": 4,
+      "field_types": {
+        "VECTOR": 4
+      },
+      "path": "index/fields_by_dataset/model139.csv"
+    },
+    {
+      "dataset_id": "model140",
+      "dataset_name": "Sensitivity to the Inflation Change",
+      "dataset_category": "Model",
+      "field_count": 3,
+      "field_types": {
+        "MATRIX": 3
+      },
+      "path": "index/fields_by_dataset/model140.csv"
+    },
+    {
+      "dataset_id": "model141",
+      "dataset_name": "Interest Rate Sensitivity Measures",
+      "dataset_category": "Model",
+      "field_count": 11,
+      "field_types": {
+        "MATRIX": 11
+      },
+      "path": "index/fields_by_dataset/model141.csv"
+    },
+    {
+      "dataset_id": "model144",
+      "dataset_name": "Stock Selection DL model",
+      "dataset_category": "Model",
+      "field_count": 2,
+      "field_types": {
+        "MATRIX": 2
+      },
+      "path": "index/fields_by_dataset/model144.csv"
+    },
+    {
+      "dataset_id": "model16",
+      "dataset_name": "Fundamental Scores",
+      "dataset_category": "Model",
+      "field_count": 24,
+      "field_types": {
+        "MATRIX": 24
+      },
+      "path": "index/fields_by_dataset/model16.csv"
+    },
+    {
+      "dataset_id": "model165",
+      "dataset_name": "Time-series prediction of alpha models",
+      "dataset_category": "Model",
+      "field_count": 441,
+      "field_types": {
+        "MATRIX": 441
+      },
+      "path": "index/fields_by_dataset/model165.csv"
+    },
+    {
+      "dataset_id": "model17",
+      "dataset_name": "Research Analyst Estimate Factors",
+      "dataset_category": "Model",
+      "field_count": 43,
+      "field_types": {
+        "MATRIX": 43
+      },
+      "path": "index/fields_by_dataset/model17.csv"
+    },
+    {
+      "dataset_id": "model176",
+      "dataset_name": "Non-Financial Metric Models",
+      "dataset_category": "Model",
+      "field_count": 84,
+      "field_types": {
+        "VECTOR": 84
+      },
+      "path": "index/fields_by_dataset/model176.csv"
+    },
+    {
+      "dataset_id": "model211",
+      "dataset_name": "Analyst estimate prediction data",
+      "dataset_category": "Analyst",
+      "field_count": 488,
+      "field_types": {
+        "MATRIX": 488
+      },
+      "path": "index/fields_by_dataset/model211.csv"
+    },
+    {
+      "dataset_id": "model219",
+      "dataset_name": "Canadian Equity Quantitative Models",
+      "dataset_category": "Model",
+      "field_count": 1282,
+      "field_types": {
+        "MATRIX": 1282
+      },
+      "path": "index/fields_by_dataset/model219.csv"
+    },
+    {
+      "dataset_id": "model227",
+      "dataset_name": "Generalized Feature Transformer Dataset",
+      "dataset_category": "Model",
+      "field_count": 173,
+      "field_types": {
+        "MATRIX": 173
+      },
+      "path": "index/fields_by_dataset/model227.csv"
+    },
+    {
+      "dataset_id": "model23",
+      "dataset_name": "Scorings Data",
+      "dataset_category": "Model",
+      "field_count": 157,
+      "field_types": {
+        "MATRIX": 157
+      },
+      "path": "index/fields_by_dataset/model23.csv"
+    },
+    {
+      "dataset_id": "model230",
+      "dataset_name": "Factor Ratios and its Rank Model",
+      "dataset_category": "Model",
+      "field_count": 1168,
+      "field_types": {
+        "MATRIX": 1168
+      },
+      "path": "index/fields_by_dataset/model230.csv"
+    },
+    {
+      "dataset_id": "model237",
+      "dataset_name": "ETF Risk Data",
+      "dataset_category": "Model",
+      "field_count": 234,
+      "field_types": {
+        "VECTOR": 234
+      },
+      "path": "index/fields_by_dataset/model237.csv"
+    },
+    {
+      "dataset_id": "model240",
+      "dataset_name": "Qualitative Alpha Model Data",
+      "dataset_category": "Model",
+      "field_count": 105,
+      "field_types": {
+        "VECTOR": 105
+      },
+      "path": "index/fields_by_dataset/model240.csv"
+    },
+    {
+      "dataset_id": "model243",
+      "dataset_name": "Combined Alpha Model",
+      "dataset_category": "Model",
+      "field_count": 4,
+      "field_types": {
+        "VECTOR": 4
+      },
+      "path": "index/fields_by_dataset/model243.csv"
+    },
+    {
+      "dataset_id": "model25",
+      "dataset_name": "Earnings Quality",
+      "dataset_category": "Model",
+      "field_count": 430,
+      "field_types": {
+        "MATRIX": 430
+      },
+      "path": "index/fields_by_dataset/model25.csv"
+    },
+    {
+      "dataset_id": "model252",
+      "dataset_name": "Systematic Hedging for Investors to Evade Large Drawdowns",
+      "dataset_category": "Model",
+      "field_count": 3,
+      "field_types": {
+        "VECTOR": 3
+      },
+      "path": "index/fields_by_dataset/model252.csv"
+    },
+    {
+      "dataset_id": "model259",
+      "dataset_name": "Accounting governance indicator models",
+      "dataset_category": "Model",
+      "field_count": 2,
+      "field_types": {
+        "MATRIX": 2
+      },
+      "path": "index/fields_by_dataset/model259.csv"
+    },
+    {
+      "dataset_id": "model26",
+      "dataset_name": "Analyst Revisions",
+      "dataset_category": "Model",
+      "field_count": 839,
+      "field_types": {
+        "MATRIX": 839
+      },
+      "path": "index/fields_by_dataset/model26.csv"
+    },
+    {
+      "dataset_id": "model262",
+      "dataset_name": "DNN prediction of fundamentals",
+      "dataset_category": "Model",
+      "field_count": 1208,
+      "field_types": {
+        "MATRIX": 1208
+      },
+      "path": "index/fields_by_dataset/model262.csv"
+    },
+    {
+      "dataset_id": "model264",
+      "dataset_name": "Predictive data using Deep Learning models",
+      "dataset_category": "Model",
+      "field_count": 2083,
+      "field_types": {
+        "MATRIX": 2083
+      },
+      "path": "index/fields_by_dataset/model264.csv"
+    },
+    {
+      "dataset_id": "model267",
+      "dataset_name": "8-K based NLP model",
+      "dataset_category": "Model",
+      "field_count": 140,
+      "field_types": {
+        "MATRIX": 140
+      },
+      "path": "index/fields_by_dataset/model267.csv"
+    },
+    {
+      "dataset_id": "model27",
+      "dataset_name": "Credit Risk Model",
+      "dataset_category": "Model",
+      "field_count": 20,
+      "field_types": {
+        "MATRIX": 20
+      },
+      "path": "index/fields_by_dataset/model27.csv"
+    },
+    {
+      "dataset_id": "model28",
+      "dataset_name": "Structural Credit Risk Model",
+      "dataset_category": "Model",
+      "field_count": 104,
+      "field_types": {
+        "MATRIX": 104
+      },
+      "path": "index/fields_by_dataset/model28.csv"
+    },
+    {
+      "dataset_id": "model30",
+      "dataset_name": "EPS Estimate Model",
+      "dataset_category": "Model",
+      "field_count": 48,
+      "field_types": {
+        "MATRIX": 44,
+        "SYMBOL": 4
+      },
+      "path": "index/fields_by_dataset/model30.csv"
+    },
+    {
+      "dataset_id": "model307",
+      "dataset_name": "Global Sales Allocation Model Data",
+      "dataset_category": "Model",
+      "field_count": 15,
+      "field_types": {
+        "VECTOR": 15
+      },
+      "path": "index/fields_by_dataset/model307.csv"
+    },
+    {
+      "dataset_id": "model31",
+      "dataset_name": "Earnings Quality Model",
+      "dataset_category": "Model",
+      "field_count": 235,
+      "field_types": {
+        "MATRIX": 235
+      },
+      "path": "index/fields_by_dataset/model31.csv"
+    },
+    {
+      "dataset_id": "model313",
+      "dataset_name": "Intangible Asset Factors",
+      "dataset_category": "Model",
+      "field_count": 13,
+      "field_types": {
+        "MATRIX": 13
+      },
+      "path": "index/fields_by_dataset/model313.csv"
+    },
+    {
+      "dataset_id": "model354",
+      "dataset_name": "Comprehensive Factor Analytics Data",
+      "dataset_category": "Model",
+      "field_count": 310,
+      "field_types": {
+        "VECTOR": 310
+      },
+      "path": "index/fields_by_dataset/model354.csv"
+    },
+    {
+      "dataset_id": "model36",
+      "dataset_name": "SmartRatios Model",
+      "dataset_category": "Model",
+      "field_count": 32,
+      "field_types": {
+        "MATRIX": 32
+      },
+      "path": "index/fields_by_dataset/model36.csv"
+    },
+    {
+      "dataset_id": "model37",
+      "dataset_name": "Text Mining Data",
+      "dataset_category": "Model",
+      "field_count": 95,
+      "field_types": {
+        "MATRIX": 95
+      },
+      "path": "index/fields_by_dataset/model37.csv"
+    },
+    {
+      "dataset_id": "model39",
+      "dataset_name": "Valuation Momentum Data",
+      "dataset_category": "Model",
+      "field_count": 40,
+      "field_types": {
+        "MATRIX": 40
+      },
+      "path": "index/fields_by_dataset/model39.csv"
+    },
+    {
+      "dataset_id": "model51",
+      "dataset_name": "Systematic Risk Metrics",
+      "dataset_category": "Model",
+      "field_count": 16,
+      "field_types": {
+        "MATRIX": 16
+      },
+      "path": "index/fields_by_dataset/model51.csv"
+    },
+    {
+      "dataset_id": "model53",
+      "dataset_name": "Creditworthiness Risk Measure Model",
+      "dataset_category": "Model",
+      "field_count": 138,
+      "field_types": {
+        "MATRIX": 116,
+        "VECTOR": 22
+      },
+      "path": "index/fields_by_dataset/model53.csv"
+    },
+    {
+      "dataset_id": "model59",
+      "dataset_name": "Credit Analytics Data",
+      "dataset_category": "Model",
+      "field_count": 1,
+      "field_types": {
+        "VECTOR": 1
+      },
+      "path": "index/fields_by_dataset/model59.csv"
+    },
+    {
+      "dataset_id": "model68",
+      "dataset_name": "Risk-Alleviated Momentum Scores",
+      "dataset_category": "Model",
+      "field_count": 12,
+      "field_types": {
+        "VECTOR": 12
+      },
+      "path": "index/fields_by_dataset/model68.csv"
+    },
+    {
+      "dataset_id": "model77",
+      "dataset_name": "Analysts' Factor Model",
+      "dataset_category": "Model",
+      "field_count": 3256,
+      "field_types": {
+        "MATRIX": 3256
+      },
+      "path": "index/fields_by_dataset/model77.csv"
+    },
+    {
+      "dataset_id": "multi_horizon_alpha",
+      "dataset_name": "Multi Horizon Alpha Decomposition",
+      "dataset_category": "Model",
+      "field_count": 832,
+      "field_types": {
+        "MATRIX": 832
+      },
+      "path": "index/fields_by_dataset/multi_horizon_alpha.csv"
+    },
+    {
+      "dataset_id": "multi_source_model",
+      "dataset_name": "Multi-Source Market Return Prediction",
+      "dataset_category": "Model",
+      "field_count": 62,
+      "field_types": {
+        "MATRIX": 62
+      },
+      "path": "index/fields_by_dataset/multi_source_model.csv"
+    },
+    {
+      "dataset_id": "multifactor_return_pred",
+      "dataset_name": "Multi Factor Market Return Predictions",
+      "dataset_category": "Model",
+      "field_count": 669,
+      "field_types": {
+        "MATRIX": 669
+      },
+      "path": "index/fields_by_dataset/multifactor_return_pred.csv"
+    },
+    {
+      "dataset_id": "news104",
+      "dataset_name": "Archive News Data",
+      "dataset_category": "News",
+      "field_count": 32,
+      "field_types": {
+        "VECTOR": 32
+      },
+      "path": "index/fields_by_dataset/news104.csv"
+    },
+    {
+      "dataset_id": "news12",
+      "dataset_name": "US News Data",
+      "dataset_category": "News",
+      "field_count": 875,
+      "field_types": {
+        "MATRIX": 75,
+        "VECTOR": 800
+      },
+      "path": "index/fields_by_dataset/news12.csv"
+    },
+    {
+      "dataset_id": "news17",
+      "dataset_name": "PR Edition Data",
+      "dataset_category": "News",
+      "field_count": 45,
+      "field_types": {
+        "VECTOR": 45
+      },
+      "path": "index/fields_by_dataset/news17.csv"
+    },
+    {
+      "dataset_id": "news18",
+      "dataset_name": "Ravenpack News Data",
+      "dataset_category": "News",
+      "field_count": 121,
+      "field_types": {
+        "MATRIX": 71,
+        "VECTOR": 50
+      },
+      "path": "index/fields_by_dataset/news18.csv"
+    },
+    {
+      "dataset_id": "news21",
+      "dataset_name": "Macro Economic Event Data",
+      "dataset_category": "News",
+      "field_count": 260,
+      "field_types": {
+        "MATRIX": 43,
+        "VECTOR": 217
+      },
+      "path": "index/fields_by_dataset/news21.csv"
+    },
+    {
+      "dataset_id": "news23",
+      "dataset_name": "MnA Deals Data",
+      "dataset_category": "News",
+      "field_count": 129,
+      "field_types": {
+        "VECTOR": 129
+      },
+      "path": "index/fields_by_dataset/news23.csv"
+    },
+    {
+      "dataset_id": "news29",
+      "dataset_name": "Significant Developments Data",
+      "dataset_category": "News",
+      "field_count": 12,
+      "field_types": {
+        "VECTOR": 12
+      },
+      "path": "index/fields_by_dataset/news29.csv"
+    },
+    {
+      "dataset_id": "news3",
+      "dataset_name": "Dow Jones News Analytics Data",
+      "dataset_category": "News",
+      "field_count": 19,
+      "field_types": {
+        "VECTOR": 19
+      },
+      "path": "index/fields_by_dataset/news3.csv"
+    },
+    {
+      "dataset_id": "news31",
+      "dataset_name": "News Analytics on Equities",
+      "dataset_category": "News",
+      "field_count": 60,
+      "field_types": {
+        "VECTOR": 60
+      },
+      "path": "index/fields_by_dataset/news31.csv"
+    },
+    {
+      "dataset_id": "news36",
+      "dataset_name": "News Analytics Data",
+      "dataset_category": "News",
+      "field_count": 29,
+      "field_types": {
+        "VECTOR": 29
+      },
+      "path": "index/fields_by_dataset/news36.csv"
+    },
+    {
+      "dataset_id": "news38",
+      "dataset_name": "News Analytic Model Data",
+      "dataset_category": "News",
+      "field_count": 63,
+      "field_types": {
+        "VECTOR": 63
+      },
+      "path": "index/fields_by_dataset/news38.csv"
+    },
+    {
+      "dataset_id": "news42",
+      "dataset_name": "US/AMR news data",
+      "dataset_category": "News",
+      "field_count": 9,
+      "field_types": {
+        "VECTOR": 9
+      },
+      "path": "index/fields_by_dataset/news42.csv"
+    },
+    {
+      "dataset_id": "news46",
+      "dataset_name": "Relevant News Analytics Data",
+      "dataset_category": "News",
+      "field_count": 91,
+      "field_types": {
+        "MATRIX": 33,
+        "VECTOR": 58
+      },
+      "path": "index/fields_by_dataset/news46.csv"
+    },
+    {
+      "dataset_id": "news48",
+      "dataset_name": "Global Media News Data",
+      "dataset_category": "News",
+      "field_count": 22,
+      "field_types": {
+        "VECTOR": 22
+      },
+      "path": "index/fields_by_dataset/news48.csv"
+    },
+    {
+      "dataset_id": "news5",
+      "dataset_name": "News Feed Analytics Data",
+      "dataset_category": "News",
+      "field_count": 145,
+      "field_types": {
+        "VECTOR": 145
+      },
+      "path": "index/fields_by_dataset/news5.csv"
+    },
+    {
+      "dataset_id": "news50",
+      "dataset_name": "Web News Analytics Data",
+      "dataset_category": "News",
+      "field_count": 83,
+      "field_types": {
+        "MATRIX": 21,
+        "VECTOR": 62
+      },
+      "path": "index/fields_by_dataset/news50.csv"
+    },
+    {
+      "dataset_id": "news51",
+      "dataset_name": "Aggregated News Data",
+      "dataset_category": "News",
+      "field_count": 15,
+      "field_types": {
+        "VECTOR": 15
+      },
+      "path": "index/fields_by_dataset/news51.csv"
+    },
+    {
+      "dataset_id": "news52",
+      "dataset_name": "Conference call data",
+      "dataset_category": "News",
+      "field_count": 42,
+      "field_types": {
+        "MATRIX": 36,
+        "VECTOR": 6
+      },
+      "path": "index/fields_by_dataset/news52.csv"
+    },
+    {
+      "dataset_id": "news55",
+      "dataset_name": "Intermediate News Data",
+      "dataset_category": "News",
+      "field_count": 6,
+      "field_types": {
+        "VECTOR": 6
+      },
+      "path": "index/fields_by_dataset/news55.csv"
+    },
+    {
+      "dataset_id": "news59",
+      "dataset_name": "Corporate Events Data",
+      "dataset_category": "News",
+      "field_count": 71,
+      "field_types": {
+        "MATRIX": 67,
+        "VECTOR": 4
+      },
+      "path": "index/fields_by_dataset/news59.csv"
+    },
+    {
+      "dataset_id": "news7",
+      "dataset_name": "Real Time News Feed Data",
+      "dataset_category": "News",
+      "field_count": 162,
+      "field_types": {
+        "MATRIX": 67,
+        "VECTOR": 95
+      },
+      "path": "index/fields_by_dataset/news7.csv"
+    },
+    {
+      "dataset_id": "news73",
+      "dataset_name": "Story by Story Sentiment",
+      "dataset_category": "News",
+      "field_count": 22,
+      "field_types": {
+        "VECTOR": 22
+      },
+      "path": "index/fields_by_dataset/news73.csv"
+    },
+    {
+      "dataset_id": "news76",
+      "dataset_name": "Textual News Feed Data",
+      "dataset_category": "News",
+      "field_count": 6,
+      "field_types": {
+        "VECTOR": 6
+      },
+      "path": "index/fields_by_dataset/news76.csv"
+    },
+    {
+      "dataset_id": "news82",
+      "dataset_name": "Sentiment Analysis from DNN",
+      "dataset_category": "News",
+      "field_count": 23,
+      "field_types": {
+        "MATRIX": 20,
+        "VECTOR": 3
+      },
+      "path": "index/fields_by_dataset/news82.csv"
+    },
+    {
+      "dataset_id": "news84",
+      "dataset_name": "Headline Sentiment Analysis using DNN",
+      "dataset_category": "News",
+      "field_count": 23,
+      "field_types": {
+        "MATRIX": 20,
+        "VECTOR": 3
+      },
+      "path": "index/fields_by_dataset/news84.csv"
+    },
+    {
+      "dataset_id": "news85",
+      "dataset_name": "News Sentiment Analysis using DNN",
+      "dataset_category": "News",
+      "field_count": 23,
+      "field_types": {
+        "MATRIX": 20,
+        "VECTOR": 3
+      },
+      "path": "index/fields_by_dataset/news85.csv"
+    },
+    {
+      "dataset_id": "news87",
+      "dataset_name": "Smart Conference call transcript data",
+      "dataset_category": "Analyst",
+      "field_count": 214,
+      "field_types": {
+        "VECTOR": 214
+      },
+      "path": "index/fields_by_dataset/news87.csv"
+    },
+    {
+      "dataset_id": "news92",
+      "dataset_name": "Standardized Financial News Categorization",
+      "dataset_category": "News",
+      "field_count": 48,
+      "field_types": {
+        "VECTOR": 48
+      },
+      "path": "index/fields_by_dataset/news92.csv"
+    },
+    {
+      "dataset_id": "news94",
+      "dataset_name": "Intraday Post News Price Volume",
+      "dataset_category": "News",
+      "field_count": 54,
+      "field_types": {
+        "VECTOR": 54
+      },
+      "path": "index/fields_by_dataset/news94.csv"
+    },
+    {
+      "dataset_id": "news97",
+      "dataset_name": "Web News Sentiment Scores",
+      "dataset_category": "News",
+      "field_count": 105,
+      "field_types": {
+        "MATRIX": 105
+      },
+      "path": "index/fields_by_dataset/news97.csv"
+    },
+    {
+      "dataset_id": "news_sentiment_dl",
+      "dataset_name": "Deep Learning News Sentiment Signals",
+      "dataset_category": "Other",
+      "field_count": 88,
+      "field_types": {
+        "VECTOR": 88
+      },
+      "path": "index/fields_by_dataset/news_sentiment_dl.csv"
+    },
+    {
+      "dataset_id": "news_sentiment_nlp",
+      "dataset_name": "News Sentiment Signal Features",
+      "dataset_category": "Other",
+      "field_count": 23,
+      "field_types": {
+        "VECTOR": 23
+      },
+      "path": "index/fields_by_dataset/news_sentiment_nlp.csv"
+    },
+    {
+      "dataset_id": "news_sentiment_transfer",
+      "dataset_name": "Transferred News Sentiment Analytics",
+      "dataset_category": "Sentiment",
+      "field_count": 23,
+      "field_types": {
+        "MATRIX": 20,
+        "VECTOR": 3
+      },
+      "path": "index/fields_by_dataset/news_sentiment_transfer.csv"
+    },
+    {
+      "dataset_id": "news_transformer_scores",
+      "dataset_name": "Transformer Based News Sentiment Scores",
+      "dataset_category": "Sentiment",
+      "field_count": 315,
+      "field_types": {
+        "MATRIX": 315
+      },
+      "path": "index/fields_by_dataset/news_transformer_scores.csv"
+    },
+    {
+      "dataset_id": "nlp_news_scores",
+      "dataset_name": "Transformer-Based News Sentiment Analytics",
+      "dataset_category": "Other",
+      "field_count": 84,
+      "field_types": {
+        "MATRIX": 84
+      },
+      "path": "index/fields_by_dataset/nlp_news_scores.csv"
+    },
+    {
+      "dataset_id": "option3",
+      "dataset_name": "Equity Options Moneyness Aggregates",
+      "dataset_category": "Option",
+      "field_count": 20,
+      "field_types": {
+        "MATRIX": 20
+      },
+      "path": "index/fields_by_dataset/option3.csv"
+    },
+    {
+      "dataset_id": "option40",
+      "dataset_name": "Options Analytics Data",
+      "dataset_category": "Option",
+      "field_count": 208,
+      "field_types": {
+        "MATRIX": 208
+      },
+      "path": "index/fields_by_dataset/option40.csv"
+    },
+    {
+      "dataset_id": "option6",
+      "dataset_name": "Forecasted Volatility for Equity Options",
+      "dataset_category": "Option",
+      "field_count": 133,
+      "field_types": {
+        "MATRIX": 133
+      },
+      "path": "index/fields_by_dataset/option6.csv"
+    },
+    {
+      "dataset_id": "option8",
+      "dataset_name": "Volatility Data",
+      "dataset_category": "Option",
+      "field_count": 64,
+      "field_types": {
+        "MATRIX": 64
+      },
+      "path": "index/fields_by_dataset/option8.csv"
+    },
+    {
+      "dataset_id": "option9",
+      "dataset_name": "Options Analytics",
+      "dataset_category": "Option",
+      "field_count": 74,
+      "field_types": {
+        "MATRIX": 74
+      },
+      "path": "index/fields_by_dataset/option9.csv"
+    },
+    {
+      "dataset_id": "option_chart_model",
+      "dataset_name": "Option Chart Image Return Prediction",
+      "dataset_category": "Model",
+      "field_count": 439,
+      "field_types": {
+        "MATRIX": 439
+      },
+      "path": "index/fields_by_dataset/option_chart_model.csv"
+    },
+    {
+      "dataset_id": "option_horizon_decomp",
+      "dataset_name": "US Equity Option Horizon Decomposition",
+      "dataset_category": "Model",
+      "field_count": 501,
+      "field_types": {
+        "MATRIX": 501
+      },
+      "path": "index/fields_by_dataset/option_horizon_decomp.csv"
+    },
+    {
+      "dataset_id": "options_composite",
+      "dataset_name": "Options Derived Composite Signals",
+      "dataset_category": "Model",
+      "field_count": 143,
+      "field_types": {
+        "MATRIX": 84,
+        "VECTOR": 59
+      },
+      "path": "index/fields_by_dataset/options_composite.csv"
+    },
+    {
+      "dataset_id": "order_book_imbalance",
+      "dataset_name": "Order Book Liquidity and Imbalance Analytics",
+      "dataset_category": "Other",
+      "field_count": 198,
+      "field_types": {
+        "VECTOR": 198
+      },
+      "path": "index/fields_by_dataset/order_book_imbalance.csv"
+    },
+    {
+      "dataset_id": "order_flow_imb",
+      "dataset_name": "Institutional Order Flow Imbalance",
+      "dataset_category": "Option",
+      "field_count": 120,
+      "field_types": {
+        "MATRIX": 120
+      },
+      "path": "index/fields_by_dataset/order_flow_imb.csv"
+    },
+    {
+      "dataset_id": "other128",
+      "dataset_name": "Global Executive Performance Factors",
+      "dataset_category": "Other",
+      "field_count": 12,
+      "field_types": {
+        "VECTOR": 12
+      },
+      "path": "index/fields_by_dataset/other128.csv"
+    },
+    {
+      "dataset_id": "other143",
+      "dataset_name": "Transaction Volume Data for Equity",
+      "dataset_category": "Other",
+      "field_count": 126,
+      "field_types": {
+        "MATRIX": 105,
+        "VECTOR": 21
+      },
+      "path": "index/fields_by_dataset/other143.csv"
+    },
+    {
+      "dataset_id": "other17",
+      "dataset_name": "Flow into Equities Data",
+      "dataset_category": "Other",
+      "field_count": 4,
+      "field_types": {
+        "MATRIX": 4
+      },
+      "path": "index/fields_by_dataset/other17.csv"
+    },
+    {
+      "dataset_id": "other176",
+      "dataset_name": "Nonlinear adaptive model",
+      "dataset_category": "Model",
+      "field_count": 20,
+      "field_types": {
+        "MATRIX": 20
+      },
+      "path": "index/fields_by_dataset/other176.csv"
+    },
+    {
+      "dataset_id": "other193",
+      "dataset_name": "Systematic Hedging for Investors to Evade Large Drawdowns",
+      "dataset_category": "Model",
+      "field_count": 3,
+      "field_types": {
+        "VECTOR": 3
+      },
+      "path": "index/fields_by_dataset/other193.csv"
+    },
+    {
+      "dataset_id": "other250",
+      "dataset_name": "details data",
+      "dataset_category": "Other",
+      "field_count": 10,
+      "field_types": {
+        "VECTOR": 10
+      },
+      "path": "index/fields_by_dataset/other250.csv"
+    },
+    {
+      "dataset_id": "other296",
+      "dataset_name": "Corporate Earnings Call Sentiment Data",
+      "dataset_category": "Other",
+      "field_count": 47,
+      "field_types": {
+        "VECTOR": 47
+      },
+      "path": "index/fields_by_dataset/other296.csv"
+    },
+    {
+      "dataset_id": "other315",
+      "dataset_name": "Equity Swap Data",
+      "dataset_category": "Other",
+      "field_count": 32,
+      "field_types": {
+        "VECTOR": 32
+      },
+      "path": "index/fields_by_dataset/other315.csv"
+    },
+    {
+      "dataset_id": "other326",
+      "dataset_name": "Intermediate Data from Events",
+      "dataset_category": "Other",
+      "field_count": 53,
+      "field_types": {
+        "MATRIX": 17,
+        "VECTOR": 36
+      },
+      "path": "index/fields_by_dataset/other326.csv"
+    },
+    {
+      "dataset_id": "other327",
+      "dataset_name": "Sensitivity to Interest Rates Model",
+      "dataset_category": "Other",
+      "field_count": 3,
+      "field_types": {
+        "MATRIX": 3
+      },
+      "path": "index/fields_by_dataset/other327.csv"
+    },
+    {
+      "dataset_id": "other33",
+      "dataset_name": "Qualitative Alpha Model Data",
+      "dataset_category": "Model",
+      "field_count": 51,
+      "field_types": {
+        "VECTOR": 51
+      },
+      "path": "index/fields_by_dataset/other33.csv"
+    },
+    {
+      "dataset_id": "other335",
+      "dataset_name": "Multi-Region Dividend Alpha Model Dataset",
+      "dataset_category": "Other",
+      "field_count": 10,
+      "field_types": {
+        "MATRIX": 10
+      },
+      "path": "index/fields_by_dataset/other335.csv"
+    },
+    {
+      "dataset_id": "other359",
+      "dataset_name": "Web Comments & Reaction Data",
+      "dataset_category": "Other",
+      "field_count": 10,
+      "field_types": {
+        "VECTOR": 10
+      },
+      "path": "index/fields_by_dataset/other359.csv"
+    },
+    {
+      "dataset_id": "other378",
+      "dataset_name": "Accounting governance indicator models",
+      "dataset_category": "Model",
+      "field_count": 2,
+      "field_types": {
+        "MATRIX": 2
+      },
+      "path": "index/fields_by_dataset/other378.csv"
+    },
+    {
+      "dataset_id": "other384",
+      "dataset_name": "NLP on conference conversation",
+      "dataset_category": "Other",
+      "field_count": 66,
+      "field_types": {
+        "VECTOR": 66
+      },
+      "path": "index/fields_by_dataset/other384.csv"
+    },
+    {
+      "dataset_id": "other411",
+      "dataset_name": "Linear, nonlinear, and region-specific models",
+      "dataset_category": "Analyst",
+      "field_count": 17,
+      "field_types": {
+        "VECTOR": 17
+      },
+      "path": "index/fields_by_dataset/other411.csv"
+    },
+    {
+      "dataset_id": "other424",
+      "dataset_name": "Dividend prediction model",
+      "dataset_category": "Other",
+      "field_count": 3,
+      "field_types": {
+        "MATRIX": 3
+      },
+      "path": "index/fields_by_dataset/other424.csv"
+    },
+    {
+      "dataset_id": "other427",
+      "dataset_name": "Quantify text part in financial reports data",
+      "dataset_category": "Fundamental",
+      "field_count": 3,
+      "field_types": {
+        "VECTOR": 3
+      },
+      "path": "index/fields_by_dataset/other427.csv"
+    },
+    {
+      "dataset_id": "other432",
+      "dataset_name": "DNN prediction of fundamentals",
+      "dataset_category": "Model",
+      "field_count": 1139,
+      "field_types": {
+        "MATRIX": 1139
+      },
+      "path": "index/fields_by_dataset/other432.csv"
+    },
+    {
+      "dataset_id": "other436",
+      "dataset_name": "Dividend model",
+      "dataset_category": "Other",
+      "field_count": 3,
+      "field_types": {
+        "VECTOR": 3
+      },
+      "path": "index/fields_by_dataset/other436.csv"
+    },
+    {
+      "dataset_id": "other455",
+      "dataset_name": "Relationship enhanced with AI/ML",
+      "dataset_category": "Other",
+      "field_count": 1425,
+      "field_types": {
+        "GROUP": 1200,
+        "MATRIX": 225
+      },
+      "path": "index/fields_by_dataset/other455.csv"
+    },
+    {
+      "dataset_id": "other460",
+      "dataset_name": "Predictive data using Deep Learning models",
+      "dataset_category": "Model",
+      "field_count": 2038,
+      "field_types": {
+        "MATRIX": 2038
+      },
+      "path": "index/fields_by_dataset/other460.csv"
+    },
+    {
+      "dataset_id": "other466",
+      "dataset_name": "Aggregated Fundamental Data",
+      "dataset_category": "Fundamental",
+      "field_count": 565,
+      "field_types": {
+        "MATRIX": 565
+      },
+      "path": "index/fields_by_dataset/other466.csv"
+    },
+    {
+      "dataset_id": "other510",
+      "dataset_name": "8-K based NLP model",
+      "dataset_category": "Model",
+      "field_count": 10,
+      "field_types": {
+        "MATRIX": 10
+      },
+      "path": "index/fields_by_dataset/other510.csv"
+    },
+    {
+      "dataset_id": "other545",
+      "dataset_name": "Linked Firms Momentum Data",
+      "dataset_category": "Other",
+      "field_count": 4,
+      "field_types": {
+        "VECTOR": 4
+      },
+      "path": "index/fields_by_dataset/other545.csv"
+    },
+    {
+      "dataset_id": "other546",
+      "dataset_name": "Institutional Network Analysis Dataset",
+      "dataset_category": "Other",
+      "field_count": 13,
+      "field_types": {
+        "VECTOR": 13
+      },
+      "path": "index/fields_by_dataset/other546.csv"
+    },
+    {
+      "dataset_id": "other551",
+      "dataset_name": "Alpha Toolkit Dataset",
+      "dataset_category": "Macro",
+      "field_count": 33,
+      "field_types": {
+        "MATRIX": 33
+      },
+      "path": "index/fields_by_dataset/other551.csv"
+    },
+    {
+      "dataset_id": "other553",
+      "dataset_name": "Financial Opinion Mining",
+      "dataset_category": "Sentiment",
+      "field_count": 74,
+      "field_types": {
+        "MATRIX": 33,
+        "VECTOR": 41
+      },
+      "path": "index/fields_by_dataset/other553.csv"
+    },
+    {
+      "dataset_id": "other566",
+      "dataset_name": "Image-Based Financial Prediction Dataset",
+      "dataset_category": "Other",
+      "field_count": 51,
+      "field_types": {
+        "MATRIX": 51
+      },
+      "path": "index/fields_by_dataset/other566.csv"
+    },
+    {
+      "dataset_id": "other567",
+      "dataset_name": "Employee Review Data",
+      "dataset_category": "Other",
+      "field_count": 223,
+      "field_types": {
+        "VECTOR": 223
+      },
+      "path": "index/fields_by_dataset/other567.csv"
+    },
+    {
+      "dataset_id": "other571",
+      "dataset_name": "Wikipedia Viewing Data",
+      "dataset_category": "Other",
+      "field_count": 30,
+      "field_types": {
+        "MATRIX": 30
+      },
+      "path": "index/fields_by_dataset/other571.csv"
+    },
+    {
+      "dataset_id": "other580",
+      "dataset_name": "Standardized Daily ETF Holdings",
+      "dataset_category": "Other",
+      "field_count": 403,
+      "field_types": {
+        "MATRIX": 403
+      },
+      "path": "index/fields_by_dataset/other580.csv"
+    },
+    {
+      "dataset_id": "other596",
+      "dataset_name": "Sentiment Scores Data",
+      "dataset_category": "Other",
+      "field_count": 420,
+      "field_types": {
+        "MATRIX": 420
+      },
+      "path": "index/fields_by_dataset/other596.csv"
+    },
+    {
+      "dataset_id": "other623",
+      "dataset_name": "Text Blob News data",
+      "dataset_category": "Other",
+      "field_count": 6,
+      "field_types": {
+        "VECTOR": 6
+      },
+      "path": "index/fields_by_dataset/other623.csv"
+    },
+    {
+      "dataset_id": "other635",
+      "dataset_name": "Thomson Reuters News Analytics Equities",
+      "dataset_category": "Other",
+      "field_count": 9,
+      "field_types": {
+        "VECTOR": 9
+      },
+      "path": "index/fields_by_dataset/other635.csv"
+    },
+    {
+      "dataset_id": "other685",
+      "dataset_name": "Enhanced Financial Indicators",
+      "dataset_category": "Other",
+      "field_count": 72,
+      "field_types": {
+        "MATRIX": 72
+      },
+      "path": "index/fields_by_dataset/other685.csv"
+    },
+    {
+      "dataset_id": "other696",
+      "dataset_name": "Hybrid NLP Model",
+      "dataset_category": "Other",
+      "field_count": 498,
+      "field_types": {
+        "VECTOR": 498
+      },
+      "path": "index/fields_by_dataset/other696.csv"
+    },
+    {
+      "dataset_id": "other699",
+      "dataset_name": "Individual Investor Transactions Data",
+      "dataset_category": "Other",
+      "field_count": 19,
+      "field_types": {
+        "VECTOR": 19
+      },
+      "path": "index/fields_by_dataset/other699.csv"
+    },
+    {
+      "dataset_id": "other7",
+      "dataset_name": "Archive News Data",
+      "dataset_category": "News",
+      "field_count": 10,
+      "field_types": {
+        "VECTOR": 10
+      },
+      "path": "index/fields_by_dataset/other7.csv"
+    },
+    {
+      "dataset_id": "pattern_scores",
+      "dataset_name": "Chart Pattern Similarity Scores",
+      "dataset_category": "Price Volume",
+      "field_count": 504,
+      "field_types": {
+        "MATRIX": 504
+      },
+      "path": "index/fields_by_dataset/pattern_scores.csv"
+    },
+    {
+      "dataset_id": "predictive_starmine",
+      "dataset_name": "Predictive Analyst-Company Signal Set",
+      "dataset_category": "Model",
+      "field_count": 1196,
+      "field_types": {
+        "MATRIX": 1196
+      },
+      "path": "index/fields_by_dataset/predictive_starmine.csv"
+    },
+    {
+      "dataset_id": "price_signal_dl",
+      "dataset_name": "Deep Learning Price Signal Dataset",
+      "dataset_category": "Model",
+      "field_count": 28,
+      "field_types": {
+        "MATRIX": 28
+      },
+      "path": "index/fields_by_dataset/price_signal_dl.csv"
+    },
+    {
+      "dataset_id": "pv1",
+      "dataset_name": "Price Volume Data for Equity",
+      "dataset_category": "Price Volume",
+      "field_count": 24,
+      "field_types": {
+        "GROUP": 7,
+        "MATRIX": 13,
+        "SYMBOL": 4
+      },
+      "path": "index/fields_by_dataset/pv1.csv"
+    },
+    {
+      "dataset_id": "pv103",
+      "dataset_name": "Interval and MOO&MOC statistics",
+      "dataset_category": "Price Volume",
+      "field_count": 79,
+      "field_types": {
+        "MATRIX": 79
+      },
+      "path": "index/fields_by_dataset/pv103.csv"
+    },
+    {
+      "dataset_id": "pv104",
+      "dataset_name": "Market Microstructure Data",
+      "dataset_category": "Price Volume",
+      "field_count": 46,
+      "field_types": {
+        "MATRIX": 46
+      },
+      "path": "index/fields_by_dataset/pv104.csv"
+    },
+    {
+      "dataset_id": "pv106",
+      "dataset_name": "Microstructure Spread Data",
+      "dataset_category": "Price Volume",
+      "field_count": 6,
+      "field_types": {
+        "MATRIX": 6
+      },
+      "path": "index/fields_by_dataset/pv106.csv"
+    },
+    {
+      "dataset_id": "pv109",
+      "dataset_name": "Bond Yield Data",
+      "dataset_category": "Price Volume",
+      "field_count": 34,
+      "field_types": {
+        "VECTOR": 34
+      },
+      "path": "index/fields_by_dataset/pv109.csv"
+    },
+    {
+      "dataset_id": "pv115",
+      "dataset_name": "Trading Data",
+      "dataset_category": "Price Volume",
+      "field_count": 12,
+      "field_types": {
+        "MATRIX": 12
+      },
+      "path": "index/fields_by_dataset/pv115.csv"
+    },
+    {
+      "dataset_id": "pv13",
+      "dataset_name": "Relationship Data for Equity",
+      "dataset_category": "Price Volume",
+      "field_count": 165,
+      "field_types": {
+        "GROUP": 135,
+        "MATRIX": 30
+      },
+      "path": "index/fields_by_dataset/pv13.csv"
+    },
+    {
+      "dataset_id": "pv141",
+      "dataset_name": "VWAP Tick Data",
+      "dataset_category": "Price Volume",
+      "field_count": 6,
+      "field_types": {
+        "MATRIX": 4,
+        "VECTOR": 2
+      },
+      "path": "index/fields_by_dataset/pv141.csv"
+    },
+    {
+      "dataset_id": "pv149",
+      "dataset_name": "Holidays and Trading Hours Calendar",
+      "dataset_category": "Price Volume",
+      "field_count": 6,
+      "field_types": {
+        "MATRIX": 6
+      },
+      "path": "index/fields_by_dataset/pv149.csv"
+    },
+    {
+      "dataset_id": "pv173",
+      "dataset_name": "Corporate Bond Pricing Data",
+      "dataset_category": "Price Volume",
+      "field_count": 51,
+      "field_types": {
+        "VECTOR": 51
+      },
+      "path": "index/fields_by_dataset/pv173.csv"
+    },
+    {
+      "dataset_id": "pv20",
+      "dataset_name": "Daily Spot and Cross Rate Data",
+      "dataset_category": "Price Volume",
+      "field_count": 1552,
+      "field_types": {
+        "GROUP": 14,
+        "MATRIX": 1498,
+        "VECTOR": 40
+      },
+      "path": "index/fields_by_dataset/pv20.csv"
+    },
+    {
+      "dataset_id": "pv29",
+      "dataset_name": "Derived Industry Classification",
+      "dataset_category": "Price Volume",
+      "field_count": 199,
+      "field_types": {
+        "GROUP": 24,
+        "MATRIX": 175
+      },
+      "path": "index/fields_by_dataset/pv29.csv"
+    },
+    {
+      "dataset_id": "pv30",
+      "dataset_name": "Alternate Industry Classification",
+      "dataset_category": "Price Volume",
+      "field_count": 833,
+      "field_types": {
+        "GROUP": 660,
+        "MATRIX": 173
+      },
+      "path": "index/fields_by_dataset/pv30.csv"
+    },
+    {
+      "dataset_id": "pv47",
+      "dataset_name": "Specific Return Dataset",
+      "dataset_category": "Price Volume",
+      "field_count": 2,
+      "field_types": {
+        "MATRIX": 2
+      },
+      "path": "index/fields_by_dataset/pv47.csv"
+    },
+    {
+      "dataset_id": "pv48",
+      "dataset_name": "US Market Index Data",
+      "dataset_category": "Price Volume",
+      "field_count": 147,
+      "field_types": {
+        "MATRIX": 102,
+        "VECTOR": 45
+      },
+      "path": "index/fields_by_dataset/pv48.csv"
+    },
+    {
+      "dataset_id": "pv52",
+      "dataset_name": "Order Excecution Summary",
+      "dataset_category": "Price Volume",
+      "field_count": 176,
+      "field_types": {
+        "VECTOR": 176
+      },
+      "path": "index/fields_by_dataset/pv52.csv"
+    },
+    {
+      "dataset_id": "pv53",
+      "dataset_name": "Index Market Data",
+      "dataset_category": "Price Volume",
+      "field_count": 5,
+      "field_types": {
+        "MATRIX": 5
+      },
+      "path": "index/fields_by_dataset/pv53.csv"
+    },
+    {
+      "dataset_id": "pv63",
+      "dataset_name": "Order Book Dataset",
+      "dataset_category": "Price Volume",
+      "field_count": 16,
+      "field_types": {
+        "MATRIX": 16
+      },
+      "path": "index/fields_by_dataset/pv63.csv"
+    },
+    {
+      "dataset_id": "pv64",
+      "dataset_name": "Fund Holding Data",
+      "dataset_category": "Price Volume",
+      "field_count": 245,
+      "field_types": {
+        "VECTOR": 245
+      },
+      "path": "index/fields_by_dataset/pv64.csv"
+    },
+    {
+      "dataset_id": "pv73",
+      "dataset_name": "Custom Relationship Data",
+      "dataset_category": "Price Volume",
+      "field_count": 69,
+      "field_types": {
+        "VECTOR": 69
+      },
+      "path": "index/fields_by_dataset/pv73.csv"
+    },
+    {
+      "dataset_id": "pv87",
+      "dataset_name": "Aggregated dataset",
+      "dataset_category": "Price Volume",
+      "field_count": 6666,
+      "field_types": {
+        "MATRIX": 6654,
+        "VECTOR": 12
+      },
+      "path": "index/fields_by_dataset/pv87.csv"
+    },
+    {
+      "dataset_id": "pv96",
+      "dataset_name": "Corporate Action Dataset",
+      "dataset_category": "Price Volume",
+      "field_count": 32,
+      "field_types": {
+        "MATRIX": 23,
+        "VECTOR": 9
+      },
+      "path": "index/fields_by_dataset/pv96.csv"
+    },
+    {
+      "dataset_id": "pv98",
+      "dataset_name": "Intraday Tick Data and Statistics",
+      "dataset_category": "Price Volume",
+      "field_count": 352,
+      "field_types": {
+        "MATRIX": 352
+      },
+      "path": "index/fields_by_dataset/pv98.csv"
+    },
+    {
+      "dataset_id": "pv_tech_indicators",
+      "dataset_name": "Price Volume Technical Indicators",
+      "dataset_category": "Model",
+      "field_count": 56,
+      "field_types": {
+        "MATRIX": 56
+      },
+      "path": "index/fields_by_dataset/pv_tech_indicators.csv"
+    },
+    {
+      "dataset_id": "quant_factor_lib",
+      "dataset_name": "Multi-Domain Quantitative Factor Library",
+      "dataset_category": "Model",
+      "field_count": 224,
+      "field_types": {
+        "VECTOR": 224
+      },
+      "path": "index/fields_by_dataset/quant_factor_lib.csv"
+    },
+    {
+      "dataset_id": "risk59",
+      "dataset_name": "Securities Lending and Short Market Dynamics Dataset",
+      "dataset_category": "Risk",
+      "field_count": 16,
+      "field_types": {
+        "VECTOR": 16
+      },
+      "path": "index/fields_by_dataset/risk59.csv"
+    },
+    {
+      "dataset_id": "risk60",
+      "dataset_name": "Securities Lending Insight Data",
+      "dataset_category": "Risk",
+      "field_count": 5,
+      "field_types": {
+        "VECTOR": 5
+      },
+      "path": "index/fields_by_dataset/risk60.csv"
+    },
+    {
+      "dataset_id": "risk62",
+      "dataset_name": "Beta Risk Factors",
+      "dataset_category": "Risk",
+      "field_count": 636,
+      "field_types": {
+        "MATRIX": 636
+      },
+      "path": "index/fields_by_dataset/risk62.csv"
+    },
+    {
+      "dataset_id": "risk65",
+      "dataset_name": "ETF Risk Model Data",
+      "dataset_category": "Risk",
+      "field_count": 6,
+      "field_types": {
+        "MATRIX": 6
+      },
+      "path": "index/fields_by_dataset/risk65.csv"
+    },
+    {
+      "dataset_id": "risk70",
+      "dataset_name": "Multi-Factor Model",
+      "dataset_category": "Risk",
+      "field_count": 158,
+      "field_types": {
+        "MATRIX": 158
+      },
+      "path": "index/fields_by_dataset/risk70.csv"
+    },
+    {
+      "dataset_id": "risk72",
+      "dataset_name": "Specific return of extended factors",
+      "dataset_category": "Risk",
+      "field_count": 3,
+      "field_types": {
+        "MATRIX": 3
+      },
+      "path": "index/fields_by_dataset/risk72.csv"
+    },
+    {
+      "dataset_id": "risk82",
+      "dataset_name": "ETF Risk Data",
+      "dataset_category": "Model",
+      "field_count": 234,
+      "field_types": {
+        "VECTOR": 234
+      },
+      "path": "index/fields_by_dataset/risk82.csv"
+    },
+    {
+      "dataset_id": "search_interest",
+      "dataset_name": "Rapid Search Interest Signals",
+      "dataset_category": "Other",
+      "field_count": 11,
+      "field_types": {
+        "VECTOR": 11
+      },
+      "path": "index/fields_by_dataset/search_interest.csv"
+    },
+    {
+      "dataset_id": "sentiment1",
+      "dataset_name": "Research Sentiment Data",
+      "dataset_category": "Sentiment",
+      "field_count": 19,
+      "field_types": {
+        "MATRIX": 19
+      },
+      "path": "index/fields_by_dataset/sentiment1.csv"
+    },
+    {
+      "dataset_id": "sentiment21",
+      "dataset_name": "AI Sentiment Score Data",
+      "dataset_category": "Sentiment",
+      "field_count": 258,
+      "field_types": {
+        "MATRIX": 258
+      },
+      "path": "index/fields_by_dataset/sentiment21.csv"
+    },
+    {
+      "dataset_id": "sentiment22",
+      "dataset_name": "News Sentiment Scores",
+      "dataset_category": "Sentiment",
+      "field_count": 210,
+      "field_types": {
+        "MATRIX": 210
+      },
+      "path": "index/fields_by_dataset/sentiment22.csv"
+    },
+    {
+      "dataset_id": "sentiment23",
+      "dataset_name": "Textual Sentiment Analysis Data",
+      "dataset_category": "Sentiment",
+      "field_count": 210,
+      "field_types": {
+        "MATRIX": 210
+      },
+      "path": "index/fields_by_dataset/sentiment23.csv"
+    },
+    {
+      "dataset_id": "sentiment26",
+      "dataset_name": "Website Popularity Ranking Dataset",
+      "dataset_category": "Sentiment",
+      "field_count": 36,
+      "field_types": {
+        "VECTOR": 36
+      },
+      "path": "index/fields_by_dataset/sentiment26.csv"
+    },
+    {
+      "dataset_id": "sentiment27",
+      "dataset_name": "Website Popularity Rankings",
+      "dataset_category": "Sentiment",
+      "field_count": 17,
+      "field_types": {
+        "VECTOR": 17
+      },
+      "path": "index/fields_by_dataset/sentiment27.csv"
+    },
+    {
+      "dataset_id": "sentiment7",
+      "dataset_name": "Webpage Views  Data",
+      "dataset_category": "Sentiment",
+      "field_count": 45,
+      "field_types": {
+        "VECTOR": 45
+      },
+      "path": "index/fields_by_dataset/sentiment7.csv"
+    },
+    {
+      "dataset_id": "short_interest_pred",
+      "dataset_name": "Short Interest Forecast Signals",
+      "dataset_category": "Short Interest",
+      "field_count": 10,
+      "field_types": {
+        "MATRIX": 10
+      },
+      "path": "index/fields_by_dataset/short_interest_pred.csv"
+    },
+    {
+      "dataset_id": "shortinterest24",
+      "dataset_name": "Short Sale Circuit Breaker Data",
+      "dataset_category": "Short Interest",
+      "field_count": 1,
+      "field_types": {
+        "MATRIX": 1
+      },
+      "path": "index/fields_by_dataset/shortinterest24.csv"
+    },
+    {
+      "dataset_id": "shortinterest29",
+      "dataset_name": "Group Short Sale Data",
+      "dataset_category": "Short Interest",
+      "field_count": 32,
+      "field_types": {
+        "MATRIX": 32
+      },
+      "path": "index/fields_by_dataset/shortinterest29.csv"
+    },
+    {
+      "dataset_id": "shortinterest3",
+      "dataset_name": "Securities Lending Files Data",
+      "dataset_category": "Short Interest",
+      "field_count": 31,
+      "field_types": {
+        "VECTOR": 31
+      },
+      "path": "index/fields_by_dataset/shortinterest3.csv"
+    },
+    {
+      "dataset_id": "shortinterest43",
+      "dataset_name": "Short Sell Dataset",
+      "dataset_category": "Short Interest",
+      "field_count": 32,
+      "field_types": {
+        "MATRIX": 32
+      },
+      "path": "index/fields_by_dataset/shortinterest43.csv"
+    },
+    {
+      "dataset_id": "shortinterest7",
+      "dataset_name": "Short Selling Model",
+      "dataset_category": "Model",
+      "field_count": 16,
+      "field_types": {
+        "VECTOR": 16
+      },
+      "path": "index/fields_by_dataset/shortinterest7.csv"
+    },
+    {
+      "dataset_id": "social_sent_score",
+      "dataset_name": "Equity Social Sentiment Scores",
+      "dataset_category": "Other",
+      "field_count": 3,
+      "field_types": {
+        "VECTOR": 3
+      },
+      "path": "index/fields_by_dataset/social_sent_score.csv"
+    },
+    {
+      "dataset_id": "socialmedia12",
+      "dataset_name": "Sentiment Data for Equity",
+      "dataset_category": "Social Media",
+      "field_count": 18,
+      "field_types": {
+        "MATRIX": 12,
+        "VECTOR": 6
+      },
+      "path": "index/fields_by_dataset/socialmedia12.csv"
+    },
+    {
+      "dataset_id": "socialmedia8",
+      "dataset_name": "Social Media Data for Equity",
+      "dataset_category": "Social Media",
+      "field_count": 4,
+      "field_types": {
+        "MATRIX": 4
+      },
+      "path": "index/fields_by_dataset/socialmedia8.csv"
+    },
+    {
+      "dataset_id": "stock_cluster_dl",
+      "dataset_name": "Deep Learning Stock Clusters",
+      "dataset_category": "Other",
+      "field_count": 4,
+      "field_types": {
+        "MATRIX": 4
+      },
+      "path": "index/fields_by_dataset/stock_cluster_dl.csv"
+    },
+    {
+      "dataset_id": "stock_search_trends",
+      "dataset_name": "US Stock Search Trend Matrix",
+      "dataset_category": "Other",
+      "field_count": 12,
+      "field_types": {
+        "MATRIX": 12
+      },
+      "path": "index/fields_by_dataset/stock_search_trends.csv"
+    },
+    {
+      "dataset_id": "sustainable_profit",
+      "dataset_name": "Sustainable Profitability Factor Library",
+      "dataset_category": "Other",
+      "field_count": 122,
+      "field_types": {
+        "VECTOR": 122
+      },
+      "path": "index/fields_by_dataset/sustainable_profit.csv"
+    },
+    {
+      "dataset_id": "tech_chart_model",
+      "dataset_name": "Technical Indicator Chart Prediction",
+      "dataset_category": "Model",
+      "field_count": 384,
+      "field_types": {
+        "MATRIX": 384
+      },
+      "path": "index/fields_by_dataset/tech_chart_model.csv"
+    },
+    {
+      "dataset_id": "techindi_model",
+      "dataset_name": "Deep Learning Technical Indicator Returns",
+      "dataset_category": "Other",
+      "field_count": 1830,
+      "field_types": {
+        "MATRIX": 1830
+      },
+      "path": "index/fields_by_dataset/techindi_model.csv"
+    },
+    {
+      "dataset_id": "twitter_sentiment_l2",
+      "dataset_name": "Twitter Sentiment Signal Aggregation",
+      "dataset_category": "Social Media",
+      "field_count": 95,
+      "field_types": {
+        "MATRIX": 95
+      },
+      "path": "index/fields_by_dataset/twitter_sentiment_l2.csv"
+    },
+    {
+      "dataset_id": "univ1",
+      "dataset_name": "Universe Dataset",
+      "dataset_category": "Price Volume",
+      "field_count": 6,
+      "field_types": {
+        "UNIVERSE": 6
+      },
+      "path": "index/fields_by_dataset/univ1.csv"
+    },
+    {
+      "dataset_id": "univ2",
+      "dataset_name": "Universe Dataset",
+      "dataset_category": "Price Volume",
+      "field_count": 1,
+      "field_types": {
+        "UNIVERSE": 1
+      },
+      "path": "index/fields_by_dataset/univ2.csv"
+    },
+    {
+      "dataset_id": "us_equity_news",
+      "dataset_name": "US Equity Quantitative News Sentiment",
+      "dataset_category": "Other",
+      "field_count": 8,
+      "field_types": {
+        "VECTOR": 8
+      },
+      "path": "index/fields_by_dataset/us_equity_news.csv"
+    },
+    {
+      "dataset_id": "us_short_sale",
+      "dataset_name": "US Equity Short Sale Volume",
+      "dataset_category": "Short Interest",
+      "field_count": 4,
+      "field_types": {
+        "MATRIX": 4
+      },
+      "path": "index/fields_by_dataset/us_short_sale.csv"
+    },
+    {
+      "dataset_id": "web_traffic_engage",
+      "dataset_name": "Web Traffic Engagement Signals",
+      "dataset_category": "Other",
+      "field_count": 105,
+      "field_types": {
+        "MATRIX": 105
+      },
+      "path": "index/fields_by_dataset/web_traffic_engage.csv"
+    },
+    {
+      "dataset_id": "workforce_flow_skills",
+      "dataset_name": "Global Workforce Flow and Skills Analytics",
+      "dataset_category": "Other",
+      "field_count": 26,
+      "field_types": {
+        "VECTOR": 26
+      },
+      "path": "index/fields_by_dataset/workforce_flow_skills.csv"
+    }
+  ]
+}

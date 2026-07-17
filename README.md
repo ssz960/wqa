@@ -1,29 +1,41 @@
 # WQ GPT Factor Context
 
-This repository contains a consultant-level WorldQuant BRAIN factor-design context snapshot.
+This repository is a read-only research context package for WorldQuant BRAIN
+field discovery and factor-design planning. It contains no credentials,
+simulation submissions, alpha submissions, or Osmosis writes.
 
-## Files
+## Repository layout
 
-- `reports/data_fields/gpt_factor_context_current.md`: prompt-safe catalog of datasets, operators, simulation settings, captured defaults, and GPT retrieval rules.
-- `reports/data_fields/available_data_fields_current.csv`: exact USA / TOP3000 / delay 1 authoritative field registry.
-- `reports/data_fields/index/field_catalog_manifest.json`: registry counts, scope, hashes, and index metadata.
-- `reports/data_fields/index/field_keyword_index.csv`: compact recall index with `field_id`, dataset, type, description, keywords, coverage, region, and delay.
-- `reports/data_fields/index/fields_by_dataset/`: one CSV per dataset for narrow retrieval.
-- `tools/search_available_fields.py`: local deterministic search over the keyword index.
+```text
+reports/
+└─ data_fields/
+   ├─ gpt_factor_context_current.md
+   ├─ available_data_fields_current.csv
+   ├─ field_catalog_manifest.json
+   └─ index/
+      ├─ field_keyword_index.csv
+      └─ fields_by_dataset/
+tools/
+├─ build_field_index.py
+└─ search_available_fields.py
+```
 
-## Scope
+The complete CSV is the source of truth. The keyword index and the per-dataset
+files are generated retrieval views, so a refresh should replace them together.
+The current registry is USA / TOP3000 / delay 1 with 85,612 fields across 299
+datasets. Do not paste the full CSV into a single GPT prompt; retrieve a small,
+scope-locked candidate set instead.
 
-- 299 datasets
-- 85,612 fields
-- 85 operators
-- 18 simulation settings
-- 8 regions exposed by the simulation OPTIONS schema
-- Current field CSV scope: USA / TOP3000 / delay 1
-
-The full CSV should be searched or retrieved by scope and dataset. It should not be pasted into one GPT prompt. No credentials, simulation submissions, alpha submissions, or Osmosis writes are included.
-
-Example:
+## Search examples
 
 ```text
 python tools/search_available_fields.py --query earnings surprise --dataset analyst15 --field-type MATRIX --limit 20 --format json
+python tools/search_available_fields.py --query cash flow --category Fundamental --limit 30
+python tools/search_available_fields.py --list-datasets --category Analyst
+grep -i "surprise" reports/data_fields/index/field_keyword_index.csv
 ```
+
+Use `field_catalog_manifest.json` to verify the source hash, row count, scope,
+and index paths before using a result in research. GPT consumes the compact
+context and selected field results; Codex maintains, regenerates, and verifies
+the registry and indexes.

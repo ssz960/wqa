@@ -1,2 +1,2 @@
-"dataset_id","dataset_name","dataset_category","field_id","field_name","description","field_type","region","universe","delay","coverage","user_permission","permission_level","last_seen","notes"
-"model59","Credit Analytics Data","Model","mdl59_numericvalue","mdl59_numericvalue","Numeric Value","VECTOR","USA","TOP3000","1","0.9687","","","2026-07-16T15:20:39","possible_direction=unknown"
+dataset_id,dataset_name,dataset_category,field_id,field_name,description,field_type,region,universe,delay,coverage,user_permission,permission_level,last_seen,notes,keywords
+model59,Credit Analytics Data,Model,mdl59_numericvalue,mdl59_numericvalue,Numeric Value,VECTOR,USA,TOP3000,1,0.9687,,,2026-07-16T15:20:39,possible_direction=unknown,analytics credit data mdl59_numericvalue model model59 numeric possible_direction unknown value
