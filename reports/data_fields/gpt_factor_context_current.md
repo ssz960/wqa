@@ -400,9 +400,9 @@ Operators and settings are compact enough to provide as capability context; stil
 - `power(x, y)`: Returns x raised to the power of y (x ^ y). Note: power(x, y) can drop the sign of x when y is non-integer; use signed_power(x, y) to preserve the sign of x.
 - `reverse(x)`:  - x
 - `sigmoid(x)`: Returns 1 / (1 + exp(-x))
-- `sign(x)`: Returns the sign of a number: +1 for positive, -1 for negative, and 0 for zero. If the input is NaN, returns NaN.
-
-Input: Value of 7 instruments at day t: (2, -3, 5, 6, 3, NaN, -10)
+- `sign(x)`: Returns the sign of a number: +1 for positive, -1 for negative, and 0 for zero. If the input is NaN, returns NaN.
+
+Input: Value of 7 instruments at day t: (2, -3, 5, 6, 3, NaN, -10)
 Output: (1, -1, 1, 1, 1, NaN, -1)
 - `signed_power(x, y)`: x raised to the power of y such that final result preserves sign of x
 - `sqrt(x)`: Returns the non-negative square root of x. Equivalent to power(x, 0.5). Note: for x < 0 the result is undefined; to retain the sign of x, use signed_power(x, 0.5) instead.
@@ -485,8 +485,8 @@ Output: (1, -1, 1, 1, 1, NaN, -1)
 
 ### Transformational
 
-- `bucket(rank(x), range=“0, 1, 0.1”, skipBoth=False, NaNGroup=False)
-or
+- `bucket(rank(x), range=“0, 1, 0.1”, skipBoth=False, NaNGroup=False)
+or
 bucket(rank(x), buckets = “2,5,6,7,10”, skipBoth=False, NaNGroup=False)`: The bucket operator creates custom groups by dividing data into buckets (ranges) based on ranked values of any data field. These buckets can then be used with group operators like group_neutralize, group_rank, group_zscore etc.
 - `trade_when(x, y, z)`: The trade_when operator changes Alpha values only when a specific condition is met, keeps previous values otherwise, and can close positions by assigning NaN under an exit condition. It is useful for reducing turnover and controlling when trades are executed.
 
