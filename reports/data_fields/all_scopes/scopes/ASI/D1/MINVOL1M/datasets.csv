@@ -1,0 +1,162 @@
+﻿dataset_id,dataset_name,dataset_category,field_count,coverage,date_coverage,value_score,pyramid_multiplier,date_updated,variant_id,variant_path,variant_evidence
+acquisition_model,Corporate Acquisition Likelihood Model,Other,15,0.9177,0.9507,6.0,1.5,2026-03-01,acquisition_model__fc15,reports/data_fields/all_scopes/variants/acquisition_model__fc15.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+ai_equity_alpha,AI Equity Alpha Forecasts,Model,582,0.9847,0.9507,6.0,1.3,2026-02-01,ai_equity_alpha__fc582,reports/data_fields/all_scopes/variants/ai_equity_alpha__fc582.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+ai_factor_transfer,AI Enhanced Equity Factor Transfer,Model,20,1.0,0.9507,5.0,1.3,2026-03-01,ai_factor_transfer__fc20,reports/data_fields/all_scopes/variants/ai_factor_transfer__fc20.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+ai_news_scores,AI News Sentiment Scores,Other,105,0.5007,0.9003,7.0,1.5,2026-03-01,ai_news_scores__fc105,reports/data_fields/all_scopes/variants/ai_news_scores__fc105.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+analyst10,Performance-Weighted Analyst Estimates,Analyst,669,0.7256,1.0,3.0,1.5,2026-04-01,analyst10__fc669,reports/data_fields/all_scopes/variants/analyst10__fc669.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+analyst11,ESG scores,Analyst,210,0.6111,0.9507,5.0,1.5,2025-11-01,analyst11__fc210,reports/data_fields/all_scopes/variants/analyst11__fc210.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+analyst14,Estimations of Key Fundamentals,Analyst,155,0.5015,1.0,1.0,1.5,2022-07-01,analyst14__fc155,reports/data_fields/all_scopes/variants/analyst14__fc155.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+analyst15,Earnings forecasts,Analyst,1437,0.3947,1.0,1.0,1.5,2026-03-01,analyst15__fc1437,reports/data_fields/all_scopes/variants/analyst15__fc1437.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+analyst37,Japan Analyst Estimate Data,Analyst,119,0.2897,0.9507,4.0,1.5,2026-03-01,analyst37__fc119,reports/data_fields/all_scopes/variants/analyst37__fc119.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+analyst39,Analyst estimates & financial ratios,Analyst,52,0.798,1.0,2.0,1.5,2025-11-01,analyst39__fc52,reports/data_fields/all_scopes/variants/analyst39__fc52.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+analyst4,Analyst Estimate Data for Equity,Analyst,291,0.6057,1.0,1.0,1.5,2026-03-01,analyst4__fc291,reports/data_fields/all_scopes/variants/analyst4__fc291.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+analyst45,Analyst Trade Ideas,Analyst,241,0.368,1.0,4.0,1.5,2025-10-01,analyst45__fc241,reports/data_fields/all_scopes/variants/analyst45__fc241.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+analyst69,Fundamental Analyst Estimates,Analyst,992,0.8154,1.0,1.0,1.5,2026-03-01,analyst69__fc992,reports/data_fields/all_scopes/variants/analyst69__fc992.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+analyst72,Corporate Earning Estimates Data,Analyst,52,0.3527,1.0,6.0,1.5,2026-03-01,analyst72__fc52,reports/data_fields/all_scopes/variants/analyst72__fc52.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+analyst9,Analyst Estimate Daily Data,Analyst,50,0.6431,0.9507,3.0,1.5,2025-11-01,analyst9__fc50,reports/data_fields/all_scopes/variants/analyst9__fc50.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+analyst_base_ref,Analyst Estimates Base Reference,Analyst,14,0.7328,0.9507,5.0,1.5,2026-03-01,analyst_base_ref__fc14,reports/data_fields/all_scopes/variants/analyst_base_ref__fc14.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+analyst_consensus,Standardized Analyst Consensus Forecasts,Analyst,2372,0.6397,1.0,6.0,1.5,2026-03-01,analyst_consensus__fc2372,reports/data_fields/all_scopes/variants/analyst_consensus__fc2372.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+analyst_earnings_ibes,Global Analyst Earnings Forecasts,Model,28,1.0,0.9507,5.0,1.3,2026-03-01,analyst_earnings_ibes__fc28,reports/data_fields/all_scopes/variants/analyst_earnings_ibes__fc28.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+analyst_factor_signals,Global Analyst Factor Signals,Analyst,59,0.5252,0.9507,5.0,1.5,2026-03-01,analyst_factor_signals__fc59,reports/data_fields/all_scopes/variants/analyst_factor_signals__fc59.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+analyst_revision_horizons,Multi Horizon Analyst Revision Signals,Model,1026,0.7075,1.0,7.0,1.3,2026-03-01,analyst_revision_horizons__fc1026,reports/data_fields/all_scopes/variants/analyst_revision_horizons__fc1026.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+behavioral_signals,Behavioral Finance Signal Factors,Model,7,0.8754,0.9507,7.0,1.3,2026-03-01,behavioral_signals__fc7,reports/data_fields/all_scopes/variants/behavioral_signals__fc7.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+broker1,user predictions from Minkabu,Broker,12,0.3918,1.0,3.0,1.1,2024-07-01,broker1__fc12,reports/data_fields/all_scopes/variants/broker1__fc12.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+chart_cnn_alpha,Deep Learning Chart-Based Alpha,Model,1010,0.953,1.0,6.0,1.3,2026-03-01,chart_cnn_alpha__fc1010,reports/data_fields/all_scopes/variants/chart_cnn_alpha__fc1010.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+continuation_score,Price Chart Continuation Pattern Similarity,Price Volume,560,1.0,1.0,5.0,1.0,2026-03-01,continuation_score__fc560,reports/data_fields/all_scopes/variants/continuation_score__fc560.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+corporate_news_index,Timely Corporate News Index,Other,4,0.3456,0.4096,10.0,1.5,2026-03-01,corporate_news_index__fc4,reports/data_fields/all_scopes/variants/corporate_news_index__fc4.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+dl_riskfree_returns,Deep Learning Risk Free Returns,Other,57,1.0,0.9507,4.0,1.5,2026-03-01,dl_riskfree_returns__fc57,reports/data_fields/all_scopes/variants/dl_riskfree_returns__fc57.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+earnings3,Earnings Date Data,Earnings,8,0.7787,0.9507,1.0,1.1,2022-10-01,earnings3__fc8,reports/data_fields/all_scopes/variants/earnings3__fc8.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+earnings6,International Findings Data,Earnings,64,0.4577,0.6621,2.0,1.1,2025-11-01,earnings6__fc64,reports/data_fields/all_scopes/variants/earnings6__fc64.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+equity_forum_data,International Equity Forum Activity,Other,8,0.4077,0.9507,10.0,1.5,2026-03-01,equity_forum_data__fc8,reports/data_fields/all_scopes/variants/equity_forum_data__fc8.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+event_relation,Text-Based Event Relationship Analysis,Other,6,0.3535,0.9507,7.0,1.5,2026-04-01,event_relation__fc6,reports/data_fields/all_scopes/variants/event_relation__fc6.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+event_stock_model,Corporate Event Driven Stock Model,Model,3,0.8444,0.9507,5.0,1.3,2026-03-01,event_stock_model__fc3,reports/data_fields/all_scopes/variants/event_stock_model__fc3.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+fund_holdings_panel,Global Institutional Fund Holdings,Institutions,30,0.8502,0.8992,5.0,1.2,2026-03-01,fund_holdings_panel__fc30,reports/data_fields/all_scopes/variants/fund_holdings_panel__fc30.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+fundamental1,Management and Executive Data,Fundamental,118,0.2522,0.9507,6.0,1.1,2025-10-01,fundamental1__fc118,reports/data_fields/all_scopes/variants/fundamental1__fc118.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+fundamental109,Japanese Corporate Governance Data,Fundamental,44,0.3166,0.609,4.0,1.1,2026-03-01,fundamental109__fc44,reports/data_fields/all_scopes/variants/fundamental109__fc44.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+fundamental17,Direct Fundamental Data,Fundamental,370,0.773,0.9507,1.0,1.1,2025-11-01,fundamental17__fc370,reports/data_fields/all_scopes/variants/fundamental17__fc370.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+fundamental22,Environmental and Social Governance Data,Fundamental,2,0.3665,0.9507,4.0,1.1,2022-07-01,fundamental22__fc2,reports/data_fields/all_scopes/variants/fundamental22__fc2.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+fundamental23,Fundamental Point in Time Data,Fundamental,376,0.7543,1.0,1.0,1.1,2025-11-01,fundamental23__fc376,reports/data_fields/all_scopes/variants/fundamental23__fc376.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+fundamental28,Global Fundamental Data,Fundamental,522,0.5,1.0,1.0,1.1,2022-05-01,fundamental28__fc522,reports/data_fields/all_scopes/variants/fundamental28__fc522.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+fundamental30,Japan fundamental data by sectors,Fundamental,330,0.5,1.0,4.0,1.1,2022-10-01,fundamental30__fc330,reports/data_fields/all_scopes/variants/fundamental30__fc330.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+fundamental31,Additional Factor Model,Fundamental,98,0.4453,1.0,4.0,1.1,2026-04-01,fundamental31__fc98,reports/data_fields/all_scopes/variants/fundamental31__fc98.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+fundamental4,Hong Kong Fundamental Data,Fundamental,1,0.4675,0.9507,2.0,1.1,2022-12-01,fundamental4__fc1,reports/data_fields/all_scopes/variants/fundamental4__fc1.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+fundamental6,Company Fundamental Data for Equity,Fundamental,295,0.5,1.0,1.0,1.1,2022-05-01,fundamental6__fc295,reports/data_fields/all_scopes/variants/fundamental6__fc295.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+fundamental86,Stock Reports Plus,Fundamental,10,0.7995,1.0,3.0,1.1,2025-10-01,fundamental86__fc10,reports/data_fields/all_scopes/variants/fundamental86__fc10.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+global_seasonal_model,Global Seasonal Regime Return Signals,Model,681,0.9991,1.0,6.0,1.3,2026-04-01,global_seasonal_model__fc681,reports/data_fields/all_scopes/variants/global_seasonal_model__fc681.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+imbalance5,Oil Price Resilience Scores,Imbalance,2,0.8698,0.9507,1.0,1.0,2023-11-01,imbalance5__fc2,reports/data_fields/all_scopes/variants/imbalance5__fc2.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+insider_feats,Global Insider Transaction Features,Other,33,0.334,0.9507,7.0,1.5,2026-03-01,insider_feats__fc33,reports/data_fields/all_scopes/variants/insider_feats__fc33.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+institutions6,Institutions and Beneficial Stake Ownership,Institutions,11,0.9991,0.9507,2.0,1.2,2025-10-01,institutions6__fc11,reports/data_fields/all_scopes/variants/institutions6__fc11.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+intraday_pv_feats,Daily Intraday Price Volume Features,Price Volume,582,0.9704,0.9507,5.0,1.0,2026-03-01,intraday_pv_feats__fc582,reports/data_fields/all_scopes/variants/intraday_pv_feats__fc582.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+macro63,Index Reconstitution Data,Macro,1,1.0,0.9507,2.0,1.0,2025-07-01,macro63__fc1,reports/data_fields/all_scopes/variants/macro63__fc1.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+ml_factor_proj,Machine Learning Factor Projections,Other,333,1.0,0.9507,6.0,1.5,2026-03-01,ml_factor_proj__fc333,reports/data_fields/all_scopes/variants/ml_factor_proj__fc333.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+mmp_nlp_sentiment,Multilingual NLP News Sentiment Signals,Other,521,0.7742,1.0,7.0,1.5,2026-04-01,mmp_nlp_sentiment__fc521,reports/data_fields/all_scopes/variants/mmp_nlp_sentiment__fc521.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+model106,Analysts rating model,Model,14,0.3943,0.9507,3.0,1.3,2025-10-01,model106__fc14,reports/data_fields/all_scopes/variants/model106__fc14.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+model110,Big data and machine learning based model,Model,8,0.8844,0.9507,1.0,1.3,2022-10-01,model110__fc8,reports/data_fields/all_scopes/variants/model110__fc8.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+model135,Alternative technical factor models,Model,137,0.8629,1.0,2.0,1.3,2025-10-01,model135__fc137,reports/data_fields/all_scopes/variants/model135__fc137.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+model138,Stock Selection from Accounting-based Factors,Model,120,0.8713,0.9507,2.0,1.3,2022-12-01,model138__fc120,reports/data_fields/all_scopes/variants/model138__fc120.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+model140,Sensitivity to the Inflation Change,Model,3,0.8188,0.9507,3.0,1.3,2022-10-01,model140__fc3,reports/data_fields/all_scopes/variants/model140__fc3.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+model141,Interest Rate Sensitivity Measures,Model,4,0.3346,1.0,4.0,1.3,2022-09-01,model141__fc4,reports/data_fields/all_scopes/variants/model141__fc4.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+model144,Stock Selection DL model,Model,2,0.8686,0.9507,2.0,1.3,2022-09-01,model144__fc2,reports/data_fields/all_scopes/variants/model144__fc2.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+model16,Fundamental Scores,Model,24,0.5669,0.9507,2.0,1.3,2025-11-01,model16__fc24,reports/data_fields/all_scopes/variants/model16__fc24.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+model170,Asia Technical and Fundamental ranking model,Model,22,0.9131,0.9252,4.0,1.3,2025-10-01,model170__fc22,reports/data_fields/all_scopes/variants/model170__fc22.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+model207,Asian Insider Transaction Data,Model,5,0.3538,1.0,4.0,1.3,2025-10-01,model207__fc5,reports/data_fields/all_scopes/variants/model207__fc5.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+model219,Canadian Equity Quantitative Models,Model,1012,0.7518,1.0,4.0,1.3,2026-04-01,model219__fc1012,reports/data_fields/all_scopes/variants/model219__fc1012.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+model238,SmartHoldings Model,Model,44,0.9758,0.9507,3.0,1.3,2025-11-01,model238__fc44,reports/data_fields/all_scopes/variants/model238__fc44.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+model243,Combined Alpha Model,Model,4,0.9425,1.0,2.0,1.3,2024-12-01,model243__fc4,reports/data_fields/all_scopes/variants/model243__fc4.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+model25,Earnings Quality,Model,611,0.7663,1.0,2.0,1.3,2026-04-01,model25__fc611,reports/data_fields/all_scopes/variants/model25__fc611.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+model26,Analyst Revisions,Model,635,0.7105,1.0,1.0,1.3,2025-11-01,model26__fc635,reports/data_fields/all_scopes/variants/model26__fc635.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+model28,Structural Credit Risk Model,Model,125,0.9705,1.0,2.0,1.3,2026-03-01,model28__fc125,reports/data_fields/all_scopes/variants/model28__fc125.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+model29,EBITDA Estimate Model,Model,76,0.6705,1.0,2.0,1.3,2026-03-01,model29__fc76,reports/data_fields/all_scopes/variants/model29__fc76.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+model30,EPS Estimate Model,Model,64,0.6797,1.0,2.0,1.3,2025-11-01,model30__fc64,reports/data_fields/all_scopes/variants/model30__fc64.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+model307,Global Sales Allocation Model Data,Model,15,0.7822,1.0,6.0,1.3,2026-03-01,model307__fc15,reports/data_fields/all_scopes/variants/model307__fc15.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+model31,Earnings Quality Model,Model,156,0.8382,1.0,2.0,1.3,2025-11-01,model31__fc156,reports/data_fields/all_scopes/variants/model31__fc156.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+model313,Intangible Asset Factors,Model,9,0.8664,1.0,5.0,1.3,2025-07-01,model313__fc9,reports/data_fields/all_scopes/variants/model313__fc9.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+model32,Price Momentum Model,Model,36,0.9692,0.9507,2.0,1.3,2025-11-01,model32__fc36,reports/data_fields/all_scopes/variants/model32__fc36.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+model33,Revenue Estimate Model,Model,32,0.6945,1.0,2.0,1.3,2025-11-01,model33__fc32,reports/data_fields/all_scopes/variants/model33__fc32.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+model36,SmartRatios Model,Model,43,0.9746,1.0,2.0,1.3,2025-11-01,model36__fc43,reports/data_fields/all_scopes/variants/model36__fc43.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+model37,Text Mining Data,Model,79,0.8029,0.9507,5.0,1.3,2025-11-01,model37__fc79,reports/data_fields/all_scopes/variants/model37__fc79.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+model38,Growth Valuation Model,Model,120,0.8398,0.9507,1.0,1.3,2025-11-01,model38__fc120,reports/data_fields/all_scopes/variants/model38__fc120.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+model39,Valuation Momentum Data,Model,24,0.9408,0.9507,1.0,1.3,2025-10-01,model39__fc24,reports/data_fields/all_scopes/variants/model39__fc24.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+model50,International Scorings Data,Model,54,0.6521,1.0,5.0,1.3,2025-10-01,model50__fc54,reports/data_fields/all_scopes/variants/model50__fc54.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+model53,Creditworthiness Risk Measure Model,Model,52,0.9159,1.0,2.0,1.3,2026-03-01,model53__fc52,reports/data_fields/all_scopes/variants/model53__fc52.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+model56,Stock Reports Plus,Fundamental,9,0.8717,1.0,1.0,1.1,2022-01-01,model56__fc9,reports/data_fields/all_scopes/variants/model56__fc9.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+model68,Risk-Alleviated Momentum Scores,Model,4,0.865,0.9507,4.0,1.3,2023-11-01,model68__fc4,reports/data_fields/all_scopes/variants/model68__fc4.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+multi_horizon_alpha,Multi Horizon Alpha Decomposition,Model,108,0.3566,0.9507,8.0,1.3,2026-03-01,multi_horizon_alpha__fc108,reports/data_fields/all_scopes/variants/multi_horizon_alpha__fc108.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+multi_source_model,Multi-Source Market Return Prediction,Model,60,0.9508,0.626,6.0,1.3,2026-03-01,multi_source_model__fc60,reports/data_fields/all_scopes/variants/multi_source_model__fc60.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+multifactor_return_pred,Multi Factor Market Return Predictions,Model,648,0.9471,0.626,6.0,1.3,2026-03-01,multifactor_return_pred__fc648,reports/data_fields/all_scopes/variants/multifactor_return_pred__fc648.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+news17,PR Edition Data,News,22,0.4323,1.0,2.0,1.3,2025-11-01,news17__fc22,reports/data_fields/all_scopes/variants/news17__fc22.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+news18,Ravenpack News Data,News,64,0.5821,1.0,1.0,1.3,2026-03-01,news18__fc64,reports/data_fields/all_scopes/variants/news18__fc64.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+news20,Web Sources News Sentiment Data,News,24,0.622,1.0,2.0,1.3,2025-11-01,news20__fc24,reports/data_fields/all_scopes/variants/news20__fc24.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+news21,Macro Economic Event Data,News,14,0.6766,0.9507,4.0,1.3,2025-11-01,news21__fc14,reports/data_fields/all_scopes/variants/news21__fc14.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+news23,MnA Deals Data,News,93,0.3422,1.0,4.0,1.3,2025-10-01,news23__fc93,reports/data_fields/all_scopes/variants/news23__fc93.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+news29,Significant Developments Data,News,12,0.5511,1.0,3.0,1.3,2026-03-01,news29__fc12,reports/data_fields/all_scopes/variants/news29__fc12.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+news31,News Analytics on Equities,News,25,0.6469,0.9507,2.0,1.3,2022-07-01,news31__fc25,reports/data_fields/all_scopes/variants/news31__fc25.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+news36,News Analytics Data,News,43,0.6108,1.0,3.0,1.3,2025-11-01,news36__fc43,reports/data_fields/all_scopes/variants/news36__fc43.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+news38,News Analytic Model Data,News,44,0.8561,1.0,2.0,1.3,2025-11-01,news38__fc44,reports/data_fields/all_scopes/variants/news38__fc44.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+news46,Relevant News Analytics Data,News,44,0.6589,0.9507,2.0,1.3,2025-11-01,news46__fc44,reports/data_fields/all_scopes/variants/news46__fc44.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+news48,Global Media News Data,News,22,0.3638,1.0,3.0,1.3,2025-10-01,news48__fc22,reports/data_fields/all_scopes/variants/news48__fc22.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+news50,Web News Analytics Data,News,81,0.7576,1.0,2.0,1.3,2025-11-01,news50__fc81,reports/data_fields/all_scopes/variants/news50__fc81.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+news54,Key Developments Data,News,40,0.7608,1.0,2.0,1.3,2025-10-01,news54__fc40,reports/data_fields/all_scopes/variants/news54__fc40.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+news59,Corporate Events Data,News,2,0.9585,0.9507,2.0,1.3,2022-12-01,news59__fc2,reports/data_fields/all_scopes/variants/news59__fc2.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+news66,Webpage View Statistics,News,3,0.5,1.0,3.0,1.3,2022-12-01,news66__fc3,reports/data_fields/all_scopes/variants/news66__fc3.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+news7,Real Time News Feed Data,News,44,0.8411,1.0,1.0,1.3,2025-11-01,news7__fc44,reports/data_fields/all_scopes/variants/news7__fc44.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+news73,Story by Story Sentiment,News,22,0.6448,0.9507,5.0,1.3,2025-10-01,news73__fc22,reports/data_fields/all_scopes/variants/news73__fc22.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+news76,Textual News Feed Data,News,6,0.7504,0.8217,4.0,1.3,2025-10-01,news76__fc6,reports/data_fields/all_scopes/variants/news76__fc6.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+news84,Headline Sentiment Analysis using DNN,News,23,0.4977,0.9507,4.0,1.3,2025-10-01,news84__fc23,reports/data_fields/all_scopes/variants/news84__fc23.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+news85,News Sentiment Analysis using DNN,News,23,0.7534,0.9507,4.0,1.3,2025-10-01,news85__fc23,reports/data_fields/all_scopes/variants/news85__fc23.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+news_sentiment_dl,Deep Learning News Sentiment Signals,Other,22,0.6936,0.9507,7.0,1.5,2026-02-01,news_sentiment_dl__fc22,reports/data_fields/all_scopes/variants/news_sentiment_dl__fc22.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+news_sentiment_nlp,News Sentiment Signal Features,Other,23,0.6754,1.0,9.0,1.5,2026-03-01,news_sentiment_nlp__fc23,reports/data_fields/all_scopes/variants/news_sentiment_nlp__fc23.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+news_sentiment_transfer,Transferred News Sentiment Analytics,Sentiment,23,0.9592,0.9507,5.0,1.4,2026-03-01,news_sentiment_transfer__fc23,reports/data_fields/all_scopes/variants/news_sentiment_transfer__fc23.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+other128,Global Executive Performance Factors,Other,8,0.3263,1.0,3.0,1.5,2024-07-01,other128__fc8,reports/data_fields/all_scopes/variants/other128__fc8.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+other250,details data,Other,9,0.2686,0.9507,7.0,1.5,2026-03-01,other250__fc9,reports/data_fields/all_scopes/variants/other250__fc9.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+other315,Equity Swap Data,Other,32,0.3202,1.0,5.0,1.5,2025-10-01,other315__fc32,reports/data_fields/all_scopes/variants/other315__fc32.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+other323,Global Equity Premarket Data,Other,11,0.934,0.9507,3.0,1.5,2025-10-01,other323__fc11,reports/data_fields/all_scopes/variants/other323__fc11.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+other327,Sensitivity to Interest Rates Model,Other,3,0.8152,0.9507,4.0,1.5,2022-10-01,other327__fc3,reports/data_fields/all_scopes/variants/other327__fc3.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+other335,Multi-Region Dividend Alpha Model Dataset,Other,10,0.7334,0.9507,1.0,1.5,2023-11-01,other335__fc10,reports/data_fields/all_scopes/variants/other335__fc10.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+other36,Outstanding Short Positions for Japanese Equities,Other,10,0.2748,0.8168,5.0,1.5,2024-07-01,other36__fc10,reports/data_fields/all_scopes/variants/other36__fc10.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+other424,Dividend prediction model,Other,3,0.7301,0.9507,4.0,1.5,2025-10-01,other424__fc3,reports/data_fields/all_scopes/variants/other424__fc3.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+other428,Japanese PnL Guidance,Other,11,0.3326,1.0,4.0,1.5,2024-07-01,other428__fc11,reports/data_fields/all_scopes/variants/other428__fc11.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+other436,Dividend model,Other,3,0.7234,0.9507,5.0,1.5,2022-12-01,other436__fc3,reports/data_fields/all_scopes/variants/other436__fc3.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+other455,Relationship enhanced with AI/ML,Other,1500,0.8131,1.0,4.0,1.5,2026-03-01,other455__fc1500,reports/data_fields/all_scopes/variants/other455__fc1500.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+other496,Intraday FX rates,Other,159,0.6382,1.0,3.0,1.5,2024-07-01,other496__fc159,reports/data_fields/all_scopes/variants/other496__fc159.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+other545,Linked Firms Momentum Data,Other,4,0.8553,0.9507,5.0,1.5,2023-07-01,other545__fc4,reports/data_fields/all_scopes/variants/other545__fc4.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+other546,Institutional Network Analysis Dataset,Other,10,0.5787,0.9507,6.0,1.5,2026-03-01,other546__fc10,reports/data_fields/all_scopes/variants/other546__fc10.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+other553,Financial Opinion Mining,Sentiment,13,0.6593,1.0,4.0,1.4,2023-11-01,other553__fc13,reports/data_fields/all_scopes/variants/other553__fc13.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+other567,Employee Review Data,Other,37,0.2477,1.0,6.0,1.5,2025-11-01,other567__fc37,reports/data_fields/all_scopes/variants/other567__fc37.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+other571,Wikipedia Viewing Data,Other,30,0.4163,0.9507,6.0,1.5,2025-10-01,other571__fc30,reports/data_fields/all_scopes/variants/other571__fc30.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+other635,Thomson Reuters News Analytics Equities,Other,6,0.6252,0.9507,5.0,1.5,2025-10-01,other635__fc6,reports/data_fields/all_scopes/variants/other635__fc6.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+other78,Earnings and conference call data,Other,12,0.6796,1.0,3.0,1.5,2022-10-01,other78__fc12,reports/data_fields/all_scopes/variants/other78__fc12.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+pattern_scores,Chart Pattern Similarity Scores,Price Volume,504,1.0,1.0,6.0,1.0,2026-03-01,pattern_scores__fc504,reports/data_fields/all_scopes/variants/pattern_scores__fc504.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+predictive_starmine,Predictive Analyst-Company Signal Set,Model,645,0.9179,1.0,6.0,1.3,2026-03-01,predictive_starmine__fc645,reports/data_fields/all_scopes/variants/predictive_starmine__fc645.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+price_signal_dl,Deep Learning Price Signal Dataset,Model,28,0.9129,0.9507,5.0,1.3,2026-03-01,price_signal_dl__fc28,reports/data_fields/all_scopes/variants/price_signal_dl__fc28.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+pv1,Price Volume Data for Equity,Price Volume,24,1.0,1.0,1.0,1.0,2026-04-01,pv1__fc24,reports/data_fields/all_scopes/variants/pv1__fc24.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+pv103,Interval and MOO&MOC statistics,Price Volume,7,1.0,0.9507,2.0,1.0,2025-10-01,pv103__fc7,reports/data_fields/all_scopes/variants/pv103__fc7.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+pv106,Microstructure Spread Data,Price Volume,29,1.0,1.0,2.0,1.0,2025-11-01,pv106__fc29,reports/data_fields/all_scopes/variants/pv106__fc29.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+pv109,Bond Yield Data,Price Volume,25,0.2259,1.0,5.0,1.0,2025-10-01,pv109__fc25,reports/data_fields/all_scopes/variants/pv109__fc25.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+pv13,Relationship Data for Equity,Price Volume,50,0.7917,1.0,1.0,1.0,2025-11-01,pv13__fc50,reports/data_fields/all_scopes/variants/pv13__fc50.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+pv149,Holidays and Trading Hours Calendar,Price Volume,1,1.0,0.9507,4.0,1.0,2025-10-01,pv149__fc1,reports/data_fields/all_scopes/variants/pv149__fc1.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+pv173,Corporate Bond Pricing Data,Price Volume,21,0.3644,1.0,4.0,1.0,2025-06-01,pv173__fc21,reports/data_fields/all_scopes/variants/pv173__fc21.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+pv29,Derived Industry Classification,Price Volume,60,0.5779,0.9507,1.0,1.0,2025-10-01,pv29__fc60,reports/data_fields/all_scopes/variants/pv29__fc60.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+pv3,Global Daily Pricing Data,Price Volume,1,0.4295,1.0,5.0,1.0,2026-03-01,pv3__fc1,reports/data_fields/all_scopes/variants/pv3__fc1.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+pv30,Alternate Industry Classification,Price Volume,735,0.8993,0.9507,4.0,1.0,2025-11-01,pv30__fc735,reports/data_fields/all_scopes/variants/pv30__fc735.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+pv37,Equity Interval Data,Price Volume,706,0.7547,1.0,1.0,1.0,2023-11-01,pv37__fc706,reports/data_fields/all_scopes/variants/pv37__fc706.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+pv47,Specific Return Dataset,Price Volume,5,1.0,1.0,1.0,1.0,2025-11-01,pv47__fc5,reports/data_fields/all_scopes/variants/pv47__fc5.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+pv70,Relation Dataset,Price Volume,33,0.2581,1.0,4.0,1.0,2025-10-01,pv70__fc33,reports/data_fields/all_scopes/variants/pv70__fc33.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+pv96,Corporate Action Dataset,Price Volume,4,0.5,1.0,1.0,1.0,2022-12-01,pv96__fc4,reports/data_fields/all_scopes/variants/pv96__fc4.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+quant_factor_lib,Multi-Domain Quantitative Factor Library,Model,32,0.742,0.3672,7.0,1.3,2026-03-01,quant_factor_lib__fc32,reports/data_fields/all_scopes/variants/quant_factor_lib__fc32.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+risk60,Securities Lending Insight Data,Risk,5,0.9389,0.9507,1.0,1.0,2026-03-01,risk60__fc5,reports/data_fields/all_scopes/variants/risk60__fc5.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+risk68,Forecast Data,Risk,5,0.989,0.9507,2.0,1.0,2022-09-01,risk68__fc5,reports/data_fields/all_scopes/variants/risk68__fc5.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+risk70,Multi-Factor Model,Risk,79,0.9015,1.0,1.0,1.0,2026-03-01,risk70__fc79,reports/data_fields/all_scopes/variants/risk70__fc79.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+risk72,Specific return of extended factors,Risk,8,0.453,1.0,1.0,1.0,2026-03-01,risk72__fc8,reports/data_fields/all_scopes/variants/risk72__fc8.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+search_interest,Rapid Search Interest Signals,Other,9,0.3122,1.0,7.0,1.5,2026-03-01,search_interest__fc9,reports/data_fields/all_scopes/variants/search_interest__fc9.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+sentiment21,AI Sentiment Score Data,Sentiment,138,0.7069,1.0,4.0,1.4,2025-11-01,sentiment21__fc138,reports/data_fields/all_scopes/variants/sentiment21__fc138.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+sentiment23,Textual Sentiment Analysis Data,Sentiment,156,0.7722,1.0,4.0,1.4,2025-11-01,sentiment23__fc156,reports/data_fields/all_scopes/variants/sentiment23__fc156.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+sentiment26,Website Popularity Ranking Dataset,Sentiment,19,0.4543,0.7202,4.0,1.4,2025-07-01,sentiment26__fc19,reports/data_fields/all_scopes/variants/sentiment26__fc19.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+sentiment27,Website Popularity Rankings,Sentiment,31,0.6497,1.0,2.0,1.4,2026-03-01,sentiment27__fc31,reports/data_fields/all_scopes/variants/sentiment27__fc31.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+sentiment7,Webpage Views  Data,Sentiment,4,0.4154,1.0,6.0,1.4,2026-03-01,sentiment7__fc4,reports/data_fields/all_scopes/variants/sentiment7__fc4.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+shortinterest5,Daily Price Limit Data,Short Interest,3,0.9624,0.9507,4.0,1.3,2025-10-01,shortinterest5__fc3,reports/data_fields/all_scopes/variants/shortinterest5__fc3.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+shortinterest6,SmartHoldings Model,Model,11,1.0,1.0,2.0,1.3,2022-05-01,shortinterest6__fc11,reports/data_fields/all_scopes/variants/shortinterest6__fc11.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+socialmedia12,Sentiment Data for Equity,Social Media,6,0.2837,0.9507,3.0,1.2,2025-11-01,socialmedia12__fc6,reports/data_fields/all_scopes/variants/socialmedia12__fc6.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+socialmedia32,socialmedia discussion,Social Media,12,0.3284,0.9507,5.0,1.2,2026-04-01,socialmedia32__fc12,reports/data_fields/all_scopes/variants/socialmedia32__fc12.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+univ1,Universe Dataset,Price Volume,3,1.0,1.0,4.0,1.0,2026-03-01,univ1__fc3,reports/data_fields/all_scopes/variants/univ1__fc3.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+univ2,Universe Dataset,Price Volume,1,0.67,,4.0,1.0,2024-06-01,univ2__fc1,reports/data_fields/all_scopes/variants/univ2__fc1.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP

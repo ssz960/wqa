@@ -1,0 +1,18 @@
+{
+  "profile": "consultant_multi",
+  "enabled_by_default": false,
+  "probe_status": "PARTIAL",
+  "source": "USER_CONFIRMED_NEEDS_RUNTIME_PROBE",
+  "confidence": 0.5,
+  "regular": {
+    "max_concurrent_batches": 8,
+    "min_children_per_batch": 10,
+    "max_children_per_batch": 10
+  },
+  "daily": {
+    "daily_cap": 5000,
+    "day_boundary": "America/New_York",
+    "count_basis": "child"
+  },
+  "notes": "Explicit user-confirmed 8 parent slots x 10 REGULAR children. All children in one parent must share the compatibility settings key. Not an official entitlement proof; unknown budget or reconciliation fails closed to legacy_single."
+}

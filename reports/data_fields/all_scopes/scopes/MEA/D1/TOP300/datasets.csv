@@ -1,0 +1,17 @@
+﻿dataset_id,dataset_name,dataset_category,field_count,coverage,date_coverage,value_score,pyramid_multiplier,date_updated,variant_id,variant_path,variant_evidence
+analyst7,Broker Estimates,Analyst,715,0.478,1.0,2.0,1.5,2026-05-01,analyst7__fc715,reports/data_fields/all_scopes/variants/analyst7__fc715.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+analyst_base_ref,Analyst Estimates Base Reference,Analyst,4,0.7504,1.0,1.0,1.5,2026-04-01,analyst_base_ref__fc4,reports/data_fields/all_scopes/variants/analyst_base_ref__fc4.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+behavioral_signals,Behavioral Finance Signal Factors,Model,7,0.286,1.0,2.0,1.2,2026-04-01,behavioral_signals__fc7,reports/data_fields/all_scopes/variants/behavioral_signals__fc7.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+earnings3,Earnings Date Data,Earnings,4,0.4771,1.0,1.0,1.0,2026-04-01,earnings3__fc4,reports/data_fields/all_scopes/variants/earnings3__fc4.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+fundamental6,Company Fundamental Data for Equity,Fundamental,382,0.0,1.0,3.0,1.6,2026-05-01,fundamental6__fc382,reports/data_fields/all_scopes/variants/fundamental6__fc382.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+fundamental72,Comprehensive Fundamental Data,Fundamental,408,0.545,1.0,3.0,1.6,2026-05-01,fundamental72__fc408,reports/data_fields/all_scopes/variants/fundamental72__fc408.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+model242,Global Quantitative Stock Selection Data,Model,5,0.2719,1.0,2.0,1.2,2026-05-01,model242__fc5,reports/data_fields/all_scopes/variants/model242__fc5.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+model25,Earnings Quality,Model,214,0.8958,1.0,2.0,1.2,2026-04-01,model25__fc214,reports/data_fields/all_scopes/variants/model25__fc214.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+model252,Systematic Hedging for Investors to Evade Large Drawdowns,Model,3,0.2553,1.0,2.0,1.2,2026-04-01,model252__fc3,reports/data_fields/all_scopes/variants/model252__fc3.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+model31,Earnings Quality Model,Model,74,0.9518,1.0,1.0,1.2,2026-04-01,model31__fc74,reports/data_fields/all_scopes/variants/model31__fc74.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+pv1,Price Volume Data for Equity,Price Volume,23,0.087,1.0,1.0,1.2,2026-04-01,pv1__fc23,reports/data_fields/all_scopes/variants/pv1__fc23.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+pv106,Microstructure Spread Data,Price Volume,2,0.7976,1.0,2.0,1.2,2026-04-01,pv106__fc2,reports/data_fields/all_scopes/variants/pv106__fc2.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+pv29,Derived Industry Classification,Price Volume,5,0.2927,1.0,2.0,1.2,2026-04-01,pv29__fc5,reports/data_fields/all_scopes/variants/pv29__fc5.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+pv30,Alternate Industry Classification,Price Volume,12,0.2918,1.0,3.0,1.2,2026-05-01,pv30__fc12,reports/data_fields/all_scopes/variants/pv30__fc12.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+pv96,Corporate Action Dataset,Price Volume,255,0.8158,1.0,1.0,1.2,2026-05-01,pv96__fc255,reports/data_fields/all_scopes/variants/pv96__fc255.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
+univ1,Universe Dataset,Price Volume,1,1.0,1.0,7.0,1.2,2026-03-01,univ1__fc1,reports/data_fields/all_scopes/variants/univ1__fc1.csv,OFFICIAL_DATASET_FIELDCOUNT_GROUP
