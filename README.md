@@ -1,41 +1,41 @@
-# WQ GPT Factor Context
+# WorldQuant Platform Registry Upstream
 
-This repository is a read-only research context package for WorldQuant BRAIN
-field discovery and factor-design planning. It contains no credentials,
-simulation submissions, alpha submissions, or Osmosis writes.
+`wqa` is the versioned, read-only upstream asset repository for Alpha Mining OS Platform Registry. It contains no credentials, simulation submissions, alpha submissions, PnL, or production runtime data.
 
-## Repository layout
+The canonical entry point is [`registry/active.json`](registry/active.json). A server synchronizer must pin a Git commit, fetch only the referenced Manifest and files, verify every SHA-256, stream-import them into a local database, validate the staging snapshot, then atomically activate it. Runtime, Materializer, Admission, and AI retrieval query only that local Active Snapshot; they must not read GitHub or scan the complete CSV during a request.
 
-```text
-reports/
-└─ data_fields/
-   ├─ gpt_factor_context_current.md
-   ├─ available_data_fields_current.csv
-   ├─ field_catalog_manifest.json
-   └─ index/
-      ├─ field_keyword_index.csv
-      └─ fields_by_dataset/
-tools/
-├─ build_field_index.py
-└─ search_available_fields.py
-```
-
-The complete CSV is the source of truth. The keyword index and the per-dataset
-files are generated retrieval views, so a refresh should replace them together.
-The current registry is USA / TOP3000 / delay 1 with 85,612 fields across 299
-datasets. Do not paste the full CSV into a single GPT prompt; retrieve a small,
-scope-locked candidate set instead.
-
-## Search examples
+## Canonical layout
 
 ```text
-python tools/search_available_fields.py --query earnings surprise --dataset analyst15 --field-type MATRIX --limit 20 --format json
-python tools/search_available_fields.py --query cash flow --category Fundamental --limit 30
-python tools/search_available_fields.py --list-datasets --category Analyst
-grep -i "surprise" reports/data_fields/index/field_keyword_index.csv
+registry/
+  active.json
+  raw/20260718/                         authenticated read-only source evidence
+  schemas/manifest.schema.json
+  snapshots/REG-20260718-001/
+    manifest.json
+    dataset_policy.json
+    datasets/dataset_scopes.csv.gz
+    fields/EQUITY/USA/TOP3000/D1/fields.csv.gz
+    operators/operators.jsonl
+    settings/{simulation_settings.json,legal_profiles.csv}
+    scopes/EQUITY/<region>/<universe>/D<delay>/scope.json
 ```
 
-Use `field_catalog_manifest.json` to verify the source hash, row count, scope,
-and index paths before using a result in research. GPT consumes the compact
-context and selected field results; Codex maintains, regenerates, and verifies
-the registry and indexes.
+`reports/data_fields/` is legacy source and generated retrieval material. Its `current` names are mutable pointers, its `index/` files are recall views only, and its legacy Scope order is `<region>/D<delay>/<universe>`. New canonical snapshots use `<instrument_type>/<region>/<universe>/D<delay>` and immutable snapshot IDs.
+
+## Coverage and safety
+
+- Dataset and Simulation Settings coverage: 43 legal Equity scopes across USA, GLB, EUR, ASI, CHN, JPN, IND, and MEA.
+- Field coverage: complete only for USA/TOP3000/D1 (85,612 records). Every other Scope is explicitly `MISSING`; USA fields must never be projected into another Region.
+- Operators: 85 visible platform records. IDs, signatures, categories, access level, and descriptions are authoritative UI capture; operator-to-field-type compatibility is `UNVERIFIED` and must fail closed.
+- Indexes are recall-only. Final field and Operator validation returns to the authoritative Active Snapshot records.
+
+Offline build and validation:
+
+```text
+python tools/build_platform_registry_snapshot.py --generated-at <ISO-8601 UTC>
+python tools/validate_registry_sync.py
+python tools/assess_registry_capacity.py
+```
+
+See `platform_registry_inventory.json`, `scope_coverage_matrix.csv`, `server_capacity_assessment.md`, and `registry_sync_validation.md` for the audit evidence and deployment limits.

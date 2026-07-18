@@ -1,0 +1,246 @@
+{
+  "bounds": {
+    "decay": {
+      "max": 512,
+      "min": 0
+    },
+    "lookback": {
+      "max": 1024,
+      "min": 0
+    },
+    "testPeriod": {
+      "max": "P6Y0M0D",
+      "min": "P0Y0M0D"
+    },
+    "truncation": {
+      "max": 1,
+      "min": 0
+    }
+  },
+  "delays_by_region": {
+    "ASI": [
+      1
+    ],
+    "CHN": [
+      0,
+      1
+    ],
+    "EUR": [
+      1,
+      0
+    ],
+    "GLB": [
+      1
+    ],
+    "IND": [
+      1
+    ],
+    "JPN": [
+      1,
+      0
+    ],
+    "MEA": [
+      1
+    ],
+    "USA": [
+      1,
+      0
+    ]
+  },
+  "enums": {
+    "language": [
+      "PYTHON",
+      "FASTEXPR"
+    ],
+    "maxPosition": [
+      "OFF",
+      "ON"
+    ],
+    "maxTrade": [
+      "OFF",
+      "ON"
+    ],
+    "nanHandling": [
+      "ON",
+      "OFF"
+    ],
+    "pasteurization": [
+      "ON",
+      "OFF"
+    ],
+    "selectionHandling": [
+      "POSITIVE",
+      "NON_ZERO",
+      "NON_NAN"
+    ],
+    "unitHandling": [
+      "VERIFY"
+    ]
+  },
+  "instrument_types": [
+    "EQUITY"
+  ],
+  "last_verified_at": "2026-07-18T03:00:05Z",
+  "neutralizations_by_region": {
+    "ASI": [
+      "NONE",
+      "REVERSION_AND_MOMENTUM",
+      "STATISTICAL",
+      "CROWDING",
+      "FAST",
+      "SLOW",
+      "MARKET",
+      "SECTOR",
+      "INDUSTRY",
+      "SUBINDUSTRY",
+      "COUNTRY",
+      "SLOW_AND_FAST"
+    ],
+    "CHN": [
+      "NONE",
+      "REVERSION_AND_MOMENTUM",
+      "STATISTICAL",
+      "CROWDING",
+      "FAST",
+      "SLOW",
+      "MARKET",
+      "SECTOR",
+      "INDUSTRY",
+      "SUBINDUSTRY",
+      "SLOW_AND_FAST"
+    ],
+    "EUR": [
+      "NONE",
+      "REVERSION_AND_MOMENTUM",
+      "STATISTICAL",
+      "CROWDING",
+      "FAST",
+      "SLOW",
+      "MARKET",
+      "SECTOR",
+      "INDUSTRY",
+      "SUBINDUSTRY",
+      "COUNTRY",
+      "SLOW_AND_FAST"
+    ],
+    "GLB": [
+      "NONE",
+      "REVERSION_AND_MOMENTUM",
+      "STATISTICAL",
+      "CROWDING",
+      "FAST",
+      "SLOW",
+      "MARKET",
+      "SECTOR",
+      "INDUSTRY",
+      "SUBINDUSTRY",
+      "COUNTRY",
+      "SLOW_AND_FAST"
+    ],
+    "IND": [
+      "NONE",
+      "REVERSION_AND_MOMENTUM",
+      "STATISTICAL",
+      "CROWDING",
+      "FAST",
+      "SLOW",
+      "MARKET",
+      "SECTOR",
+      "INDUSTRY",
+      "SUBINDUSTRY",
+      "SLOW_AND_FAST"
+    ],
+    "JPN": [
+      "NONE",
+      "REVERSION_AND_MOMENTUM",
+      "STATISTICAL",
+      "CROWDING",
+      "FAST",
+      "SLOW",
+      "MARKET",
+      "SECTOR",
+      "INDUSTRY",
+      "SUBINDUSTRY",
+      "SLOW_AND_FAST"
+    ],
+    "MEA": [
+      "NONE",
+      "MARKET",
+      "SECTOR",
+      "INDUSTRY",
+      "SUBINDUSTRY",
+      "COUNTRY"
+    ],
+    "USA": [
+      "NONE",
+      "REVERSION_AND_MOMENTUM",
+      "STATISTICAL",
+      "CROWDING",
+      "FAST",
+      "SLOW",
+      "MARKET",
+      "SECTOR",
+      "INDUSTRY",
+      "SUBINDUSTRY",
+      "SLOW_AND_FAST"
+    ]
+  },
+  "regions": [
+    "ASI",
+    "CHN",
+    "EUR",
+    "GLB",
+    "IND",
+    "JPN",
+    "MEA",
+    "USA"
+  ],
+  "schema_version": "platform-registry.v1",
+  "source": "OPTIONS /simulations",
+  "source_commit": "8548481557fbf51b970a7a22f988bad19f1f7732",
+  "universes_by_region": {
+    "ASI": [
+      "MINVOL1M",
+      "MINVOL10M",
+      "ILLIQUID_MINVOL1M",
+      "TOP500"
+    ],
+    "CHN": [
+      "TOP2000U"
+    ],
+    "EUR": [
+      "TOP2500",
+      "TOP1200",
+      "TOP800",
+      "TOP400",
+      "ILLIQUID_MINVOL1M",
+      "TOPCS1600"
+    ],
+    "GLB": [
+      "TOP3000",
+      "MINVOL1M",
+      "MINVOL10M",
+      "TOPDIV3000"
+    ],
+    "IND": [
+      "TOP500"
+    ],
+    "JPN": [
+      "TOP1600",
+      "TOP1200"
+    ],
+    "MEA": [
+      "TOP400",
+      "TOP300"
+    ],
+    "USA": [
+      "TOP3000",
+      "TOP2000",
+      "TOP1000",
+      "TOP500",
+      "TOP200",
+      "ILLIQUID_MINVOL1M",
+      "TOPSP500"
+    ]
+  }
+}

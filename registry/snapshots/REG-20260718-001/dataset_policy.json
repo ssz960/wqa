@@ -1,0 +1,10 @@
+{
+  "candidate_logic_changed": false,
+  "cross_region_field_inference_allowed": false,
+  "final_validation_requires_authoritative_record": true,
+  "operator_compatibility_fail_closed_when_unverified": true,
+  "real_wq_allowed": false,
+  "retrieval_indexes_are_authoritative": false,
+  "runtime_source": "local_active_snapshot_only",
+  "schema_version": "platform-registry.v1"
+}

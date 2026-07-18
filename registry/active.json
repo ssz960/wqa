@@ -1,0 +1,6 @@
+{
+  "activation_policy": "server sync must verify hash and import locally before activation",
+  "manifest": "registry/snapshots/REG-20260718-001/manifest.json",
+  "manifest_sha256": "e51d4ee0dec91775ba87519de1271d5c92e5b8409af0816a80f62c254164a15d",
+  "snapshot_id": "REG-20260718-001"
+}

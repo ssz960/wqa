@@ -1,0 +1,31 @@
+{
+  "schema_version": "platform-registry.v1",
+  "scope": {
+    "delay": 1,
+    "instrument_type": "EQUITY",
+    "region": "USA",
+    "universe": "TOP3000"
+  },
+  "types": [
+    {
+      "field_type": "GROUP",
+      "record_count": 2041
+    },
+    {
+      "field_type": "MATRIX",
+      "record_count": 67205
+    },
+    {
+      "field_type": "SYMBOL",
+      "record_count": 8
+    },
+    {
+      "field_type": "UNIVERSE",
+      "record_count": 7
+    },
+    {
+      "field_type": "VECTOR",
+      "record_count": 16351
+    }
+  ]
+}

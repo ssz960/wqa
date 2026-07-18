@@ -1,0 +1,2482 @@
+{
+  "audit": {
+    "authoritative_raw_data": [
+      "registry/raw/20260718/operators_ui.json",
+      "reports/data_fields/available_data_fields_current.csv"
+    ],
+    "canonical_normalized_root": "registry/snapshots/REG-20260718-001",
+    "canonical_scope_layout": "registry/snapshots/REG-20260718-001/scopes/<instrument_type>/<region>/<universe>/D<delay>",
+    "duplicate_or_generated_views": [
+      "reports/data_fields/index/field_keyword_index.csv",
+      "reports/data_fields/index/fields_by_dataset/*",
+      "reports/data_fields/gpt_factor_context_current.md"
+    ],
+    "known_missing": [
+      "non-USA authoritative field records",
+      "authoritative operator-to-field-type compatibility matrix"
+    ],
+    "legacy_scope_layout": "reports/data_fields/all_scopes/scopes/<region>/D<delay>/<universe>",
+    "naming_gaps": [
+      "legacy D1 directory precedes universe",
+      "reports mixes registry data, indexes, GPT packs, audits, and historical reports"
+    ],
+    "oversized_files_threshold_bytes": 10000000,
+    "traceability_gaps": [
+      "legacy all_scopes manifest has no source_commit",
+      "legacy current filenames are mutable pointers"
+    ]
+  },
+  "file_count": 489,
+  "files": [
+    {
+      "bytes": 25,
+      "classification": "legacy_or_repository_metadata",
+      "path": ".gitignore"
+    },
+    {
+      "bytes": 2513,
+      "classification": "legacy_or_repository_metadata",
+      "path": "README.md"
+    },
+    {
+      "bytes": 288,
+      "classification": "legacy_or_repository_metadata",
+      "path": "registry/active.json"
+    },
+    {
+      "bytes": 25889,
+      "classification": "authoritative_raw_capture",
+      "path": "registry/raw/20260718/operators_ui.json"
+    },
+    {
+      "bytes": 774,
+      "classification": "legacy_or_repository_metadata",
+      "path": "registry/README.md"
+    },
+    {
+      "bytes": 622,
+      "classification": "schema",
+      "path": "registry/schemas/manifest.schema.json"
+    },
+    {
+      "bytes": 378,
+      "classification": "canonical_snapshot",
+      "path": "registry/snapshots/REG-20260718-001/dataset_policy.json"
+    },
+    {
+      "bytes": 112537,
+      "classification": "canonical_snapshot",
+      "path": "registry/snapshots/REG-20260718-001/datasets/dataset_scopes.csv.gz"
+    },
+    {
+      "bytes": 1734852,
+      "classification": "canonical_snapshot",
+      "path": "registry/snapshots/REG-20260718-001/fields/EQUITY/USA/TOP3000/D1/fields.csv.gz"
+    },
+    {
+      "bytes": 525,
+      "classification": "canonical_snapshot",
+      "path": "registry/snapshots/REG-20260718-001/fields/field_types.json"
+    },
+    {
+      "bytes": 31255,
+      "classification": "canonical_snapshot",
+      "path": "registry/snapshots/REG-20260718-001/manifest.json"
+    },
+    {
+      "bytes": 37602,
+      "classification": "canonical_snapshot",
+      "path": "registry/snapshots/REG-20260718-001/operators/operators.jsonl"
+    },
+    {
+      "bytes": 535,
+      "classification": "canonical_snapshot",
+      "path": "registry/snapshots/REG-20260718-001/scopes/EQUITY/ASI/ILLIQUID_MINVOL1M/D1/scope.json"
+    },
+    {
+      "bytes": 527,
+      "classification": "canonical_snapshot",
+      "path": "registry/snapshots/REG-20260718-001/scopes/EQUITY/ASI/MINVOL10M/D1/scope.json"
+    },
+    {
+      "bytes": 526,
+      "classification": "canonical_snapshot",
+      "path": "registry/snapshots/REG-20260718-001/scopes/EQUITY/ASI/MINVOL1M/D1/scope.json"
+    },
+    {
+      "bytes": 524,
+      "classification": "canonical_snapshot",
+      "path": "registry/snapshots/REG-20260718-001/scopes/EQUITY/ASI/TOP500/D1/scope.json"
+    },
+    {
+      "bytes": 525,
+      "classification": "canonical_snapshot",
+      "path": "registry/snapshots/REG-20260718-001/scopes/EQUITY/CHN/TOP2000U/D0/scope.json"
+    },
+    {
+      "bytes": 525,
+      "classification": "canonical_snapshot",
+      "path": "registry/snapshots/REG-20260718-001/scopes/EQUITY/CHN/TOP2000U/D1/scope.json"
+    },
+    {
+      "bytes": 534,
+      "classification": "canonical_snapshot",
+      "path": "registry/snapshots/REG-20260718-001/scopes/EQUITY/EUR/ILLIQUID_MINVOL1M/D0/scope.json"
+    },
+    {
+      "bytes": 535,
+      "classification": "canonical_snapshot",
+      "path": "registry/snapshots/REG-20260718-001/scopes/EQUITY/EUR/ILLIQUID_MINVOL1M/D1/scope.json"
+    },
+    {
+      "bytes": 524,
+      "classification": "canonical_snapshot",
+      "path": "registry/snapshots/REG-20260718-001/scopes/EQUITY/EUR/TOP1200/D0/scope.json"
+    },
+    {
+      "bytes": 525,
+      "classification": "canonical_snapshot",
+      "path": "registry/snapshots/REG-20260718-001/scopes/EQUITY/EUR/TOP1200/D1/scope.json"
+    },
+    {
+      "bytes": 524,
+      "classification": "canonical_snapshot",
+      "path": "registry/snapshots/REG-20260718-001/scopes/EQUITY/EUR/TOP2500/D0/scope.json"
+    },
+    {
+      "bytes": 525,
+      "classification": "canonical_snapshot",
+      "path": "registry/snapshots/REG-20260718-001/scopes/EQUITY/EUR/TOP2500/D1/scope.json"
+    },
+    {
+      "bytes": 523,
+      "classification": "canonical_snapshot",
+      "path": "registry/snapshots/REG-20260718-001/scopes/EQUITY/EUR/TOP400/D0/scope.json"
+    },
+    {
+      "bytes": 524,
+      "classification": "canonical_snapshot",
+      "path": "registry/snapshots/REG-20260718-001/scopes/EQUITY/EUR/TOP400/D1/scope.json"
+    },
+    {
+      "bytes": 523,
+      "classification": "canonical_snapshot",
+      "path": "registry/snapshots/REG-20260718-001/scopes/EQUITY/EUR/TOP800/D0/scope.json"
+    },
+    {
+      "bytes": 524,
+      "classification": "canonical_snapshot",
+      "path": "registry/snapshots/REG-20260718-001/scopes/EQUITY/EUR/TOP800/D1/scope.json"
+    },
+    {
+      "bytes": 526,
+      "classification": "canonical_snapshot",
+      "path": "registry/snapshots/REG-20260718-001/scopes/EQUITY/EUR/TOPCS1600/D0/scope.json"
+    },
+    {
+      "bytes": 527,
+      "classification": "canonical_snapshot",
+      "path": "registry/snapshots/REG-20260718-001/scopes/EQUITY/EUR/TOPCS1600/D1/scope.json"
+    },
+    {
+      "bytes": 527,
+      "classification": "canonical_snapshot",
+      "path": "registry/snapshots/REG-20260718-001/scopes/EQUITY/GLB/MINVOL10M/D1/scope.json"
+    },
+    {
+      "bytes": 526,
+      "classification": "canonical_snapshot",
+      "path": "registry/snapshots/REG-20260718-001/scopes/EQUITY/GLB/MINVOL1M/D1/scope.json"
+    },
+    {
+      "bytes": 525,
+      "classification": "canonical_snapshot",
+      "path": "registry/snapshots/REG-20260718-001/scopes/EQUITY/GLB/TOP3000/D1/scope.json"
+    },
+    {
+      "bytes": 528,
+      "classification": "canonical_snapshot",
+      "path": "registry/snapshots/REG-20260718-001/scopes/EQUITY/GLB/TOPDIV3000/D1/scope.json"
+    },
+    {
+      "bytes": 524,
+      "classification": "canonical_snapshot",
+      "path": "registry/snapshots/REG-20260718-001/scopes/EQUITY/IND/TOP500/D1/scope.json"
+    },
+    {
+      "bytes": 524,
+      "classification": "canonical_snapshot",
+      "path": "registry/snapshots/REG-20260718-001/scopes/EQUITY/JPN/TOP1200/D0/scope.json"
+    },
+    {
+      "bytes": 525,
+      "classification": "canonical_snapshot",
+      "path": "registry/snapshots/REG-20260718-001/scopes/EQUITY/JPN/TOP1200/D1/scope.json"
+    },
+    {
+      "bytes": 524,
+      "classification": "canonical_snapshot",
+      "path": "registry/snapshots/REG-20260718-001/scopes/EQUITY/JPN/TOP1600/D0/scope.json"
+    },
+    {
+      "bytes": 525,
+      "classification": "canonical_snapshot",
+      "path": "registry/snapshots/REG-20260718-001/scopes/EQUITY/JPN/TOP1600/D1/scope.json"
+    },
+    {
+      "bytes": 523,
+      "classification": "canonical_snapshot",
+      "path": "registry/snapshots/REG-20260718-001/scopes/EQUITY/MEA/TOP300/D1/scope.json"
+    },
+    {
+      "bytes": 523,
+      "classification": "canonical_snapshot",
+      "path": "registry/snapshots/REG-20260718-001/scopes/EQUITY/MEA/TOP400/D1/scope.json"
+    },
+    {
+      "bytes": 535,
+      "classification": "canonical_snapshot",
+      "path": "registry/snapshots/REG-20260718-001/scopes/EQUITY/USA/ILLIQUID_MINVOL1M/D0/scope.json"
+    },
+    {
+      "bytes": 535,
+      "classification": "canonical_snapshot",
+      "path": "registry/snapshots/REG-20260718-001/scopes/EQUITY/USA/ILLIQUID_MINVOL1M/D1/scope.json"
+    },
+    {
+      "bytes": 525,
+      "classification": "canonical_snapshot",
+      "path": "registry/snapshots/REG-20260718-001/scopes/EQUITY/USA/TOP1000/D0/scope.json"
+    },
+    {
+      "bytes": 525,
+      "classification": "canonical_snapshot",
+      "path": "registry/snapshots/REG-20260718-001/scopes/EQUITY/USA/TOP1000/D1/scope.json"
+    },
+    {
+      "bytes": 524,
+      "classification": "canonical_snapshot",
+      "path": "registry/snapshots/REG-20260718-001/scopes/EQUITY/USA/TOP200/D0/scope.json"
+    },
+    {
+      "bytes": 524,
+      "classification": "canonical_snapshot",
+      "path": "registry/snapshots/REG-20260718-001/scopes/EQUITY/USA/TOP200/D1/scope.json"
+    },
+    {
+      "bytes": 525,
+      "classification": "canonical_snapshot",
+      "path": "registry/snapshots/REG-20260718-001/scopes/EQUITY/USA/TOP2000/D0/scope.json"
+    },
+    {
+      "bytes": 525,
+      "classification": "canonical_snapshot",
+      "path": "registry/snapshots/REG-20260718-001/scopes/EQUITY/USA/TOP2000/D1/scope.json"
+    },
+    {
+      "bytes": 525,
+      "classification": "canonical_snapshot",
+      "path": "registry/snapshots/REG-20260718-001/scopes/EQUITY/USA/TOP3000/D0/scope.json"
+    },
+    {
+      "bytes": 582,
+      "classification": "canonical_snapshot",
+      "path": "registry/snapshots/REG-20260718-001/scopes/EQUITY/USA/TOP3000/D1/scope.json"
+    },
+    {
+      "bytes": 524,
+      "classification": "canonical_snapshot",
+      "path": "registry/snapshots/REG-20260718-001/scopes/EQUITY/USA/TOP500/D0/scope.json"
+    },
+    {
+      "bytes": 524,
+      "classification": "canonical_snapshot",
+      "path": "registry/snapshots/REG-20260718-001/scopes/EQUITY/USA/TOP500/D1/scope.json"
+    },
+    {
+      "bytes": 526,
+      "classification": "canonical_snapshot",
+      "path": "registry/snapshots/REG-20260718-001/scopes/EQUITY/USA/TOPSP500/D0/scope.json"
+    },
+    {
+      "bytes": 526,
+      "classification": "canonical_snapshot",
+      "path": "registry/snapshots/REG-20260718-001/scopes/EQUITY/USA/TOPSP500/D1/scope.json"
+    },
+    {
+      "bytes": 37659,
+      "classification": "canonical_snapshot",
+      "path": "registry/snapshots/REG-20260718-001/settings/legal_profiles.csv"
+    },
+    {
+      "bytes": 3774,
+      "classification": "canonical_snapshot",
+      "path": "registry/snapshots/REG-20260718-001/settings/simulation_settings.json"
+    },
+    {
+      "bytes": 2536,
+      "classification": "legacy_or_repository_metadata",
+      "path": "registry_sync_validation.md"
+    },
+    {
+      "bytes": 4108,
+      "classification": "legacy_or_repository_metadata",
+      "path": "registry_sync_validation_metrics.json"
+    },
+    {
+      "bytes": 1756,
+      "classification": "legacy_normalized_catalog",
+      "path": "reports/data_fields/all_scopes/all_scopes_manifest_current.json"
+    },
+    {
+      "bytes": 1077047,
+      "classification": "legacy_normalized_catalog",
+      "path": "reports/data_fields/all_scopes/dataset_scope_matrix_current.csv"
+    },
+    {
+      "bytes": 30196,
+      "classification": "legacy_scope_split",
+      "path": "reports/data_fields/all_scopes/scopes/ASI/D1/ILLIQUID_MINVOL1M/datasets.csv"
+    },
+    {
+      "bytes": 604,
+      "classification": "legacy_scope_split",
+      "path": "reports/data_fields/all_scopes/scopes/ASI/D1/ILLIQUID_MINVOL1M/scope_manifest.json"
+    },
+    {
+      "bytes": 31302,
+      "classification": "legacy_scope_split",
+      "path": "reports/data_fields/all_scopes/scopes/ASI/D1/MINVOL10M/datasets.csv"
+    },
+    {
+      "bytes": 588,
+      "classification": "legacy_scope_split",
+      "path": "reports/data_fields/all_scopes/scopes/ASI/D1/MINVOL10M/scope_manifest.json"
+    },
+    {
+      "bytes": 31302,
+      "classification": "legacy_scope_split",
+      "path": "reports/data_fields/all_scopes/scopes/ASI/D1/MINVOL1M/datasets.csv"
+    },
+    {
+      "bytes": 586,
+      "classification": "legacy_scope_split",
+      "path": "reports/data_fields/all_scopes/scopes/ASI/D1/MINVOL1M/scope_manifest.json"
+    },
+    {
+      "bytes": 31291,
+      "classification": "legacy_scope_split",
+      "path": "reports/data_fields/all_scopes/scopes/ASI/D1/TOP500/datasets.csv"
+    },
+    {
+      "bytes": 582,
+      "classification": "legacy_scope_split",
+      "path": "reports/data_fields/all_scopes/scopes/ASI/D1/TOP500/scope_manifest.json"
+    },
+    {
+      "bytes": 5587,
+      "classification": "legacy_scope_split",
+      "path": "reports/data_fields/all_scopes/scopes/CHN/D0/TOP2000U/datasets.csv"
+    },
+    {
+      "bytes": 584,
+      "classification": "legacy_scope_split",
+      "path": "reports/data_fields/all_scopes/scopes/CHN/D0/TOP2000U/scope_manifest.json"
+    },
+    {
+      "bytes": 14780,
+      "classification": "legacy_scope_split",
+      "path": "reports/data_fields/all_scopes/scopes/CHN/D1/TOP2000U/datasets.csv"
+    },
+    {
+      "bytes": 585,
+      "classification": "legacy_scope_split",
+      "path": "reports/data_fields/all_scopes/scopes/CHN/D1/TOP2000U/scope_manifest.json"
+    },
+    {
+      "bytes": 14735,
+      "classification": "legacy_scope_split",
+      "path": "reports/data_fields/all_scopes/scopes/EUR/D0/ILLIQUID_MINVOL1M/datasets.csv"
+    },
+    {
+      "bytes": 602,
+      "classification": "legacy_scope_split",
+      "path": "reports/data_fields/all_scopes/scopes/EUR/D0/ILLIQUID_MINVOL1M/scope_manifest.json"
+    },
+    {
+      "bytes": 15116,
+      "classification": "legacy_scope_split",
+      "path": "reports/data_fields/all_scopes/scopes/EUR/D0/TOP1200/datasets.csv"
+    },
+    {
+      "bytes": 582,
+      "classification": "legacy_scope_split",
+      "path": "reports/data_fields/all_scopes/scopes/EUR/D0/TOP1200/scope_manifest.json"
+    },
+    {
+      "bytes": 15116,
+      "classification": "legacy_scope_split",
+      "path": "reports/data_fields/all_scopes/scopes/EUR/D0/TOP2500/datasets.csv"
+    },
+    {
+      "bytes": 582,
+      "classification": "legacy_scope_split",
+      "path": "reports/data_fields/all_scopes/scopes/EUR/D0/TOP2500/scope_manifest.json"
+    },
+    {
+      "bytes": 15116,
+      "classification": "legacy_scope_split",
+      "path": "reports/data_fields/all_scopes/scopes/EUR/D0/TOP400/datasets.csv"
+    },
+    {
+      "bytes": 580,
+      "classification": "legacy_scope_split",
+      "path": "reports/data_fields/all_scopes/scopes/EUR/D0/TOP400/scope_manifest.json"
+    },
+    {
+      "bytes": 15116,
+      "classification": "legacy_scope_split",
+      "path": "reports/data_fields/all_scopes/scopes/EUR/D0/TOP800/datasets.csv"
+    },
+    {
+      "bytes": 580,
+      "classification": "legacy_scope_split",
+      "path": "reports/data_fields/all_scopes/scopes/EUR/D0/TOP800/scope_manifest.json"
+    },
+    {
+      "bytes": 15116,
+      "classification": "legacy_scope_split",
+      "path": "reports/data_fields/all_scopes/scopes/EUR/D0/TOPCS1600/datasets.csv"
+    },
+    {
+      "bytes": 586,
+      "classification": "legacy_scope_split",
+      "path": "reports/data_fields/all_scopes/scopes/EUR/D0/TOPCS1600/scope_manifest.json"
+    },
+    {
+      "bytes": 34876,
+      "classification": "legacy_scope_split",
+      "path": "reports/data_fields/all_scopes/scopes/EUR/D1/ILLIQUID_MINVOL1M/datasets.csv"
+    },
+    {
+      "bytes": 604,
+      "classification": "legacy_scope_split",
+      "path": "reports/data_fields/all_scopes/scopes/EUR/D1/ILLIQUID_MINVOL1M/scope_manifest.json"
+    },
+    {
+      "bytes": 35082,
+      "classification": "legacy_scope_split",
+      "path": "reports/data_fields/all_scopes/scopes/EUR/D1/TOP1200/datasets.csv"
+    },
+    {
+      "bytes": 584,
+      "classification": "legacy_scope_split",
+      "path": "reports/data_fields/all_scopes/scopes/EUR/D1/TOP1200/scope_manifest.json"
+    },
+    {
+      "bytes": 35082,
+      "classification": "legacy_scope_split",
+      "path": "reports/data_fields/all_scopes/scopes/EUR/D1/TOP2500/datasets.csv"
+    },
+    {
+      "bytes": 584,
+      "classification": "legacy_scope_split",
+      "path": "reports/data_fields/all_scopes/scopes/EUR/D1/TOP2500/scope_manifest.json"
+    },
+    {
+      "bytes": 35082,
+      "classification": "legacy_scope_split",
+      "path": "reports/data_fields/all_scopes/scopes/EUR/D1/TOP400/datasets.csv"
+    },
+    {
+      "bytes": 582,
+      "classification": "legacy_scope_split",
+      "path": "reports/data_fields/all_scopes/scopes/EUR/D1/TOP400/scope_manifest.json"
+    },
+    {
+      "bytes": 35082,
+      "classification": "legacy_scope_split",
+      "path": "reports/data_fields/all_scopes/scopes/EUR/D1/TOP800/datasets.csv"
+    },
+    {
+      "bytes": 582,
+      "classification": "legacy_scope_split",
+      "path": "reports/data_fields/all_scopes/scopes/EUR/D1/TOP800/scope_manifest.json"
+    },
+    {
+      "bytes": 35082,
+      "classification": "legacy_scope_split",
+      "path": "reports/data_fields/all_scopes/scopes/EUR/D1/TOPCS1600/datasets.csv"
+    },
+    {
+      "bytes": 588,
+      "classification": "legacy_scope_split",
+      "path": "reports/data_fields/all_scopes/scopes/EUR/D1/TOPCS1600/scope_manifest.json"
+    },
+    {
+      "bytes": 26852,
+      "classification": "legacy_scope_split",
+      "path": "reports/data_fields/all_scopes/scopes/GLB/D1/MINVOL10M/datasets.csv"
+    },
+    {
+      "bytes": 588,
+      "classification": "legacy_scope_split",
+      "path": "reports/data_fields/all_scopes/scopes/GLB/D1/MINVOL10M/scope_manifest.json"
+    },
+    {
+      "bytes": 26852,
+      "classification": "legacy_scope_split",
+      "path": "reports/data_fields/all_scopes/scopes/GLB/D1/MINVOL1M/datasets.csv"
+    },
+    {
+      "bytes": 586,
+      "classification": "legacy_scope_split",
+      "path": "reports/data_fields/all_scopes/scopes/GLB/D1/MINVOL1M/scope_manifest.json"
+    },
+    {
+      "bytes": 26852,
+      "classification": "legacy_scope_split",
+      "path": "reports/data_fields/all_scopes/scopes/GLB/D1/TOP3000/datasets.csv"
+    },
+    {
+      "bytes": 584,
+      "classification": "legacy_scope_split",
+      "path": "reports/data_fields/all_scopes/scopes/GLB/D1/TOP3000/scope_manifest.json"
+    },
+    {
+      "bytes": 26852,
+      "classification": "legacy_scope_split",
+      "path": "reports/data_fields/all_scopes/scopes/GLB/D1/TOPDIV3000/datasets.csv"
+    },
+    {
+      "bytes": 590,
+      "classification": "legacy_scope_split",
+      "path": "reports/data_fields/all_scopes/scopes/GLB/D1/TOPDIV3000/scope_manifest.json"
+    },
+    {
+      "bytes": 27508,
+      "classification": "legacy_scope_split",
+      "path": "reports/data_fields/all_scopes/scopes/IND/D1/TOP500/datasets.csv"
+    },
+    {
+      "bytes": 582,
+      "classification": "legacy_scope_split",
+      "path": "reports/data_fields/all_scopes/scopes/IND/D1/TOP500/scope_manifest.json"
+    },
+    {
+      "bytes": 12200,
+      "classification": "legacy_scope_split",
+      "path": "reports/data_fields/all_scopes/scopes/JPN/D0/TOP1200/datasets.csv"
+    },
+    {
+      "bytes": 582,
+      "classification": "legacy_scope_split",
+      "path": "reports/data_fields/all_scopes/scopes/JPN/D0/TOP1200/scope_manifest.json"
+    },
+    {
+      "bytes": 12200,
+      "classification": "legacy_scope_split",
+      "path": "reports/data_fields/all_scopes/scopes/JPN/D0/TOP1600/datasets.csv"
+    },
+    {
+      "bytes": 582,
+      "classification": "legacy_scope_split",
+      "path": "reports/data_fields/all_scopes/scopes/JPN/D0/TOP1600/scope_manifest.json"
+    },
+    {
+      "bytes": 41420,
+      "classification": "legacy_scope_split",
+      "path": "reports/data_fields/all_scopes/scopes/JPN/D1/TOP1200/datasets.csv"
+    },
+    {
+      "bytes": 584,
+      "classification": "legacy_scope_split",
+      "path": "reports/data_fields/all_scopes/scopes/JPN/D1/TOP1200/scope_manifest.json"
+    },
+    {
+      "bytes": 41420,
+      "classification": "legacy_scope_split",
+      "path": "reports/data_fields/all_scopes/scopes/JPN/D1/TOP1600/datasets.csv"
+    },
+    {
+      "bytes": 584,
+      "classification": "legacy_scope_split",
+      "path": "reports/data_fields/all_scopes/scopes/JPN/D1/TOP1600/scope_manifest.json"
+    },
+    {
+      "bytes": 3184,
+      "classification": "legacy_scope_split",
+      "path": "reports/data_fields/all_scopes/scopes/MEA/D1/TOP300/datasets.csv"
+    },
+    {
+      "bytes": 580,
+      "classification": "legacy_scope_split",
+      "path": "reports/data_fields/all_scopes/scopes/MEA/D1/TOP300/scope_manifest.json"
+    },
+    {
+      "bytes": 3182,
+      "classification": "legacy_scope_split",
+      "path": "reports/data_fields/all_scopes/scopes/MEA/D1/TOP400/datasets.csv"
+    },
+    {
+      "bytes": 580,
+      "classification": "legacy_scope_split",
+      "path": "reports/data_fields/all_scopes/scopes/MEA/D1/TOP400/scope_manifest.json"
+    },
+    {
+      "bytes": 23511,
+      "classification": "legacy_scope_split",
+      "path": "reports/data_fields/all_scopes/scopes/USA/D0/ILLIQUID_MINVOL1M/datasets.csv"
+    },
+    {
+      "bytes": 604,
+      "classification": "legacy_scope_split",
+      "path": "reports/data_fields/all_scopes/scopes/USA/D0/ILLIQUID_MINVOL1M/scope_manifest.json"
+    },
+    {
+      "bytes": 24093,
+      "classification": "legacy_scope_split",
+      "path": "reports/data_fields/all_scopes/scopes/USA/D0/TOP1000/datasets.csv"
+    },
+    {
+      "bytes": 584,
+      "classification": "legacy_scope_split",
+      "path": "reports/data_fields/all_scopes/scopes/USA/D0/TOP1000/scope_manifest.json"
+    },
+    {
+      "bytes": 24093,
+      "classification": "legacy_scope_split",
+      "path": "reports/data_fields/all_scopes/scopes/USA/D0/TOP200/datasets.csv"
+    },
+    {
+      "bytes": 582,
+      "classification": "legacy_scope_split",
+      "path": "reports/data_fields/all_scopes/scopes/USA/D0/TOP200/scope_manifest.json"
+    },
+    {
+      "bytes": 24093,
+      "classification": "legacy_scope_split",
+      "path": "reports/data_fields/all_scopes/scopes/USA/D0/TOP2000/datasets.csv"
+    },
+    {
+      "bytes": 584,
+      "classification": "legacy_scope_split",
+      "path": "reports/data_fields/all_scopes/scopes/USA/D0/TOP2000/scope_manifest.json"
+    },
+    {
+      "bytes": 24093,
+      "classification": "legacy_scope_split",
+      "path": "reports/data_fields/all_scopes/scopes/USA/D0/TOP3000/datasets.csv"
+    },
+    {
+      "bytes": 584,
+      "classification": "legacy_scope_split",
+      "path": "reports/data_fields/all_scopes/scopes/USA/D0/TOP3000/scope_manifest.json"
+    },
+    {
+      "bytes": 24093,
+      "classification": "legacy_scope_split",
+      "path": "reports/data_fields/all_scopes/scopes/USA/D0/TOP500/datasets.csv"
+    },
+    {
+      "bytes": 582,
+      "classification": "legacy_scope_split",
+      "path": "reports/data_fields/all_scopes/scopes/USA/D0/TOP500/scope_manifest.json"
+    },
+    {
+      "bytes": 24096,
+      "classification": "legacy_scope_split",
+      "path": "reports/data_fields/all_scopes/scopes/USA/D0/TOPSP500/datasets.csv"
+    },
+    {
+      "bytes": 586,
+      "classification": "legacy_scope_split",
+      "path": "reports/data_fields/all_scopes/scopes/USA/D0/TOPSP500/scope_manifest.json"
+    },
+    {
+      "bytes": 58464,
+      "classification": "legacy_scope_split",
+      "path": "reports/data_fields/all_scopes/scopes/USA/D1/ILLIQUID_MINVOL1M/datasets.csv"
+    },
+    {
+      "bytes": 604,
+      "classification": "legacy_scope_split",
+      "path": "reports/data_fields/all_scopes/scopes/USA/D1/ILLIQUID_MINVOL1M/scope_manifest.json"
+    },
+    {
+      "bytes": 59248,
+      "classification": "legacy_scope_split",
+      "path": "reports/data_fields/all_scopes/scopes/USA/D1/TOP1000/datasets.csv"
+    },
+    {
+      "bytes": 584,
+      "classification": "legacy_scope_split",
+      "path": "reports/data_fields/all_scopes/scopes/USA/D1/TOP1000/scope_manifest.json"
+    },
+    {
+      "bytes": 59248,
+      "classification": "legacy_scope_split",
+      "path": "reports/data_fields/all_scopes/scopes/USA/D1/TOP200/datasets.csv"
+    },
+    {
+      "bytes": 582,
+      "classification": "legacy_scope_split",
+      "path": "reports/data_fields/all_scopes/scopes/USA/D1/TOP200/scope_manifest.json"
+    },
+    {
+      "bytes": 59248,
+      "classification": "legacy_scope_split",
+      "path": "reports/data_fields/all_scopes/scopes/USA/D1/TOP2000/datasets.csv"
+    },
+    {
+      "bytes": 584,
+      "classification": "legacy_scope_split",
+      "path": "reports/data_fields/all_scopes/scopes/USA/D1/TOP2000/scope_manifest.json"
+    },
+    {
+      "bytes": 59248,
+      "classification": "legacy_scope_split",
+      "path": "reports/data_fields/all_scopes/scopes/USA/D1/TOP3000/datasets.csv"
+    },
+    {
+      "bytes": 584,
+      "classification": "legacy_scope_split",
+      "path": "reports/data_fields/all_scopes/scopes/USA/D1/TOP3000/scope_manifest.json"
+    },
+    {
+      "bytes": 59248,
+      "classification": "legacy_scope_split",
+      "path": "reports/data_fields/all_scopes/scopes/USA/D1/TOP500/datasets.csv"
+    },
+    {
+      "bytes": 582,
+      "classification": "legacy_scope_split",
+      "path": "reports/data_fields/all_scopes/scopes/USA/D1/TOP500/scope_manifest.json"
+    },
+    {
+      "bytes": 59254,
+      "classification": "legacy_scope_split",
+      "path": "reports/data_fields/all_scopes/scopes/USA/D1/TOPSP500/datasets.csv"
+    },
+    {
+      "bytes": 586,
+      "classification": "legacy_scope_split",
+      "path": "reports/data_fields/all_scopes/scopes/USA/D1/TOPSP500/scope_manifest.json"
+    },
+    {
+      "bytes": 29209,
+      "classification": "legacy_normalized_catalog",
+      "path": "reports/data_fields/all_scopes/simulation_options_current.json"
+    },
+    {
+      "bytes": 3915,
+      "classification": "legacy_normalized_catalog",
+      "path": "reports/data_fields/all_scopes/simulation_scope_matrix_current.csv"
+    },
+    {
+      "bytes": 23667762,
+      "classification": "legacy_or_repository_metadata",
+      "path": "reports/data_fields/available_data_fields_current.csv"
+    },
+    {
+      "bytes": 88301,
+      "classification": "legacy_or_repository_metadata",
+      "path": "reports/data_fields/field_catalog_manifest.json"
+    },
+    {
+      "bytes": 43249,
+      "classification": "legacy_or_repository_metadata",
+      "path": "reports/data_fields/gpt_factor_context_current.md"
+    },
+    {
+      "bytes": 1259,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/field_catalog_manifest.json"
+    },
+    {
+      "bytes": 37930247,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/field_keyword_index.csv"
+    },
+    {
+      "bytes": 8545,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/acquisition_model.csv"
+    },
+    {
+      "bytes": 448144,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/ai_equity_alpha.csv"
+    },
+    {
+      "bytes": 8024,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/ai_factor_transfer.csv"
+    },
+    {
+      "bytes": 50437,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/ai_news_scores.csv"
+    },
+    {
+      "bytes": 1007283,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/analyst10.csv"
+    },
+    {
+      "bytes": 197518,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/analyst11.csv"
+    },
+    {
+      "bytes": 319682,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/analyst14.csv"
+    },
+    {
+      "bytes": 1193390,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/analyst15.csv"
+    },
+    {
+      "bytes": 58034,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/analyst16.csv"
+    },
+    {
+      "bytes": 11502,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/analyst2.csv"
+    },
+    {
+      "bytes": 5539,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/analyst21.csv"
+    },
+    {
+      "bytes": 2835,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/analyst34.csv"
+    },
+    {
+      "bytes": 497185,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/analyst4.csv"
+    },
+    {
+      "bytes": 277935,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/analyst44.csv"
+    },
+    {
+      "bytes": 62026,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/analyst45.csv"
+    },
+    {
+      "bytes": 3234,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/analyst46.csv"
+    },
+    {
+      "bytes": 131901,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/analyst49.csv"
+    },
+    {
+      "bytes": 226694,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/analyst69.csv"
+    },
+    {
+      "bytes": 538465,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/analyst7.csv"
+    },
+    {
+      "bytes": 197089,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/analyst82.csv"
+    },
+    {
+      "bytes": 163967,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/analyst83.csv"
+    },
+    {
+      "bytes": 10557,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/analyst92.csv"
+    },
+    {
+      "bytes": 12361,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/analyst_base_ref.csv"
+    },
+    {
+      "bytes": 162650,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/analyst_chart_cnn.csv"
+    },
+    {
+      "bytes": 1642393,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/analyst_consensus.csv"
+    },
+    {
+      "bytes": 22009,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/analyst_earnings_ibes.csv"
+    },
+    {
+      "bytes": 411316,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/analyst_factor_signals.csv"
+    },
+    {
+      "bytes": 615066,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/analyst_revision_horizons.csv"
+    },
+    {
+      "bytes": 4306,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/behavioral_signals.csv"
+    },
+    {
+      "bytes": 24956,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/biasfree_analyst.csv"
+    },
+    {
+      "bytes": 20493,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/board_gov_stats.csv"
+    },
+    {
+      "bytes": 7022,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/board_network.csv"
+    },
+    {
+      "bytes": 191960,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/chart_cnn_alpha.csv"
+    },
+    {
+      "bytes": 150580,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/chart_model_alpha.csv"
+    },
+    {
+      "bytes": 119078,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/chart_return_model.csv"
+    },
+    {
+      "bytes": 262803,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/continuation_score.csv"
+    },
+    {
+      "bytes": 1133,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/cre_exposure_model.csv"
+    },
+    {
+      "bytes": 52276,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/creator_signal_perf.csv"
+    },
+    {
+      "bytes": 158069,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/dl_riskfree_returns.csv"
+    },
+    {
+      "bytes": 4305,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/dl_volume_pred.csv"
+    },
+    {
+      "bytes": 4777,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/earnings2.csv"
+    },
+    {
+      "bytes": 5383,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/earnings27.csv"
+    },
+    {
+      "bytes": 2097,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/earnings3.csv"
+    },
+    {
+      "bytes": 160294,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/earnings4.csv"
+    },
+    {
+      "bytes": 2151,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/earnings5.csv"
+    },
+    {
+      "bytes": 20039,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/earnings6.csv"
+    },
+    {
+      "bytes": 17256,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/earnings7.csv"
+    },
+    {
+      "bytes": 58940,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/earnings_chart_dl.csv"
+    },
+    {
+      "bytes": 4235,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/earnings_risk.csv"
+    },
+    {
+      "bytes": 3901,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/earnings_sent_matrix.csv"
+    },
+    {
+      "bytes": 215094,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/earningscall_embed.csv"
+    },
+    {
+      "bytes": 118811,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/earningscall_sentiment.csv"
+    },
+    {
+      "bytes": 3645,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/equity_forum_data.csv"
+    },
+    {
+      "bytes": 9583,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/equity_kpi_forecast.csv"
+    },
+    {
+      "bytes": 6124,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/event_relation.csv"
+    },
+    {
+      "bytes": 29728,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/event_return_model.csv"
+    },
+    {
+      "bytes": 11920,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/event_sentiment_signals.csv"
+    },
+    {
+      "bytes": 2786,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/event_stock_model.csv"
+    },
+    {
+      "bytes": 47635,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/expected_move.csv"
+    },
+    {
+      "bytes": 8619,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/filing_sentiment.csv"
+    },
+    {
+      "bytes": 57050,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/finnews_nlp_scores.csv"
+    },
+    {
+      "bytes": 6099,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/forum_sentiment.csv"
+    },
+    {
+      "bytes": 23788,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/forward_beta_risk.csv"
+    },
+    {
+      "bytes": 15348,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/fund_holdings_panel.csv"
+    },
+    {
+      "bytes": 94518,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/fundamental1.csv"
+    },
+    {
+      "bytes": 8963,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/fundamental110.csv"
+    },
+    {
+      "bytes": 28552,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/fundamental13.csv"
+    },
+    {
+      "bytes": 116936,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/fundamental14.csv"
+    },
+    {
+      "bytes": 135343,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/fundamental17.csv"
+    },
+    {
+      "bytes": 367707,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/fundamental2.csv"
+    },
+    {
+      "bytes": 5293,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/fundamental22.csv"
+    },
+    {
+      "bytes": 646529,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/fundamental23.csv"
+    },
+    {
+      "bytes": 3452,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/fundamental25.csv"
+    },
+    {
+      "bytes": 808881,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/fundamental28.csv"
+    },
+    {
+      "bytes": 325105,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/fundamental3.csv"
+    },
+    {
+      "bytes": 96445,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/fundamental31.csv"
+    },
+    {
+      "bytes": 6557,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/fundamental44.csv"
+    },
+    {
+      "bytes": 288908,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/fundamental6.csv"
+    },
+    {
+      "bytes": 650781,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/fundamental65.csv"
+    },
+    {
+      "bytes": 3632,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/fundamental69.csv"
+    },
+    {
+      "bytes": 128154,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/fundamental7.csv"
+    },
+    {
+      "bytes": 806793,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/fundamental72.csv"
+    },
+    {
+      "bytes": 62913,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/fundamental76.csv"
+    },
+    {
+      "bytes": 1554,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/fundamental92.csv"
+    },
+    {
+      "bytes": 179335,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/fundamental94.csv"
+    },
+    {
+      "bytes": 196907,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/global_seasonal_model.csv"
+    },
+    {
+      "bytes": 1434,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/hiring_trends.csv"
+    },
+    {
+      "bytes": 922,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/imbalance5.csv"
+    },
+    {
+      "bytes": 7606,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/insider_agg_matrix.csv"
+    },
+    {
+      "bytes": 54126,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/insider_feats.csv"
+    },
+    {
+      "bytes": 14265,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/insider_matrix.csv"
+    },
+    {
+      "bytes": 13696,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/insider_trx_matrix.csv"
+    },
+    {
+      "bytes": 16658,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/insiders1.csv"
+    },
+    {
+      "bytes": 20519,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/insiders3.csv"
+    },
+    {
+      "bytes": 5158,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/insiders4.csv"
+    },
+    {
+      "bytes": 7391,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/institutions18.csv"
+    },
+    {
+      "bytes": 7682,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/institutions20.csv"
+    },
+    {
+      "bytes": 11978,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/institutions6.csv"
+    },
+    {
+      "bytes": 262133,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/intraday_pv_feats.csv"
+    },
+    {
+      "bytes": 1509,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/macro63.csv"
+    },
+    {
+      "bytes": 50593,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/mfm_model_output.csv"
+    },
+    {
+      "bytes": 528548,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/ml_factor_proj.csv"
+    },
+    {
+      "bytes": 733867,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/mmp_nlp_sentiment.csv"
+    },
+    {
+      "bytes": 511019,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/model10.csv"
+    },
+    {
+      "bytes": 271804,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/model109.csv"
+    },
+    {
+      "bytes": 26266,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/model113.csv"
+    },
+    {
+      "bytes": 3199,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/model12.csv"
+    },
+    {
+      "bytes": 8168,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/model127.csv"
+    },
+    {
+      "bytes": 129131,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/model135.csv"
+    },
+    {
+      "bytes": 72763,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/model138.csv"
+    },
+    {
+      "bytes": 1805,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/model139.csv"
+    },
+    {
+      "bytes": 1973,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/model140.csv"
+    },
+    {
+      "bytes": 5888,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/model141.csv"
+    },
+    {
+      "bytes": 967,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/model144.csv"
+    },
+    {
+      "bytes": 10379,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/model16.csv"
+    },
+    {
+      "bytes": 205823,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/model165.csv"
+    },
+    {
+      "bytes": 20395,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/model17.csv"
+    },
+    {
+      "bytes": 33676,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/model176.csv"
+    },
+    {
+      "bytes": 194841,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/model211.csv"
+    },
+    {
+      "bytes": 526082,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/model219.csv"
+    },
+    {
+      "bytes": 69321,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/model227.csv"
+    },
+    {
+      "bytes": 58355,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/model23.csv"
+    },
+    {
+      "bytes": 576147,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/model230.csv"
+    },
+    {
+      "bytes": 103967,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/model237.csv"
+    },
+    {
+      "bytes": 49406,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/model240.csv"
+    },
+    {
+      "bytes": 1922,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/model243.csv"
+    },
+    {
+      "bytes": 131262,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/model25.csv"
+    },
+    {
+      "bytes": 1444,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/model252.csv"
+    },
+    {
+      "bytes": 1355,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/model259.csv"
+    },
+    {
+      "bytes": 324852,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/model26.csv"
+    },
+    {
+      "bytes": 520615,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/model262.csv"
+    },
+    {
+      "bytes": 945577,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/model264.csv"
+    },
+    {
+      "bytes": 57165,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/model267.csv"
+    },
+    {
+      "bytes": 7602,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/model27.csv"
+    },
+    {
+      "bytes": 51914,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/model28.csv"
+    },
+    {
+      "bytes": 17912,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/model30.csv"
+    },
+    {
+      "bytes": 6335,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/model307.csv"
+    },
+    {
+      "bytes": 93538,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/model31.csv"
+    },
+    {
+      "bytes": 4379,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/model313.csv"
+    },
+    {
+      "bytes": 111875,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/model354.csv"
+    },
+    {
+      "bytes": 12138,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/model36.csv"
+    },
+    {
+      "bytes": 45525,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/model37.csv"
+    },
+    {
+      "bytes": 18783,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/model39.csv"
+    },
+    {
+      "bytes": 8609,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/model51.csv"
+    },
+    {
+      "bytes": 56007,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/model53.csv"
+    },
+    {
+      "bytes": 434,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/model59.csv"
+    },
+    {
+      "bytes": 4732,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/model68.csv"
+    },
+    {
+      "bytes": 1662042,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/model77.csv"
+    },
+    {
+      "bytes": 421201,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/multi_horizon_alpha.csv"
+    },
+    {
+      "bytes": 30290,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/multi_source_model.csv"
+    },
+    {
+      "bytes": 329064,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/multifactor_return_pred.csv"
+    },
+    {
+      "bytes": 14678,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/news104.csv"
+    },
+    {
+      "bytes": 307058,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/news12.csv"
+    },
+    {
+      "bytes": 20112,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/news17.csv"
+    },
+    {
+      "bytes": 39338,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/news18.csv"
+    },
+    {
+      "bytes": 103703,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/news21.csv"
+    },
+    {
+      "bytes": 48082,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/news23.csv"
+    },
+    {
+      "bytes": 5101,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/news29.csv"
+    },
+    {
+      "bytes": 9103,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/news3.csv"
+    },
+    {
+      "bytes": 23508,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/news31.csv"
+    },
+    {
+      "bytes": 11968,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/news36.csv"
+    },
+    {
+      "bytes": 18793,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/news38.csv"
+    },
+    {
+      "bytes": 3255,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/news42.csv"
+    },
+    {
+      "bytes": 40464,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/news46.csv"
+    },
+    {
+      "bytes": 8707,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/news48.csv"
+    },
+    {
+      "bytes": 50893,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/news5.csv"
+    },
+    {
+      "bytes": 35346,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/news50.csv"
+    },
+    {
+      "bytes": 6490,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/news51.csv"
+    },
+    {
+      "bytes": 13575,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/news52.csv"
+    },
+    {
+      "bytes": 2426,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/news55.csv"
+    },
+    {
+      "bytes": 31070,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/news59.csv"
+    },
+    {
+      "bytes": 61649,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/news7.csv"
+    },
+    {
+      "bytes": 8628,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/news73.csv"
+    },
+    {
+      "bytes": 2393,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/news76.csv"
+    },
+    {
+      "bytes": 10505,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/news82.csv"
+    },
+    {
+      "bytes": 10507,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/news84.csv"
+    },
+    {
+      "bytes": 10918,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/news85.csv"
+    },
+    {
+      "bytes": 75553,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/news87.csv"
+    },
+    {
+      "bytes": 20323,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/news92.csv"
+    },
+    {
+      "bytes": 20552,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/news94.csv"
+    },
+    {
+      "bytes": 42034,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/news97.csv"
+    },
+    {
+      "bytes": 38291,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/news_sentiment_dl.csv"
+    },
+    {
+      "bytes": 9846,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/news_sentiment_nlp.csv"
+    },
+    {
+      "bytes": 9553,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/news_sentiment_transfer.csv"
+    },
+    {
+      "bytes": 187126,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/news_transformer_scores.csv"
+    },
+    {
+      "bytes": 38487,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/nlp_news_scores.csv"
+    },
+    {
+      "bytes": 7527,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/option3.csv"
+    },
+    {
+      "bytes": 89830,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/option40.csv"
+    },
+    {
+      "bytes": 50668,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/option6.csv"
+    },
+    {
+      "bytes": 28403,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/option8.csv"
+    },
+    {
+      "bytes": 33292,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/option9.csv"
+    },
+    {
+      "bytes": 216517,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/option_chart_model.csv"
+    },
+    {
+      "bytes": 256312,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/option_horizon_decomp.csv"
+    },
+    {
+      "bytes": 67186,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/options_composite.csv"
+    },
+    {
+      "bytes": 106185,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/order_book_imbalance.csv"
+    },
+    {
+      "bytes": 58700,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/order_flow_imb.csv"
+    },
+    {
+      "bytes": 4169,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/other128.csv"
+    },
+    {
+      "bytes": 56852,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/other143.csv"
+    },
+    {
+      "bytes": 2162,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/other17.csv"
+    },
+    {
+      "bytes": 7299,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/other176.csv"
+    },
+    {
+      "bytes": 1672,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/other193.csv"
+    },
+    {
+      "bytes": 3806,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/other250.csv"
+    },
+    {
+      "bytes": 19343,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/other296.csv"
+    },
+    {
+      "bytes": 13823,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/other315.csv"
+    },
+    {
+      "bytes": 17655,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/other326.csv"
+    },
+    {
+      "bytes": 1573,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/other327.csv"
+    },
+    {
+      "bytes": 25962,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/other33.csv"
+    },
+    {
+      "bytes": 4171,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/other335.csv"
+    },
+    {
+      "bytes": 3979,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/other359.csv"
+    },
+    {
+      "bytes": 838,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/other378.csv"
+    },
+    {
+      "bytes": 25877,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/other384.csv"
+    },
+    {
+      "bytes": 8700,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/other411.csv"
+    },
+    {
+      "bytes": 1373,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/other424.csv"
+    },
+    {
+      "bytes": 1383,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/other427.csv"
+    },
+    {
+      "bytes": 484399,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/other432.csv"
+    },
+    {
+      "bytes": 1340,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/other436.csv"
+    },
+    {
+      "bytes": 773217,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/other455.csv"
+    },
+    {
+      "bytes": 916281,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/other460.csv"
+    },
+    {
+      "bytes": 172754,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/other466.csv"
+    },
+    {
+      "bytes": 3602,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/other510.csv"
+    },
+    {
+      "bytes": 1636,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/other545.csv"
+    },
+    {
+      "bytes": 6129,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/other546.csv"
+    },
+    {
+      "bytes": 11365,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/other551.csv"
+    },
+    {
+      "bytes": 25145,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/other553.csv"
+    },
+    {
+      "bytes": 22826,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/other566.csv"
+    },
+    {
+      "bytes": 79554,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/other567.csv"
+    },
+    {
+      "bytes": 12986,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/other571.csv"
+    },
+    {
+      "bytes": 182507,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/other580.csv"
+    },
+    {
+      "bytes": 162811,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/other596.csv"
+    },
+    {
+      "bytes": 2491,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/other623.csv"
+    },
+    {
+      "bytes": 4221,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/other635.csv"
+    },
+    {
+      "bytes": 29491,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/other685.csv"
+    },
+    {
+      "bytes": 195183,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/other696.csv"
+    },
+    {
+      "bytes": 10105,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/other699.csv"
+    },
+    {
+      "bytes": 4740,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/other7.csv"
+    },
+    {
+      "bytes": 238333,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/pattern_scores.csv"
+    },
+    {
+      "bytes": 571496,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/predictive_starmine.csv"
+    },
+    {
+      "bytes": 11522,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/price_signal_dl.csv"
+    },
+    {
+      "bytes": 5543,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/pv1.csv"
+    },
+    {
+      "bytes": 29799,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/pv103.csv"
+    },
+    {
+      "bytes": 15449,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/pv104.csv"
+    },
+    {
+      "bytes": 2397,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/pv106.csv"
+    },
+    {
+      "bytes": 9233,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/pv109.csv"
+    },
+    {
+      "bytes": 4173,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/pv115.csv"
+    },
+    {
+      "bytes": 50819,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/pv13.csv"
+    },
+    {
+      "bytes": 1934,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/pv141.csv"
+    },
+    {
+      "bytes": 1994,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/pv149.csv"
+    },
+    {
+      "bytes": 24188,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/pv173.csv"
+    },
+    {
+      "bytes": 651410,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/pv20.csv"
+    },
+    {
+      "bytes": 121139,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/pv29.csv"
+    },
+    {
+      "bytes": 432597,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/pv30.csv"
+    },
+    {
+      "bytes": 1213,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/pv47.csv"
+    },
+    {
+      "bytes": 52685,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/pv48.csv"
+    },
+    {
+      "bytes": 68384,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/pv52.csv"
+    },
+    {
+      "bytes": 1627,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/pv53.csv"
+    },
+    {
+      "bytes": 5244,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/pv63.csv"
+    },
+    {
+      "bytes": 101606,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/pv64.csv"
+    },
+    {
+      "bytes": 32852,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/pv73.csv"
+    },
+    {
+      "bytes": 3007844,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/pv87.csv"
+    },
+    {
+      "bytes": 9032,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/pv96.csv"
+    },
+    {
+      "bytes": 141159,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/pv98.csv"
+    },
+    {
+      "bytes": 21075,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/pv_tech_indicators.csv"
+    },
+    {
+      "bytes": 109592,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/quant_factor_lib.csv"
+    },
+    {
+      "bytes": 7614,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/risk59.csv"
+    },
+    {
+      "bytes": 2042,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/risk60.csv"
+    },
+    {
+      "bytes": 280062,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/risk62.csv"
+    },
+    {
+      "bytes": 2219,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/risk65.csv"
+    },
+    {
+      "bytes": 57666,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/risk70.csv"
+    },
+    {
+      "bytes": 1172,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/risk72.csv"
+    },
+    {
+      "bytes": 85230,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/risk82.csv"
+    },
+    {
+      "bytes": 5060,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/search_interest.csv"
+    },
+    {
+      "bytes": 8586,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/sentiment1.csv"
+    },
+    {
+      "bytes": 88015,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/sentiment21.csv"
+    },
+    {
+      "bytes": 75051,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/sentiment22.csv"
+    },
+    {
+      "bytes": 82388,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/sentiment23.csv"
+    },
+    {
+      "bytes": 15683,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/sentiment26.csv"
+    },
+    {
+      "bytes": 5849,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/sentiment27.csv"
+    },
+    {
+      "bytes": 15209,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/sentiment7.csv"
+    },
+    {
+      "bytes": 4693,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/short_interest_pred.csv"
+    },
+    {
+      "bytes": 601,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/shortinterest24.csv"
+    },
+    {
+      "bytes": 13403,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/shortinterest29.csv"
+    },
+    {
+      "bytes": 14032,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/shortinterest3.csv"
+    },
+    {
+      "bytes": 11132,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/shortinterest43.csv"
+    },
+    {
+      "bytes": 5760,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/shortinterest7.csv"
+    },
+    {
+      "bytes": 1354,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/social_sent_score.csv"
+    },
+    {
+      "bytes": 6407,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/socialmedia12.csv"
+    },
+    {
+      "bytes": 1353,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/socialmedia8.csv"
+    },
+    {
+      "bytes": 2014,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/stock_cluster_dl.csv"
+    },
+    {
+      "bytes": 6643,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/stock_search_trends.csv"
+    },
+    {
+      "bytes": 58777,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/sustainable_profit.csv"
+    },
+    {
+      "bytes": 163853,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/tech_chart_model.csv"
+    },
+    {
+      "bytes": 993462,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/techindi_model.csv"
+    },
+    {
+      "bytes": 43775,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/twitter_sentiment_l2.csv"
+    },
+    {
+      "bytes": 1562,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/univ1.csv"
+    },
+    {
+      "bytes": 403,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/univ2.csv"
+    },
+    {
+      "bytes": 3292,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/us_equity_news.csv"
+    },
+    {
+      "bytes": 1893,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/us_short_sale.csv"
+    },
+    {
+      "bytes": 54153,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/web_traffic_engage.csv"
+    },
+    {
+      "bytes": 11624,
+      "classification": "retrieval_index",
+      "path": "reports/data_fields/index/fields_by_dataset/workforce_flow_skills.csv"
+    },
+    {
+      "bytes": 32885,
+      "classification": "generated_or_historical_report",
+      "path": "reports/gpt_library/audits/consultant_system_upgrade_audit.md"
+    },
+    {
+      "bytes": 12291,
+      "classification": "generated_or_historical_report",
+      "path": "reports/gpt_library/audits/consultant_upgrade_phase_plan.csv"
+    },
+    {
+      "bytes": 4969,
+      "classification": "generated_or_historical_report",
+      "path": "reports/gpt_library/audits/FOLDER_CLEANUP_AND_DATA_FIELDS_IMPLEMENTATION_20260716.md"
+    },
+    {
+      "bytes": 23001,
+      "classification": "generated_or_historical_report",
+      "path": "reports/gpt_library/audits/WQ_CONSULTANT_GENIUS_BACKTEST_FRAMEWORK_GAP_REVIEW_20260716.md"
+    },
+    {
+      "bytes": 205,
+      "classification": "generated_or_historical_report",
+      "path": "reports/gpt_library/batches/proposed/README.md"
+    },
+    {
+      "bytes": 188,
+      "classification": "generated_or_historical_report",
+      "path": "reports/gpt_library/batches/validated/README.md"
+    },
+    {
+      "bytes": 640,
+      "classification": "generated_or_historical_report",
+      "path": "reports/gpt_library/context/consultant_capability_profile.json"
+    },
+    {
+      "bytes": 12718,
+      "classification": "generated_or_historical_report",
+      "path": "reports/gpt_library/context/consultant_multi_8x10_implementation_report.md"
+    },
+    {
+      "bytes": 43244,
+      "classification": "generated_or_historical_report",
+      "path": "reports/gpt_library/context/gpt_factor_context_current.md"
+    },
+    {
+      "bytes": 1728,
+      "classification": "generated_or_historical_report",
+      "path": "reports/gpt_library/LIBRARY_INDEX.md"
+    },
+    {
+      "bytes": 203,
+      "classification": "generated_or_historical_report",
+      "path": "reports/gpt_library/materials/distilled/README.md"
+    },
+    {
+      "bytes": 182,
+      "classification": "generated_or_historical_report",
+      "path": "reports/gpt_library/materials/incoming/README.md"
+    },
+    {
+      "bytes": 475,
+      "classification": "generated_or_historical_report",
+      "path": "reports/gpt_library/materials/README.md"
+    },
+    {
+      "bytes": 1059,
+      "classification": "generated_or_historical_report",
+      "path": "reports/gpt_library/prompts/GPT_LIBRARY_RESEARCH_PROMPT.md"
+    },
+    {
+      "bytes": 298589,
+      "classification": "generated_or_historical_report",
+      "path": "reports/gpt_library/research_packs/incoming/GPT_POWER_POOL_USA_D1_TOP1000_UPLOAD_20260716.zip"
+    },
+    {
+      "bytes": 1801228,
+      "classification": "generated_or_historical_report",
+      "path": "reports/gpt_library/research_packs/reference/GPT_FIELD_CONTEXT_UPLOAD_20260716.zip"
+    },
+    {
+      "bytes": 298522,
+      "classification": "generated_or_historical_report",
+      "path": "reports/gpt_library/research_packs/reference/GPT_MULTI_REGION_PROBE_UPLOAD_20260716.zip"
+    },
+    {
+      "bytes": 4413,
+      "classification": "generated_or_historical_report",
+      "path": "reports/gpt_library/resource_catalog.csv"
+    },
+    {
+      "bytes": 27397,
+      "classification": "generated_or_historical_report",
+      "path": "reports/gpt_library/reviews/WQ_AI_WORKFLOW_FORUM_AND_SKILL_REVIEW_20260716.md"
+    },
+    {
+      "bytes": 145932,
+      "classification": "generated_or_historical_report",
+      "path": "reports/gpt_library/source_inventory_current.csv"
+    },
+    {
+      "bytes": 1632,
+      "classification": "generated_or_historical_report",
+      "path": "reports/gpt_library/SOURCE_ORGANIZATION_REPORT_20260717.md"
+    },
+    {
+      "bytes": 8360,
+      "classification": "generated_or_historical_report",
+      "path": "reports/gpt_library/templates/WQ_FORUM_TEMPLATES_20260716.md"
+    },
+    {
+      "bytes": 5855,
+      "classification": "generated_or_historical_report",
+      "path": "reports/gpt_library/workflows/CODEX_GPT_COLLABORATION_WORKFLOW.md"
+    },
+    {
+      "bytes": 5683,
+      "classification": "generated_or_historical_report",
+      "path": "reports/gpt_library/workflows/FULL_RESEARCH_PACK_P0_ASSETS_20260716.md"
+    },
+    {
+      "bytes": 3103,
+      "classification": "generated_or_historical_report",
+      "path": "reports/gpt_library/workflows/FULL_RESEARCH_PACK_VALIDATION_20260713.md"
+    },
+    {
+      "bytes": 6555,
+      "classification": "generated_or_historical_report",
+      "path": "reports/gpt_library/workflows/MATERIAL_RESEARCH_QUEUE_WORKFLOW.md"
+    },
+    {
+      "bytes": 7329,
+      "classification": "legacy_or_repository_metadata",
+      "path": "scope_coverage_matrix.csv"
+    },
+    {
+      "bytes": 9152,
+      "classification": "legacy_or_repository_metadata",
+      "path": "server_capacity_assessment.md"
+    },
+    {
+      "bytes": 18864,
+      "classification": "collector_or_builder",
+      "path": "tools/__pycache__/registry_local_service.cpython-312.pyc"
+    },
+    {
+      "bytes": 6391,
+      "classification": "collector_or_builder",
+      "path": "tools/assess_registry_capacity.py"
+    },
+    {
+      "bytes": 4923,
+      "classification": "collector_or_builder",
+      "path": "tools/audit_gpt_library_sources.py"
+    },
+    {
+      "bytes": 6747,
+      "classification": "collector_or_builder",
+      "path": "tools/build_field_index.py"
+    },
+    {
+      "bytes": 18179,
+      "classification": "collector_or_builder",
+      "path": "tools/build_platform_registry_snapshot.py"
+    },
+    {
+      "bytes": 12495,
+      "classification": "collector_or_builder",
+      "path": "tools/registry_local_service.py"
+    },
+    {
+      "bytes": 5858,
+      "classification": "collector_or_builder",
+      "path": "tools/search_available_fields.py"
+    },
+    {
+      "bytes": 5379,
+      "classification": "collector_or_builder",
+      "path": "tools/validate_registry_sync.py"
+    }
+  ],
+  "generated_at": "2026-07-18T03:00:05Z",
+  "schema_version": "platform-registry-inventory.v1",
+  "self_excluded": true,
+  "source_commit": "8548481557fbf51b970a7a22f988bad19f1f7732",
+  "total_bytes": 106979742
+}

@@ -1,0 +1,115 @@
+{
+  "active_snapshot": {
+    "counts": {
+      "datasets": 6509,
+      "fields": 85612,
+      "operators": 85,
+      "profiles": 483
+    },
+    "snapshot_id": "REG-20260718-001",
+    "status": "ACTIVE"
+  },
+  "ai_runtime_source": "local SQLite Active Snapshot",
+  "coverage_status": "PARTIAL",
+  "database_bytes": 41320448,
+  "embeddings_enabled": false,
+  "full_csv_scanned_per_query": false,
+  "import_seconds": 6.000218800007133,
+  "index_bytes": 25910288,
+  "manifest": "registry/snapshots/REG-20260718-001/manifest.json",
+  "manifest_verification_seconds": 0.20106890000170097,
+  "network_enabled": false,
+  "operator_validation": {
+    "access_level": "base",
+    "category": "Time Series",
+    "compatibility_status": "UNVERIFIED",
+    "description": "Ranks the value of a variable for each instrument over a specified number of past days, returning the rank of the current value (optionally adjusted by a constant). Useful for normalizing time-series data and highlighting relative performance over time.",
+    "operator_id": "ts_rank",
+    "signature": "ts_rank(x, d, constant = 0)",
+    "snapshot_id": "REG-20260718-001"
+  },
+  "peak_process_rss_bytes": 33738752,
+  "peak_python_heap_bytes": 2973256,
+  "query_ms": {
+    "max": 3.3869000035338104,
+    "median": 1.7162000003736466,
+    "min": 1.562499994179234,
+    "p95": 2.642000006744638
+  },
+  "real_wq_calls": 0,
+  "simulation_profile_validation": {
+    "field_coverage_status": "COMPLETE",
+    "profile": {
+      "delay": 1,
+      "instrument_type": "EQUITY",
+      "neutralization": "SUBINDUSTRY",
+      "region": "USA",
+      "universe": "TOP3000"
+    },
+    "simulation_profile_hash": "9bacfc9691578e7e94a82aace249f738fc4c6477b33ff6e62ee90ef62c2a26d5",
+    "snapshot_id": "REG-20260718-001"
+  },
+  "snapshot_id": "REG-20260718-001",
+  "snapshot_payload_bytes": 1950624,
+  "source_commit": "8548481557fbf51b970a7a22f988bad19f1f7732",
+  "status": "PASS",
+  "temporary_disk_peak_bytes": 43271072,
+  "top_k": [
+    {
+      "dataset_id": "analyst15",
+      "delay": 1,
+      "description": "Weighted three-month percent change in 12-month forward earnings forecasts, aggregated at the group level",
+      "field_id": "anl15_bps_gr_12_m_3m_chg",
+      "field_name": "anl15_bps_gr_12_m_3m_chg",
+      "field_type": "MATRIX",
+      "region": "USA",
+      "snapshot_id": "REG-20260718-001",
+      "universe": "TOP3000"
+    },
+    {
+      "dataset_id": "analyst15",
+      "delay": 1,
+      "description": "Weighted six-month percent change in 12-month forward earnings forecasts, using a constant sample, aggregated at the group level in AMR",
+      "field_id": "anl15_bps_gr_12_m_6m_chg",
+      "field_name": "anl15_bps_gr_12_m_6m_chg",
+      "field_type": "MATRIX",
+      "region": "USA",
+      "snapshot_id": "REG-20260718-001",
+      "universe": "TOP3000"
+    },
+    {
+      "dataset_id": "analyst15",
+      "delay": 1,
+      "description": "Group-level weighted average Price/Earnings ratio based on 12-month forward earnings",
+      "field_id": "anl15_bps_gr_12_m_pe",
+      "field_name": "anl15_bps_gr_12_m_pe",
+      "field_type": "MATRIX",
+      "region": "USA",
+      "snapshot_id": "REG-20260718-001",
+      "universe": "TOP3000"
+    },
+    {
+      "dataset_id": "analyst15",
+      "delay": 1,
+      "description": "Standard deviation of 12-month forward earnings forecasts, aggregated at the group level in Europe",
+      "field_id": "anl15_bps_gr_12_m_st_dev",
+      "field_name": "anl15_bps_gr_12_m_st_dev",
+      "field_type": "MATRIX",
+      "region": "USA",
+      "snapshot_id": "REG-20260718-001",
+      "universe": "TOP3000"
+    },
+    {
+      "dataset_id": "analyst15",
+      "delay": 1,
+      "description": "Weighted one-month percent change in the 18-month forward earnings forecasts, using a constant sample, aggregated at the group level for the AMR region",
+      "field_id": "anl15_bps_gr_18_m_1m_chg",
+      "field_name": "anl15_bps_gr_18_m_1m_chg",
+      "field_type": "MATRIX",
+      "region": "USA",
+      "snapshot_id": "REG-20260718-001",
+      "universe": "TOP3000"
+    }
+  ],
+  "vector_database_enabled": false
+}

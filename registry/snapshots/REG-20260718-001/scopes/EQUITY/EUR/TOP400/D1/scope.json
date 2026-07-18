@@ -1,0 +1,20 @@
+{
+  "coverage_status": "DATASET_ONLY",
+  "dataset_catalog": "registry/snapshots/REG-20260718-001/datasets/dataset_scopes.csv.gz",
+  "dataset_count": 178,
+  "dataset_coverage": "COMPLETE",
+  "field_catalog": null,
+  "field_coverage": "MISSING",
+  "last_verified_at": "2026-07-18T03:00:05Z",
+  "missing_scope": [
+    "fields"
+  ],
+  "schema_version": "platform-registry.v1",
+  "scope": {
+    "delay": 1,
+    "instrument_type": "EQUITY",
+    "region": "EUR",
+    "universe": "TOP400"
+  },
+  "snapshot_id": "REG-20260718-001"
+}

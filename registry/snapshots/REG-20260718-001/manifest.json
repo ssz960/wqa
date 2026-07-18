@@ -1,0 +1,884 @@
+{
+  "counts": {
+    "dataset_scope_records": 6509,
+    "field_records": 85612,
+    "legal_profiles": 483,
+    "operator_records": 85
+  },
+  "coverage_status": "PARTIAL",
+  "files": [
+    {
+      "bytes": 622,
+      "kind": "schema",
+      "path": "registry/schemas/manifest.schema.json",
+      "record_count": 1,
+      "schema_version": "platform-registry.v1",
+      "scope": {},
+      "sha256": "fad5382e1e95061db7d15b10205e86b3fd2d16f2ad23e31bf407b6b792d2fc2f",
+      "source": "local schema",
+      "source_commit": "8548481557fbf51b970a7a22f988bad19f1f7732"
+    },
+    {
+      "bytes": 112537,
+      "kind": "datasets",
+      "path": "registry/snapshots/REG-20260718-001/datasets/dataset_scopes.csv.gz",
+      "record_count": 6509,
+      "schema_version": "platform-registry.v1",
+      "scope": {
+        "instrument_type": "EQUITY",
+        "regions": [
+          "ASI",
+          "CHN",
+          "EUR",
+          "GLB",
+          "IND",
+          "JPN",
+          "MEA",
+          "USA"
+        ]
+      },
+      "sha256": "0c4bd38f9eb18c3ee1e3bc2f0942f7481f228aff09bb6a94483f89e0b28c73f4",
+      "source": "GET /data-sets",
+      "source_commit": "8548481557fbf51b970a7a22f988bad19f1f7732"
+    },
+    {
+      "bytes": 1734852,
+      "kind": "fields",
+      "path": "registry/snapshots/REG-20260718-001/fields/EQUITY/USA/TOP3000/D1/fields.csv.gz",
+      "record_count": 85612,
+      "schema_version": "platform-registry.v1",
+      "scope": {
+        "delay": 1,
+        "instrument_type": "EQUITY",
+        "region": "USA",
+        "universe": "TOP3000"
+      },
+      "sha256": "8abe9daf52154e1275a500b5ad14333252c1be864c8a200fddb3a1bfa0d1edca",
+      "source": "GET /data-fields",
+      "source_commit": "8548481557fbf51b970a7a22f988bad19f1f7732"
+    },
+    {
+      "bytes": 525,
+      "kind": "field_types",
+      "path": "registry/snapshots/REG-20260718-001/fields/field_types.json",
+      "record_count": 5,
+      "schema_version": "platform-registry.v1",
+      "scope": {
+        "delay": 1,
+        "region": "USA",
+        "universe": "TOP3000"
+      },
+      "sha256": "ccc8046cc140b0af3f118db7eb2f39243466a7af93ccd7e05a64008cd95afecb",
+      "source": "GET /data-fields",
+      "source_commit": "8548481557fbf51b970a7a22f988bad19f1f7732"
+    },
+    {
+      "bytes": 37602,
+      "kind": "operators",
+      "path": "registry/snapshots/REG-20260718-001/operators/operators.jsonl",
+      "record_count": 85,
+      "schema_version": "platform-registry.v1",
+      "scope": {
+        "instrument_type": "EQUITY"
+      },
+      "sha256": "611100e34a19bf2d57fff6160d64d66c2704ea85a3ee7b292d8b70e485aad817",
+      "source": "https://platform.worldquantbrain.com/learn/operators",
+      "source_commit": "8548481557fbf51b970a7a22f988bad19f1f7732"
+    },
+    {
+      "bytes": 3774,
+      "kind": "settings",
+      "path": "registry/snapshots/REG-20260718-001/settings/simulation_settings.json",
+      "record_count": 18,
+      "schema_version": "platform-registry.v1",
+      "scope": {
+        "instrument_type": "EQUITY",
+        "regions": [
+          "ASI",
+          "CHN",
+          "EUR",
+          "GLB",
+          "IND",
+          "JPN",
+          "MEA",
+          "USA"
+        ]
+      },
+      "sha256": "fdce52ea1ac90065312950c91031ce87597c216ec49fe98713e971b1f939c8e6",
+      "source": "OPTIONS /simulations",
+      "source_commit": "8548481557fbf51b970a7a22f988bad19f1f7732"
+    },
+    {
+      "bytes": 37659,
+      "kind": "legal_profiles",
+      "path": "registry/snapshots/REG-20260718-001/settings/legal_profiles.csv",
+      "record_count": 483,
+      "schema_version": "platform-registry.v1",
+      "scope": {
+        "instrument_type": "EQUITY",
+        "regions": [
+          "ASI",
+          "CHN",
+          "EUR",
+          "GLB",
+          "IND",
+          "JPN",
+          "MEA",
+          "USA"
+        ]
+      },
+      "sha256": "ceadd7ce1130614c77b1530f9579393008e3caa8c11455d6c0c6ae3385705cf5",
+      "source": "OPTIONS /simulations + GET /data-sets",
+      "source_commit": "8548481557fbf51b970a7a22f988bad19f1f7732"
+    },
+    {
+      "bytes": 378,
+      "kind": "dataset_policy",
+      "path": "registry/snapshots/REG-20260718-001/dataset_policy.json",
+      "record_count": 1,
+      "schema_version": "platform-registry.v1",
+      "scope": {},
+      "sha256": "9bdbba45a489516772bce433623e84977306dd7bcd1f0e22de88cf5a115a0920",
+      "source": "REG-20260718-001 governance",
+      "source_commit": "8548481557fbf51b970a7a22f988bad19f1f7732"
+    },
+    {
+      "bytes": 535,
+      "kind": "scope_manifest",
+      "path": "registry/snapshots/REG-20260718-001/scopes/EQUITY/ASI/ILLIQUID_MINVOL1M/D1/scope.json",
+      "record_count": 1,
+      "schema_version": "platform-registry.v1",
+      "scope": {
+        "delay": 1,
+        "instrument_type": "EQUITY",
+        "region": "ASI",
+        "universe": "ILLIQUID_MINVOL1M"
+      },
+      "sha256": "56555a977fff0c7cffba6fe4bc040a0de7a66ad4196b56656053b57ff407df09",
+      "source": "OPTIONS /simulations + GET /data-sets",
+      "source_commit": "8548481557fbf51b970a7a22f988bad19f1f7732"
+    },
+    {
+      "bytes": 527,
+      "kind": "scope_manifest",
+      "path": "registry/snapshots/REG-20260718-001/scopes/EQUITY/ASI/MINVOL10M/D1/scope.json",
+      "record_count": 1,
+      "schema_version": "platform-registry.v1",
+      "scope": {
+        "delay": 1,
+        "instrument_type": "EQUITY",
+        "region": "ASI",
+        "universe": "MINVOL10M"
+      },
+      "sha256": "7ca137c9f6fe10336dbe5d4a1087fdc7b5847b3f88fb75192d7bc567a873c1c1",
+      "source": "OPTIONS /simulations + GET /data-sets",
+      "source_commit": "8548481557fbf51b970a7a22f988bad19f1f7732"
+    },
+    {
+      "bytes": 526,
+      "kind": "scope_manifest",
+      "path": "registry/snapshots/REG-20260718-001/scopes/EQUITY/ASI/MINVOL1M/D1/scope.json",
+      "record_count": 1,
+      "schema_version": "platform-registry.v1",
+      "scope": {
+        "delay": 1,
+        "instrument_type": "EQUITY",
+        "region": "ASI",
+        "universe": "MINVOL1M"
+      },
+      "sha256": "c23c12e2b41d600ea7012a43682249de181319bd571bd41ee85b07f8e876218b",
+      "source": "OPTIONS /simulations + GET /data-sets",
+      "source_commit": "8548481557fbf51b970a7a22f988bad19f1f7732"
+    },
+    {
+      "bytes": 524,
+      "kind": "scope_manifest",
+      "path": "registry/snapshots/REG-20260718-001/scopes/EQUITY/ASI/TOP500/D1/scope.json",
+      "record_count": 1,
+      "schema_version": "platform-registry.v1",
+      "scope": {
+        "delay": 1,
+        "instrument_type": "EQUITY",
+        "region": "ASI",
+        "universe": "TOP500"
+      },
+      "sha256": "db46e12ab037c307dc172e7203eb468fe012472e8739be1317fc46b2f7a9c309",
+      "source": "OPTIONS /simulations + GET /data-sets",
+      "source_commit": "8548481557fbf51b970a7a22f988bad19f1f7732"
+    },
+    {
+      "bytes": 525,
+      "kind": "scope_manifest",
+      "path": "registry/snapshots/REG-20260718-001/scopes/EQUITY/CHN/TOP2000U/D0/scope.json",
+      "record_count": 1,
+      "schema_version": "platform-registry.v1",
+      "scope": {
+        "delay": 0,
+        "instrument_type": "EQUITY",
+        "region": "CHN",
+        "universe": "TOP2000U"
+      },
+      "sha256": "586981adb993a5b2ef632dd590d28bfaf7d39400f71e1ef9a22c4c959ba92407",
+      "source": "OPTIONS /simulations + GET /data-sets",
+      "source_commit": "8548481557fbf51b970a7a22f988bad19f1f7732"
+    },
+    {
+      "bytes": 525,
+      "kind": "scope_manifest",
+      "path": "registry/snapshots/REG-20260718-001/scopes/EQUITY/CHN/TOP2000U/D1/scope.json",
+      "record_count": 1,
+      "schema_version": "platform-registry.v1",
+      "scope": {
+        "delay": 1,
+        "instrument_type": "EQUITY",
+        "region": "CHN",
+        "universe": "TOP2000U"
+      },
+      "sha256": "a71d27121524d6eb768eadbaf4103c26de7dfe380206e5bb67e941e57927cef8",
+      "source": "OPTIONS /simulations + GET /data-sets",
+      "source_commit": "8548481557fbf51b970a7a22f988bad19f1f7732"
+    },
+    {
+      "bytes": 534,
+      "kind": "scope_manifest",
+      "path": "registry/snapshots/REG-20260718-001/scopes/EQUITY/EUR/ILLIQUID_MINVOL1M/D0/scope.json",
+      "record_count": 1,
+      "schema_version": "platform-registry.v1",
+      "scope": {
+        "delay": 0,
+        "instrument_type": "EQUITY",
+        "region": "EUR",
+        "universe": "ILLIQUID_MINVOL1M"
+      },
+      "sha256": "1ace6b5e1dc1aeaa6cf26c9bfbce5aef36c3a81967dc831ac64547f366fc0d10",
+      "source": "OPTIONS /simulations + GET /data-sets",
+      "source_commit": "8548481557fbf51b970a7a22f988bad19f1f7732"
+    },
+    {
+      "bytes": 524,
+      "kind": "scope_manifest",
+      "path": "registry/snapshots/REG-20260718-001/scopes/EQUITY/EUR/TOP1200/D0/scope.json",
+      "record_count": 1,
+      "schema_version": "platform-registry.v1",
+      "scope": {
+        "delay": 0,
+        "instrument_type": "EQUITY",
+        "region": "EUR",
+        "universe": "TOP1200"
+      },
+      "sha256": "08247f5359ac4b73c63c157d4c2d7fb8736099a04de4a6c835f22feae3498f42",
+      "source": "OPTIONS /simulations + GET /data-sets",
+      "source_commit": "8548481557fbf51b970a7a22f988bad19f1f7732"
+    },
+    {
+      "bytes": 524,
+      "kind": "scope_manifest",
+      "path": "registry/snapshots/REG-20260718-001/scopes/EQUITY/EUR/TOP2500/D0/scope.json",
+      "record_count": 1,
+      "schema_version": "platform-registry.v1",
+      "scope": {
+        "delay": 0,
+        "instrument_type": "EQUITY",
+        "region": "EUR",
+        "universe": "TOP2500"
+      },
+      "sha256": "f927aff1ec9641d719370bd5037479ed71776f89e1526ed2ab4b84ab4dcf2ae4",
+      "source": "OPTIONS /simulations + GET /data-sets",
+      "source_commit": "8548481557fbf51b970a7a22f988bad19f1f7732"
+    },
+    {
+      "bytes": 523,
+      "kind": "scope_manifest",
+      "path": "registry/snapshots/REG-20260718-001/scopes/EQUITY/EUR/TOP400/D0/scope.json",
+      "record_count": 1,
+      "schema_version": "platform-registry.v1",
+      "scope": {
+        "delay": 0,
+        "instrument_type": "EQUITY",
+        "region": "EUR",
+        "universe": "TOP400"
+      },
+      "sha256": "80cea53f705da019f4f5c8eda21db1f9f59db66648f16f06425323a57b7cd0e9",
+      "source": "OPTIONS /simulations + GET /data-sets",
+      "source_commit": "8548481557fbf51b970a7a22f988bad19f1f7732"
+    },
+    {
+      "bytes": 523,
+      "kind": "scope_manifest",
+      "path": "registry/snapshots/REG-20260718-001/scopes/EQUITY/EUR/TOP800/D0/scope.json",
+      "record_count": 1,
+      "schema_version": "platform-registry.v1",
+      "scope": {
+        "delay": 0,
+        "instrument_type": "EQUITY",
+        "region": "EUR",
+        "universe": "TOP800"
+      },
+      "sha256": "1e4b76b180692e99d2b9684eca85929452557feed0bf7d61a317a27335d9cebd",
+      "source": "OPTIONS /simulations + GET /data-sets",
+      "source_commit": "8548481557fbf51b970a7a22f988bad19f1f7732"
+    },
+    {
+      "bytes": 526,
+      "kind": "scope_manifest",
+      "path": "registry/snapshots/REG-20260718-001/scopes/EQUITY/EUR/TOPCS1600/D0/scope.json",
+      "record_count": 1,
+      "schema_version": "platform-registry.v1",
+      "scope": {
+        "delay": 0,
+        "instrument_type": "EQUITY",
+        "region": "EUR",
+        "universe": "TOPCS1600"
+      },
+      "sha256": "db8c6a178ef74e11078548371bc12d54ebb4c4f51e6d720512123c0bb4a09326",
+      "source": "OPTIONS /simulations + GET /data-sets",
+      "source_commit": "8548481557fbf51b970a7a22f988bad19f1f7732"
+    },
+    {
+      "bytes": 535,
+      "kind": "scope_manifest",
+      "path": "registry/snapshots/REG-20260718-001/scopes/EQUITY/EUR/ILLIQUID_MINVOL1M/D1/scope.json",
+      "record_count": 1,
+      "schema_version": "platform-registry.v1",
+      "scope": {
+        "delay": 1,
+        "instrument_type": "EQUITY",
+        "region": "EUR",
+        "universe": "ILLIQUID_MINVOL1M"
+      },
+      "sha256": "23ce8f84a1deb950382ab2f079795a39dd463c6a057a3856f46d9ab1b300b4b6",
+      "source": "OPTIONS /simulations + GET /data-sets",
+      "source_commit": "8548481557fbf51b970a7a22f988bad19f1f7732"
+    },
+    {
+      "bytes": 525,
+      "kind": "scope_manifest",
+      "path": "registry/snapshots/REG-20260718-001/scopes/EQUITY/EUR/TOP1200/D1/scope.json",
+      "record_count": 1,
+      "schema_version": "platform-registry.v1",
+      "scope": {
+        "delay": 1,
+        "instrument_type": "EQUITY",
+        "region": "EUR",
+        "universe": "TOP1200"
+      },
+      "sha256": "6bba1111bd8e550608705d81f2c1dd217985d78d116b1647fe7b50e97d40b5bf",
+      "source": "OPTIONS /simulations + GET /data-sets",
+      "source_commit": "8548481557fbf51b970a7a22f988bad19f1f7732"
+    },
+    {
+      "bytes": 525,
+      "kind": "scope_manifest",
+      "path": "registry/snapshots/REG-20260718-001/scopes/EQUITY/EUR/TOP2500/D1/scope.json",
+      "record_count": 1,
+      "schema_version": "platform-registry.v1",
+      "scope": {
+        "delay": 1,
+        "instrument_type": "EQUITY",
+        "region": "EUR",
+        "universe": "TOP2500"
+      },
+      "sha256": "32a51d7829a2cdaaa4cefdde87135e8860f04a0c4cd04b93292ea12c1d509142",
+      "source": "OPTIONS /simulations + GET /data-sets",
+      "source_commit": "8548481557fbf51b970a7a22f988bad19f1f7732"
+    },
+    {
+      "bytes": 524,
+      "kind": "scope_manifest",
+      "path": "registry/snapshots/REG-20260718-001/scopes/EQUITY/EUR/TOP400/D1/scope.json",
+      "record_count": 1,
+      "schema_version": "platform-registry.v1",
+      "scope": {
+        "delay": 1,
+        "instrument_type": "EQUITY",
+        "region": "EUR",
+        "universe": "TOP400"
+      },
+      "sha256": "07d5cd2bd84271606a7387ec582be037e9b47ed4e13cf93ad1f5b20f557e8397",
+      "source": "OPTIONS /simulations + GET /data-sets",
+      "source_commit": "8548481557fbf51b970a7a22f988bad19f1f7732"
+    },
+    {
+      "bytes": 524,
+      "kind": "scope_manifest",
+      "path": "registry/snapshots/REG-20260718-001/scopes/EQUITY/EUR/TOP800/D1/scope.json",
+      "record_count": 1,
+      "schema_version": "platform-registry.v1",
+      "scope": {
+        "delay": 1,
+        "instrument_type": "EQUITY",
+        "region": "EUR",
+        "universe": "TOP800"
+      },
+      "sha256": "22099be79016b76d652d2937bab653d614eff2db11a1060b8cc17cce80e7598d",
+      "source": "OPTIONS /simulations + GET /data-sets",
+      "source_commit": "8548481557fbf51b970a7a22f988bad19f1f7732"
+    },
+    {
+      "bytes": 527,
+      "kind": "scope_manifest",
+      "path": "registry/snapshots/REG-20260718-001/scopes/EQUITY/EUR/TOPCS1600/D1/scope.json",
+      "record_count": 1,
+      "schema_version": "platform-registry.v1",
+      "scope": {
+        "delay": 1,
+        "instrument_type": "EQUITY",
+        "region": "EUR",
+        "universe": "TOPCS1600"
+      },
+      "sha256": "b8365cfc5828c37436f022071c34f1fd908332b2c6218028495f30f8710ebeb6",
+      "source": "OPTIONS /simulations + GET /data-sets",
+      "source_commit": "8548481557fbf51b970a7a22f988bad19f1f7732"
+    },
+    {
+      "bytes": 527,
+      "kind": "scope_manifest",
+      "path": "registry/snapshots/REG-20260718-001/scopes/EQUITY/GLB/MINVOL10M/D1/scope.json",
+      "record_count": 1,
+      "schema_version": "platform-registry.v1",
+      "scope": {
+        "delay": 1,
+        "instrument_type": "EQUITY",
+        "region": "GLB",
+        "universe": "MINVOL10M"
+      },
+      "sha256": "3aac2553723c3b077161d7a71cddc68443ba3de5e5785d72613e9acd23b4fbf4",
+      "source": "OPTIONS /simulations + GET /data-sets",
+      "source_commit": "8548481557fbf51b970a7a22f988bad19f1f7732"
+    },
+    {
+      "bytes": 526,
+      "kind": "scope_manifest",
+      "path": "registry/snapshots/REG-20260718-001/scopes/EQUITY/GLB/MINVOL1M/D1/scope.json",
+      "record_count": 1,
+      "schema_version": "platform-registry.v1",
+      "scope": {
+        "delay": 1,
+        "instrument_type": "EQUITY",
+        "region": "GLB",
+        "universe": "MINVOL1M"
+      },
+      "sha256": "c157474075aab3d6c05f5a9cd4eae62a8b9bf06a00b35927a6e24202f5550c4a",
+      "source": "OPTIONS /simulations + GET /data-sets",
+      "source_commit": "8548481557fbf51b970a7a22f988bad19f1f7732"
+    },
+    {
+      "bytes": 525,
+      "kind": "scope_manifest",
+      "path": "registry/snapshots/REG-20260718-001/scopes/EQUITY/GLB/TOP3000/D1/scope.json",
+      "record_count": 1,
+      "schema_version": "platform-registry.v1",
+      "scope": {
+        "delay": 1,
+        "instrument_type": "EQUITY",
+        "region": "GLB",
+        "universe": "TOP3000"
+      },
+      "sha256": "e318f7ad125f6a265ef27286a8900c0a3990d66f7553260215458544bc2f5ba6",
+      "source": "OPTIONS /simulations + GET /data-sets",
+      "source_commit": "8548481557fbf51b970a7a22f988bad19f1f7732"
+    },
+    {
+      "bytes": 528,
+      "kind": "scope_manifest",
+      "path": "registry/snapshots/REG-20260718-001/scopes/EQUITY/GLB/TOPDIV3000/D1/scope.json",
+      "record_count": 1,
+      "schema_version": "platform-registry.v1",
+      "scope": {
+        "delay": 1,
+        "instrument_type": "EQUITY",
+        "region": "GLB",
+        "universe": "TOPDIV3000"
+      },
+      "sha256": "7f1dd6b95c9575ec31e002c68a98ebcb48b3a27e6c098a1f78e4393da0fb87a4",
+      "source": "OPTIONS /simulations + GET /data-sets",
+      "source_commit": "8548481557fbf51b970a7a22f988bad19f1f7732"
+    },
+    {
+      "bytes": 524,
+      "kind": "scope_manifest",
+      "path": "registry/snapshots/REG-20260718-001/scopes/EQUITY/IND/TOP500/D1/scope.json",
+      "record_count": 1,
+      "schema_version": "platform-registry.v1",
+      "scope": {
+        "delay": 1,
+        "instrument_type": "EQUITY",
+        "region": "IND",
+        "universe": "TOP500"
+      },
+      "sha256": "032c7657accb33986ad67e6d03b88d00da1a35cec4c0018a4609f9b1d74d0250",
+      "source": "OPTIONS /simulations + GET /data-sets",
+      "source_commit": "8548481557fbf51b970a7a22f988bad19f1f7732"
+    },
+    {
+      "bytes": 524,
+      "kind": "scope_manifest",
+      "path": "registry/snapshots/REG-20260718-001/scopes/EQUITY/JPN/TOP1200/D0/scope.json",
+      "record_count": 1,
+      "schema_version": "platform-registry.v1",
+      "scope": {
+        "delay": 0,
+        "instrument_type": "EQUITY",
+        "region": "JPN",
+        "universe": "TOP1200"
+      },
+      "sha256": "eab32b6a86c3b6e8289ced7cfc1b09f9e9631160bce1c2e05d3f13ca59cae122",
+      "source": "OPTIONS /simulations + GET /data-sets",
+      "source_commit": "8548481557fbf51b970a7a22f988bad19f1f7732"
+    },
+    {
+      "bytes": 524,
+      "kind": "scope_manifest",
+      "path": "registry/snapshots/REG-20260718-001/scopes/EQUITY/JPN/TOP1600/D0/scope.json",
+      "record_count": 1,
+      "schema_version": "platform-registry.v1",
+      "scope": {
+        "delay": 0,
+        "instrument_type": "EQUITY",
+        "region": "JPN",
+        "universe": "TOP1600"
+      },
+      "sha256": "82a20e1d89e52e0267134c45305c786ae9b6df8e22a5efea1c52bde1262a88ff",
+      "source": "OPTIONS /simulations + GET /data-sets",
+      "source_commit": "8548481557fbf51b970a7a22f988bad19f1f7732"
+    },
+    {
+      "bytes": 525,
+      "kind": "scope_manifest",
+      "path": "registry/snapshots/REG-20260718-001/scopes/EQUITY/JPN/TOP1200/D1/scope.json",
+      "record_count": 1,
+      "schema_version": "platform-registry.v1",
+      "scope": {
+        "delay": 1,
+        "instrument_type": "EQUITY",
+        "region": "JPN",
+        "universe": "TOP1200"
+      },
+      "sha256": "0b05bb6e7a47f16a1e930be4f5089538d99a283fe36eeda4acb446f8b84027de",
+      "source": "OPTIONS /simulations + GET /data-sets",
+      "source_commit": "8548481557fbf51b970a7a22f988bad19f1f7732"
+    },
+    {
+      "bytes": 525,
+      "kind": "scope_manifest",
+      "path": "registry/snapshots/REG-20260718-001/scopes/EQUITY/JPN/TOP1600/D1/scope.json",
+      "record_count": 1,
+      "schema_version": "platform-registry.v1",
+      "scope": {
+        "delay": 1,
+        "instrument_type": "EQUITY",
+        "region": "JPN",
+        "universe": "TOP1600"
+      },
+      "sha256": "52f48858221db98be73867bd0dff45a64a5087713670eb17998edd5e62e44aef",
+      "source": "OPTIONS /simulations + GET /data-sets",
+      "source_commit": "8548481557fbf51b970a7a22f988bad19f1f7732"
+    },
+    {
+      "bytes": 523,
+      "kind": "scope_manifest",
+      "path": "registry/snapshots/REG-20260718-001/scopes/EQUITY/MEA/TOP300/D1/scope.json",
+      "record_count": 1,
+      "schema_version": "platform-registry.v1",
+      "scope": {
+        "delay": 1,
+        "instrument_type": "EQUITY",
+        "region": "MEA",
+        "universe": "TOP300"
+      },
+      "sha256": "c96df7de6263bfa5ec0437c351a17940b165f27ac40cbc22880afde7650fa939",
+      "source": "OPTIONS /simulations + GET /data-sets",
+      "source_commit": "8548481557fbf51b970a7a22f988bad19f1f7732"
+    },
+    {
+      "bytes": 523,
+      "kind": "scope_manifest",
+      "path": "registry/snapshots/REG-20260718-001/scopes/EQUITY/MEA/TOP400/D1/scope.json",
+      "record_count": 1,
+      "schema_version": "platform-registry.v1",
+      "scope": {
+        "delay": 1,
+        "instrument_type": "EQUITY",
+        "region": "MEA",
+        "universe": "TOP400"
+      },
+      "sha256": "33ce3b2cf5abfcf9c6705aabe39cdc207ab6efa159e2d04e70ae2cac5614deac",
+      "source": "OPTIONS /simulations + GET /data-sets",
+      "source_commit": "8548481557fbf51b970a7a22f988bad19f1f7732"
+    },
+    {
+      "bytes": 535,
+      "kind": "scope_manifest",
+      "path": "registry/snapshots/REG-20260718-001/scopes/EQUITY/USA/ILLIQUID_MINVOL1M/D0/scope.json",
+      "record_count": 1,
+      "schema_version": "platform-registry.v1",
+      "scope": {
+        "delay": 0,
+        "instrument_type": "EQUITY",
+        "region": "USA",
+        "universe": "ILLIQUID_MINVOL1M"
+      },
+      "sha256": "0c982aa6b6144579f878aabfb1f9e6f1ecfbd809ab448cdd4ba64ff11e546908",
+      "source": "OPTIONS /simulations + GET /data-sets",
+      "source_commit": "8548481557fbf51b970a7a22f988bad19f1f7732"
+    },
+    {
+      "bytes": 525,
+      "kind": "scope_manifest",
+      "path": "registry/snapshots/REG-20260718-001/scopes/EQUITY/USA/TOP1000/D0/scope.json",
+      "record_count": 1,
+      "schema_version": "platform-registry.v1",
+      "scope": {
+        "delay": 0,
+        "instrument_type": "EQUITY",
+        "region": "USA",
+        "universe": "TOP1000"
+      },
+      "sha256": "5f3b1c4f15955ab5fa9f2e86b87f6f4580b9ae9ec25b4f4d36f5fef1fcc776ae",
+      "source": "OPTIONS /simulations + GET /data-sets",
+      "source_commit": "8548481557fbf51b970a7a22f988bad19f1f7732"
+    },
+    {
+      "bytes": 524,
+      "kind": "scope_manifest",
+      "path": "registry/snapshots/REG-20260718-001/scopes/EQUITY/USA/TOP200/D0/scope.json",
+      "record_count": 1,
+      "schema_version": "platform-registry.v1",
+      "scope": {
+        "delay": 0,
+        "instrument_type": "EQUITY",
+        "region": "USA",
+        "universe": "TOP200"
+      },
+      "sha256": "3326004fb161c51850871348392dcad7beefa75e1e5acb41600a6dd57299486f",
+      "source": "OPTIONS /simulations + GET /data-sets",
+      "source_commit": "8548481557fbf51b970a7a22f988bad19f1f7732"
+    },
+    {
+      "bytes": 525,
+      "kind": "scope_manifest",
+      "path": "registry/snapshots/REG-20260718-001/scopes/EQUITY/USA/TOP2000/D0/scope.json",
+      "record_count": 1,
+      "schema_version": "platform-registry.v1",
+      "scope": {
+        "delay": 0,
+        "instrument_type": "EQUITY",
+        "region": "USA",
+        "universe": "TOP2000"
+      },
+      "sha256": "f77117f9f394bcca3e26a0f5a4f54b7fdf52d8e63700b8cf04e7998191cf7bfc",
+      "source": "OPTIONS /simulations + GET /data-sets",
+      "source_commit": "8548481557fbf51b970a7a22f988bad19f1f7732"
+    },
+    {
+      "bytes": 525,
+      "kind": "scope_manifest",
+      "path": "registry/snapshots/REG-20260718-001/scopes/EQUITY/USA/TOP3000/D0/scope.json",
+      "record_count": 1,
+      "schema_version": "platform-registry.v1",
+      "scope": {
+        "delay": 0,
+        "instrument_type": "EQUITY",
+        "region": "USA",
+        "universe": "TOP3000"
+      },
+      "sha256": "86962ca5dedb3b3dfda5b2b056985cd359f663e62cd617a53dc2a3542239ca70",
+      "source": "OPTIONS /simulations + GET /data-sets",
+      "source_commit": "8548481557fbf51b970a7a22f988bad19f1f7732"
+    },
+    {
+      "bytes": 524,
+      "kind": "scope_manifest",
+      "path": "registry/snapshots/REG-20260718-001/scopes/EQUITY/USA/TOP500/D0/scope.json",
+      "record_count": 1,
+      "schema_version": "platform-registry.v1",
+      "scope": {
+        "delay": 0,
+        "instrument_type": "EQUITY",
+        "region": "USA",
+        "universe": "TOP500"
+      },
+      "sha256": "c79ef3c4012fde28818d8dcdb2a84e2e47861abe703c0d088eccb918418dd9d0",
+      "source": "OPTIONS /simulations + GET /data-sets",
+      "source_commit": "8548481557fbf51b970a7a22f988bad19f1f7732"
+    },
+    {
+      "bytes": 526,
+      "kind": "scope_manifest",
+      "path": "registry/snapshots/REG-20260718-001/scopes/EQUITY/USA/TOPSP500/D0/scope.json",
+      "record_count": 1,
+      "schema_version": "platform-registry.v1",
+      "scope": {
+        "delay": 0,
+        "instrument_type": "EQUITY",
+        "region": "USA",
+        "universe": "TOPSP500"
+      },
+      "sha256": "444c6e751500d6a9bf68bdb8f0f5992c5b546b556129f067c07b0d32cb537740",
+      "source": "OPTIONS /simulations + GET /data-sets",
+      "source_commit": "8548481557fbf51b970a7a22f988bad19f1f7732"
+    },
+    {
+      "bytes": 535,
+      "kind": "scope_manifest",
+      "path": "registry/snapshots/REG-20260718-001/scopes/EQUITY/USA/ILLIQUID_MINVOL1M/D1/scope.json",
+      "record_count": 1,
+      "schema_version": "platform-registry.v1",
+      "scope": {
+        "delay": 1,
+        "instrument_type": "EQUITY",
+        "region": "USA",
+        "universe": "ILLIQUID_MINVOL1M"
+      },
+      "sha256": "2577997cf6a4222f4358818e36b7f267d9ae23a4854c43970cc7570be9009cf1",
+      "source": "OPTIONS /simulations + GET /data-sets",
+      "source_commit": "8548481557fbf51b970a7a22f988bad19f1f7732"
+    },
+    {
+      "bytes": 525,
+      "kind": "scope_manifest",
+      "path": "registry/snapshots/REG-20260718-001/scopes/EQUITY/USA/TOP1000/D1/scope.json",
+      "record_count": 1,
+      "schema_version": "platform-registry.v1",
+      "scope": {
+        "delay": 1,
+        "instrument_type": "EQUITY",
+        "region": "USA",
+        "universe": "TOP1000"
+      },
+      "sha256": "87ed042895271c3c561e6d0a918648c355eeb984a549c889537a17f7a4d45084",
+      "source": "OPTIONS /simulations + GET /data-sets",
+      "source_commit": "8548481557fbf51b970a7a22f988bad19f1f7732"
+    },
+    {
+      "bytes": 524,
+      "kind": "scope_manifest",
+      "path": "registry/snapshots/REG-20260718-001/scopes/EQUITY/USA/TOP200/D1/scope.json",
+      "record_count": 1,
+      "schema_version": "platform-registry.v1",
+      "scope": {
+        "delay": 1,
+        "instrument_type": "EQUITY",
+        "region": "USA",
+        "universe": "TOP200"
+      },
+      "sha256": "ce4846c1a2bc602d46a4a1a03960bf23c3a86a55ae6a713be4a521838c9d8183",
+      "source": "OPTIONS /simulations + GET /data-sets",
+      "source_commit": "8548481557fbf51b970a7a22f988bad19f1f7732"
+    },
+    {
+      "bytes": 525,
+      "kind": "scope_manifest",
+      "path": "registry/snapshots/REG-20260718-001/scopes/EQUITY/USA/TOP2000/D1/scope.json",
+      "record_count": 1,
+      "schema_version": "platform-registry.v1",
+      "scope": {
+        "delay": 1,
+        "instrument_type": "EQUITY",
+        "region": "USA",
+        "universe": "TOP2000"
+      },
+      "sha256": "daccb3f060d5d4aa82da4e421a1ac0832fb68183e8eb87d7964cd5d0fc1868f6",
+      "source": "OPTIONS /simulations + GET /data-sets",
+      "source_commit": "8548481557fbf51b970a7a22f988bad19f1f7732"
+    },
+    {
+      "bytes": 582,
+      "kind": "scope_manifest",
+      "path": "registry/snapshots/REG-20260718-001/scopes/EQUITY/USA/TOP3000/D1/scope.json",
+      "record_count": 1,
+      "schema_version": "platform-registry.v1",
+      "scope": {
+        "delay": 1,
+        "instrument_type": "EQUITY",
+        "region": "USA",
+        "universe": "TOP3000"
+      },
+      "sha256": "4468753b47ab0b8dc80bf4d6e556c44370178bda34cd3397d3d2fa53c3b3d0bc",
+      "source": "OPTIONS /simulations + GET /data-sets",
+      "source_commit": "8548481557fbf51b970a7a22f988bad19f1f7732"
+    },
+    {
+      "bytes": 524,
+      "kind": "scope_manifest",
+      "path": "registry/snapshots/REG-20260718-001/scopes/EQUITY/USA/TOP500/D1/scope.json",
+      "record_count": 1,
+      "schema_version": "platform-registry.v1",
+      "scope": {
+        "delay": 1,
+        "instrument_type": "EQUITY",
+        "region": "USA",
+        "universe": "TOP500"
+      },
+      "sha256": "385b13cfa4eef0ff7d8d414840d0595c19e357a24853998ea7865037482e0a88",
+      "source": "OPTIONS /simulations + GET /data-sets",
+      "source_commit": "8548481557fbf51b970a7a22f988bad19f1f7732"
+    },
+    {
+      "bytes": 526,
+      "kind": "scope_manifest",
+      "path": "registry/snapshots/REG-20260718-001/scopes/EQUITY/USA/TOPSP500/D1/scope.json",
+      "record_count": 1,
+      "schema_version": "platform-registry.v1",
+      "scope": {
+        "delay": 1,
+        "instrument_type": "EQUITY",
+        "region": "USA",
+        "universe": "TOPSP500"
+      },
+      "sha256": "74b33037de378e09c880230beba1c5fcc200153fe91454871c57a5bfd40fead3",
+      "source": "OPTIONS /simulations + GET /data-sets",
+      "source_commit": "8548481557fbf51b970a7a22f988bad19f1f7732"
+    }
+  ],
+  "generated_at": "2026-07-18T03:00:05Z",
+  "last_verified_at": "2026-07-18T03:00:05Z",
+  "manifest_schema_version": "platform-registry-manifest.v1",
+  "missing_scope": [
+    "EQUITY/ASI/ILLIQUID_MINVOL1M/D1/fields",
+    "EQUITY/ASI/MINVOL10M/D1/fields",
+    "EQUITY/ASI/MINVOL1M/D1/fields",
+    "EQUITY/ASI/TOP500/D1/fields",
+    "EQUITY/CHN/TOP2000U/D0/fields",
+    "EQUITY/CHN/TOP2000U/D1/fields",
+    "EQUITY/EUR/ILLIQUID_MINVOL1M/D0/fields",
+    "EQUITY/EUR/TOP1200/D0/fields",
+    "EQUITY/EUR/TOP2500/D0/fields",
+    "EQUITY/EUR/TOP400/D0/fields",
+    "EQUITY/EUR/TOP800/D0/fields",
+    "EQUITY/EUR/TOPCS1600/D0/fields",
+    "EQUITY/EUR/ILLIQUID_MINVOL1M/D1/fields",
+    "EQUITY/EUR/TOP1200/D1/fields",
+    "EQUITY/EUR/TOP2500/D1/fields",
+    "EQUITY/EUR/TOP400/D1/fields",
+    "EQUITY/EUR/TOP800/D1/fields",
+    "EQUITY/EUR/TOPCS1600/D1/fields",
+    "EQUITY/GLB/MINVOL10M/D1/fields",
+    "EQUITY/GLB/MINVOL1M/D1/fields",
+    "EQUITY/GLB/TOP3000/D1/fields",
+    "EQUITY/GLB/TOPDIV3000/D1/fields",
+    "EQUITY/IND/TOP500/D1/fields",
+    "EQUITY/JPN/TOP1200/D0/fields",
+    "EQUITY/JPN/TOP1600/D0/fields",
+    "EQUITY/JPN/TOP1200/D1/fields",
+    "EQUITY/JPN/TOP1600/D1/fields",
+    "EQUITY/MEA/TOP300/D1/fields",
+    "EQUITY/MEA/TOP400/D1/fields",
+    "EQUITY/USA/ILLIQUID_MINVOL1M/D0/fields",
+    "EQUITY/USA/TOP1000/D0/fields",
+    "EQUITY/USA/TOP200/D0/fields",
+    "EQUITY/USA/TOP2000/D0/fields",
+    "EQUITY/USA/TOP3000/D0/fields",
+    "EQUITY/USA/TOP500/D0/fields",
+    "EQUITY/USA/TOPSP500/D0/fields",
+    "EQUITY/USA/ILLIQUID_MINVOL1M/D1/fields",
+    "EQUITY/USA/TOP1000/D1/fields",
+    "EQUITY/USA/TOP200/D1/fields",
+    "EQUITY/USA/TOP2000/D1/fields",
+    "EQUITY/USA/TOP500/D1/fields",
+    "EQUITY/USA/TOPSP500/D1/fields"
+  ],
+  "schema_version": "platform-registry.v1",
+  "snapshot_id": "REG-20260718-001",
+  "source_commit": "8548481557fbf51b970a7a22f988bad19f1f7732"
+}

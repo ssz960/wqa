@@ -1,0 +1,18 @@
+{
+  "coverage_status": "COMPLETE",
+  "dataset_catalog": "registry/snapshots/REG-20260718-001/datasets/dataset_scopes.csv.gz",
+  "dataset_count": 299,
+  "dataset_coverage": "COMPLETE",
+  "field_catalog": "registry/snapshots/REG-20260718-001/fields/EQUITY/USA/TOP3000/D1/fields.csv.gz",
+  "field_coverage": "COMPLETE",
+  "last_verified_at": "2026-07-18T03:00:05Z",
+  "missing_scope": [],
+  "schema_version": "platform-registry.v1",
+  "scope": {
+    "delay": 1,
+    "instrument_type": "EQUITY",
+    "region": "USA",
+    "universe": "TOP3000"
+  },
+  "snapshot_id": "REG-20260718-001"
+}
